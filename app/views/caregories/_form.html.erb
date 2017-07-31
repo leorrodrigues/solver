@@ -1,0 +1,32 @@
+<%= form_with(model: caregory, local: true) do |form| %>
+  <% if caregory.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(caregory.errors.count, "error") %> prohibited this caregory from being saved:</h2>
+
+      <ul>
+      <% caregory.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :caregory_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :node %>
+    <%= form.text_field :node, id: :caregory_node %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tree %>
+    <%= form.text_field :tree, id: :caregory_tree %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

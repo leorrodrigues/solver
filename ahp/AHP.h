@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Method.h"
 #include <assert.h>
 #include <iostream>
 #include <fstream>
@@ -11,7 +10,7 @@
 #include "Tree.h"
 #include <regex>
 
-class AHP : public Method {
+class AHP{
 public:
 	Tree *hierarchy;
 	std::vector<double> pg;

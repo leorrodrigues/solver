@@ -1,0 +1,26 @@
+<h1><%=t("AHPMethod")%></h1>
+
+<p><%=t("AHPIntroduction")%></p>
+
+<p>
+    A hierarquia Default para representar as nuvens computacionais é
+</p>
+
+<p>
+    Selecione uma distribuição de pesos
+</p>
+<div>
+    <%= radio_button "ahp","distribution","Flat",:checked => true%><label>Flat (Default)</label>
+    <%= radio_button "ahp","distribution","Segurança",:checked => false%><label>Segurança</label>
+    <%= radio_button "ahp","distribution","Rede",:checked => false%><label>Rede</label>
+    <%= radio_button "ahp","distribution"," Qualidade de Serviço Reservada",:checked => false%><label> Qualidade de Serviço Reservada</label>
+    <%= radio_button "ahp","distribution"," Hospedagem de Serviços",:checked => false%><label> Hospedagem de Serviços</label>
+    <%= radio_button "ahp","distribution"," Comunicação de Dados",:checked => false%><label> Comunicação de Dados</label>
+</div>
+
+<div>
+
+    <%= button_to "#{t('Execute')}", {:controller => "ahp", :action=> "execute_ahp"} , method: :post %>
+    <%= button_to "#{t('About')} AHP", ahp_about_path, method: :get%>
+    <%= button_to "#{t('comeBack')}", root_path, method: :get%>
+</div>

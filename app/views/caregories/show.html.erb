@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @caregory.name %>
+</p>
+
+<p>
+  <strong>Node:</strong>
+  <%= @caregory.node %>
+</p>
+
+<p>
+  <strong>Tree:</strong>
+  <%= @caregory.tree %>
+</p>
+
+<%= link_to 'Edit', edit_caregory_path(@caregory) %> |
+<%= link_to 'Back', caregories_path %>

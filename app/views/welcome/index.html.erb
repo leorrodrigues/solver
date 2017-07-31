@@ -1,4 +1,19 @@
-<h2>Hello World</h2>
+<h1>
+    <%=t('MulticriteriaWelcome')%>
+</h1>
+
+<div>
+    <h3>
+        <label>
+            Selecione um método de análise multicritério
+        </label>
+        <br />
+        <%= radio_button "method","category","ahp",:checked => true%><label>AHP</label>
+    </h3>
+    <br />
+    <%= button_to "Confirm", ahp_base_path, method: :get%>
+</div>
+
 <p>
-  The time is now: <%= Time.now %>
+ <%="#{t('TimeNow')} #{DateTime.now.utc}" %>
 </p>

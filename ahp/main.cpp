@@ -3,26 +3,11 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/* Logic Includes */
-#include "Worker.h"
-#include "Buffer.h"
-#include "Solver.h"
-
-/* Interface Includes */
-#include "Interfaces.h"
-#include "GUI.h"
-#include "Web.h"
-
 /* Multicriteria Methods Includes */
-#include "Method.h"
 #include "AHP.h"
 
 /* Tree Includes */
 #include "Tree.h"
-
-Interfaces *ptrInterface;
-Worker *ptrWorker;
-Method *ptrMethod;
 
 int main(){
 	setlocale(LC_ALL, "");

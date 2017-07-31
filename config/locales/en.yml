@@ -31,3 +31,16 @@
 
 en:
   hello: "Hello world"
+  MulticriteriaWelcome: "Multicriteria Solver"
+  TimeNow: "Time now: "
+  Confirm: "Confirm"
+  Send: "Send"
+  Continue: "Continue"
+  AHPMethod: "Analytic Hierarchy Process (AHP) "
+  AHPIntroduction: "For the execution of AHP method its necessary the elaboration of the hierarchy and weights distribution."
+  comeBack: "Return"
+  About: "About"
+  Home: "Home"
+  The_hierarchy: "The hierarchy"
+  for: "for"
+  Execute: "Execute"

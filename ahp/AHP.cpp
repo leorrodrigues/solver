@@ -3,13 +3,13 @@
 #endif
 #include "AHP.h"
 
-AHP::AHP() : Method(){
+AHP::AHP(){
 	hierarchy = new Tree();
 }
 
-AHP::AHP(const AHP &clone) : Method(clone) {}
+AHP::AHP(const AHP &clone){}
 
-AHP::AHP(AHP *ptrClone) : Method(ptrClone) {}
+AHP::AHP(AHP *ptrClone){}
 
 AHP::~AHP(){}
 
