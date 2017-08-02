@@ -1,2 +1,0 @@
-module CaregoriesHelper
-end

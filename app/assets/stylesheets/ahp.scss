@@ -1,3 +1,63 @@
-// Place all the styles related to the ahp controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ahp{
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	border: 2px solid #e7e7e7;
+}
+
+.botoes{
+	border: 0px solid #e7e7e7;
+}
+
+tr.even {
+    background-color:#FAFAFA;
+}
+
+tr.odd  {
+    background-color:#f2f7fc;
+}
+
+td, th {
+	padding: 5px 5px 5px 5px;
+}
+
+td {
+	border: 2px solid #e7e7e7;
+}
+
+td.bot{
+	border: 0px solid #e7e7e7;
+}
+
+td.hier {
+	text-align:center;
+	border:solid;
+    border-width:3px;
+    border-color:darkblue;
+	background-color:#F8F8F0;
+}
+
+caption {
+	font-weight: bold;
+	line-height: 18px;
+	padding: 9px 9px;
+	background-color:#f2f7fc;
+    border: 2px solid #e7e7e7;
+}
+
+h1, h2, h3 {
+	font-family: 'Oxygen', Verdana, Tahoma, Arial, sans-serif;
+	color: #000;
+	line-height: 1.5em;
+	margin: 20px 0 15px 0;
+}
+h1 { font-size: 28px;}
+h2 { font-size: 20px;}
+h3 { font-size: 16px;}
+
+
+fieldset {
+	border: 10px solid blue;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+}

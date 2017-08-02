@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  resources :caregories
+  resources :alternatives
+  resources :categories
+  resources :trees
   resources :children
   resources :nodes
-  resources :trees
   get 'about/info'
 
   get 'ahp/base'

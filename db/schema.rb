@@ -10,19 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170731124022) do
+ActiveRecord::Schema.define(version: 20170801232704) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "caregories", force: :cascade do |t|
+  create_table "alternatives", force: :cascade do |t|
     t.string "name"
-    t.bigint "node_id"
-    t.bigint "tree_id"
+    t.float "weight"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["node_id"], name: "index_caregories_on_node_id"
-    t.index ["tree_id"], name: "index_caregories_on_tree_id"
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.bigint "tree_id"
+    t.bigint "node_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["node_id"], name: "index_categories_on_node_id"
+    t.index ["tree_id"], name: "index_categories_on_tree_id"
   end
 
   create_table "children", force: :cascade do |t|
@@ -47,5 +54,7 @@ ActiveRecord::Schema.define(version: 20170731124022) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "categories", "nodes"
+  add_foreign_key "categories", "trees"
   add_foreign_key "children", "nodes"
 end

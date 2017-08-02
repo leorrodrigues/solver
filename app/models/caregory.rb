@@ -1,2 +1,0 @@
-class Caregory < ApplicationRecord
-end
