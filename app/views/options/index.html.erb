@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Options</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Op1</th>
+      <th>Op2</th>
+      <th>Checked</th>
+      <th>Value</th>
+      <th>Search</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @options.each do |option| %>
+      <tr>
+        <td><%= option.op1 %></td>
+        <td><%= option.op2 %></td>
+        <td><%= option.checked %></td>
+        <td><%= option.value %></td>
+        <td><%= option.search %></td>
+        <td><%= link_to 'Show', option %></td>
+        <td><%= link_to 'Edit', edit_option_path(option) %></td>
+        <td><%= link_to 'Destroy', option, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Option', new_option_path %>

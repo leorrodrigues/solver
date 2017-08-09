@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170808105712) do
+ActiveRecord::Schema.define(version: 20170809023912) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -66,6 +66,23 @@ ActiveRecord::Schema.define(version: 20170808105712) do
     t.index ["category_id"], name: "index_nodes_on_category_id"
   end
 
+  create_table "options", force: :cascade do |t|
+    t.string "op1"
+    t.string "op2"
+    t.integer "checked"
+    t.integer "value"
+    t.bigint "search_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["search_id"], name: "index_options_on_search_id"
+  end
+
+  create_table "searches", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "trees", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -76,4 +93,5 @@ ActiveRecord::Schema.define(version: 20170808105712) do
   add_foreign_key "categories", "trees"
   add_foreign_key "children", "nodes"
   add_foreign_key "nodes", "categories"
+  add_foreign_key "options", "searches"
 end

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :options
+  resources :searches
   resources :identities
   resources :categories
   resources :nodes
@@ -6,8 +8,8 @@ Rails.application.routes.draw do
   resources :children
   resources :trees
   resources :result
-  get 'about/info'
 
+  get 'about/info'
   get 'ahp/base'
   post 'ahp/base'
   get 'ahp/about'

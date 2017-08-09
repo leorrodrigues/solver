@@ -1,0 +1,71 @@
+<%= form_with(model: search, local: true) do |form| %>
+    <% if search.errors.any? %>
+        <div id="error_explanation">
+            <h2><%= pluralize(search.errors.count, "error") %> prohibited this search from being saved:</h2>
+
+            <ul>
+                <% search.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+        <%= form.label "Nome do entrevistado:" %>
+        <%= form.text_field :name, id: :search_name %>
+    </div>
+    Opção<br/>
+    <%=form.fields_for :options do |op|%>
+        <table>
+            <tr class='header'>
+                <th colspan='3' align='middle'>Qual é mais importante?</th>
+                <th>Igual Importância</th>
+                <th colspan='9' align='middle'>Quanto mais?</th>
+            </tr>
+            <tbody>
+                <tr class="odd">
+                    <td valign="middle" class="odd">1</td>
+                    <td>
+                        <%=op.radio_button_tag "root","infra",true%>Infraestrutura
+                    </td>
+                    <td>
+                        ou <%=op.radio_button_tag "root","servicos",true%> Serviços
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","1"%>1
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","2"%>2
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","3"%>3
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","4"%>4
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","5"%>5
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","6"%>6
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","7"%>7
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","8"%>8
+                    </td>
+                    <td>
+                        <%=op.radio_button_tag "value","9"%>9
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    <%end%>
+
+    <div class="actions">
+        <%= form.submit "Enviar Pesquisa"%>
+    </div>
+<% end %>
