@@ -123,8 +123,8 @@ class AhpController < ApplicationController
             #ler os dados do arquivo
             #mandar para a view results
             #o controller results que deve se virar com os dados apresentados
-        else
-            notice: 'Alternative was successfully created.' 
+        #else
+        #    notice: 'Alternative was successfully created.' 
         end
     end
 
