@@ -123,8 +123,9 @@ class AhpController < ApplicationController
             #ler os dados do arquivo
             #mandar para a view results
             #o controller results que deve se virar com os dados apresentados
-        #else
-        #    notice: 'Alternative was successfully created.' 
+            flash[:notice]="AHP Executado com sucesso"
+        else
+            flash[:error]="Não foi possível realizar a execução do AHP"
         end
     end
 
