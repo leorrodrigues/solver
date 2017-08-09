@@ -124,7 +124,7 @@ class AhpController < ApplicationController
             #mandar para a view results
             #o controller results que deve se virar com os dados apresentados
         else
-            puts("Problema para executar o AHP, tente novamente")
+            notice: 'Alternative was successfully created.' 
         end
     end
 
