@@ -13,15 +13,25 @@ AHP::AHP(AHP *ptrClone){}
 
 AHP::~AHP(){}
 
-void AHP::Conception() {
+void AHP::Conception(int opt) {
 	#ifdef DEBUG
 		std::cout<<"#######################################################\n";
 	#endif
 	bool first=true;
+	std::ifstream inputFileStream;
 	#ifdef EXAMPLE
 		std::ifstream inputFileStream("test/tree.hrc",std::ios::in);
 	#else
-		std::ifstream inputFileStream("tree/tree.hrc", std::ios::in);
+		char cwd[1024];
+   		getcwd(cwd, sizeof(cwd));
+		if(opt==7){
+			strcat(cwd,"/ahp/tree/tree_custom.hrc");
+			inputFileStream.open(cwd,std::ios::in);
+		}
+		else{
+			strcat(cwd,"/ahp/tree/tree.hrc");
+			inputFileStream.open(cwd, std::ios::in);
+		}
 	#endif
 	if (!inputFileStream.good()) {
 		std::cerr<<"Error in opening the file\n";
@@ -84,27 +94,30 @@ void AHP::Acquisition(int option) { // Put the weights on the criterias of the h
 	Node *top=NULL;
 	list.push_back(hierarchy->root);
 	std::ifstream inputFileStream;
+	char cwd[1024];
+	getcwd(cwd, sizeof(cwd));
 	#ifdef EXAMPLE
-		inputFileStream.open("test/weights.hrc");
+		strcat(cwd,"/ahp/test/weights.hrc");
 	#else
-	if(option==1)
-		inputFileStream.open("weights/flat.hrc", std::ios::in);
-	else if(option==2)
-		inputFileStream.open("weights/security.hrc", std::ios::in);
-	else if(option==3)
-		inputFileStream.open("weights/wire.hrc", std::ios::in);
-	else if(option==4)
-		inputFileStream.open("weights/QoS.hrc", std::ios::in);
-	else if(option==5)
-		inputFileStream.open("weights/host.hrc", std::ios::in);
-	else if(option==6)
-		inputFileStream.open("weights/expert.hrc", std::ios::in);
-	else if(option==7)
-		inputFileStream.open("weights/custom.hrc", std::ios::in);
-	if (!inputFileStream.good()) {
-		std::cerr<<"Error in opening the file\n";
-		return;
-	}
+		if(option==1)
+			strcat(cwd,"/ahp/weights/flat.hrc");
+		else if(option==2)
+			strcat(cwd,"/ahp/weights/security.hrc");
+		else if(option==3)
+			strcat(cwd,"/ahp/weights/wire.hrc");
+		else if(option==4)
+			strcat(cwd,"/ahp/weights/QoS.hrc");
+		else if(option==5)
+			strcat(cwd,"/ahp/weights/host.hrc");
+		else if(option==6)
+			strcat(cwd,"/ahp/weights/expert.hrc");
+		else if(option==7)
+			strcat(cwd,"/ahp/weights/custom.hrc");
+		inputFileStream.open(cwd, std::ios::in);
+		if (!inputFileStream.good()) {
+			std::cerr<<"Error in opening the file\n";
+			return;
+		}
 	#endif
 	while(std::getline(inputFileStream,line)){
 		std::istringstream lineStream(line);
@@ -125,14 +138,16 @@ void AHP::Acquisition(int option) { // Put the weights on the criterias of the h
 			j++;
 			if(j==tam){j=0;i++;}
 		}
-		std::cout<<top->name<<std::endl;
-		for(int i=0;i<tam;i++){
-			for(int j=0;j<tam;j++){
-				std::cout<<"\t"<<top->board[i][j];
+		#ifdef DEBUG
+			std::cout<<top->name<<std::endl;
+			for(int i=0;i<tam;i++){
+				for(int j=0;j<tam;j++){
+					std::cout<<"\t"<<top->board[i][j];
+				}
+				std::cout<<std::endl;
 			}
 			std::cout<<std::endl;
-		}
-		std::cout<<std::endl;
+		#endif
 	}
 	#ifdef DEBUG
 		std::cout<<"#######################################################\n";

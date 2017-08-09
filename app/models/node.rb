@@ -1,4 +1,4 @@
 class Node < ApplicationRecord
-    has_many :children
-    has_many :categories
+  belongs_to :category
+  has_many :children
 end

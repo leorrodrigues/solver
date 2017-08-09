@@ -1,0 +1,10 @@
+I"|(function() {
+  var oi;
+
+  oi = function() {
+    alert("oi");
+    return '<%=render form_tree_flat%>';
+  };
+
+}).call(this);
+:ET

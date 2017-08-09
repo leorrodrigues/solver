@@ -1,4 +1,5 @@
 class Category < ApplicationRecord
   belongs_to :tree
-  belongs_to :node
+  has_many :alternatives
+  has_many :nodes
 end

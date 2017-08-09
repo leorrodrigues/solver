@@ -1,0 +1,43 @@
+function cb_updated(){
+    var values=[];
+
+    if(document.getElementById("Flat").checked){
+        values.push("flat");
+    }
+
+    if(document.getElementById("Seguranca").checked){
+        values.push("segurança");
+    }
+
+    if(document.getElementById("Rede").checked){
+        values.push("rede");
+    }
+
+    if(document.getElementById("Qualidade").checked){
+        values.push("qos");
+    }
+
+    if(document.getElementById("Hospedagem").checked){
+        values.push("hospedagem");
+    }
+
+    if(document.getElementById("Comunicacao").checked){
+        values.push("comunicação");
+    }
+
+    /*if(document.getElementById("Custom").checked){
+        values.push("Custom");
+    }*/
+
+    if(values.length==0){
+        $.notify("Deve-se marcar ao menos 1 distribuição de pesos.","error");
+    }
+    else if(values.length==1){
+        $.ajax({url: "/ahp/renderForm", type: 'post',data: {name: values}});
+    }
+    else{
+        $.ajax({url: "/ahp/renderForm", type: 'post',data: {name: values}});
+        $.notify("Caso duas distribuições ou mais sejam selecionadas, será apresentado apenas a distribuição de pesos "+values[0]+" na árvore","warning");
+    }
+
+}

@@ -1,74 +1,39 @@
-<h1><%=t("AHPMethod")%></h1>
-
-<h4>
-    <%=t("AHPIntroduction")%> Mais informações em: <%= link_to "#{t('About')} AHP", ahp_about_path, method: :get%>
-</h4>
-
-<h3>
-    <b>Hierarquia Default</b>: <span style="color:blue">Nuvens computacionais</spam>
-</h3>
-
-
-<table class='ahp'>
-    <caption>Hierarquia de decisão #Tipo - <%= Tree.find(1).name%> #Distribuição - a</caption>
-    <%hight_count%>
-    <tr>
-        <%(0..hight_count).each do |i|%>
-            <th>
-                <%=level="Level #{i}"%>
-            </th>
-        <%end%>
-    </tr>
-    <tbody>
-        <%res="<tr class=\'even\'>"%>
-        <%res<<render_nodes(Node.first,true,hight_count)%>
-        <%=res.html_safe%>
-    </tbody>
-</table>
-
-<h3>
-    <b>Distribuição de pesos</b> aplicada a hierarquia
-</h3>
-
+<% content_for :head do%>
+    <%javascript_include_tag "notify"%>
+<%end%>
+<div>
+    <h4>
+        <%=t("AHPIntroduction")%> Mais informações em: <%= link_to "#{t('About')} AHP", "https://pt.wikipedia.org/wiki/Analytic_Hierarchy_Process"%>
+    </h4>
+</div>
 
 <div>
-    <div>
-        <table class='ahp'>
-            <tr>
-                <td>
-                    <%= radio_button "ahp","distribution","Flat",:checked => true%><label>Flat (Default)</label>
-                </td>
-                <td>
-                    <%= radio_button "ahp","distribution","Segurança",:checked => false%><label>Segurança</label>
-                </td>
-                <td>
-                    <%= radio_button "ahp","distribution","Rede",:checked => false%><label>Rede</label>
-                </td>
-                <td>
-                    <%= radio_button "ahp","distribution"," Qualidade de Serviço Reservada",:checked => false%><label> Qualidade de Serviço Reservada</label>
-                </td>
-                <td>
-                    <%= radio_button "ahp","distribution"," Hospedagem de Serviços",:checked => false%><label> Hospedagem de Serviços</label>
-                </td>
-                <td>
-                    <%= radio_button "ahp","distribution"," Comunicação de Dados",:checked => false%><label> Comunicação de Dados</label>
-                </td>
-                <td>
-                    <%= radio_button "ahp","distribution"," Custom",:checked => false%><label> Custom</label>
-                </td>
-            </tr>
-        </table>
+    <h3>
+        <b>Hierarquia Default</b>: <span style="color:blue">Nuvens computacionais</spam>
+    </h3>
+    <div class="tree">
+        <%=render(:partial =>'form_tree') %>
     </div>
-    <div style='padding:2px;float:right;'>
-        <table class='botoes'>
-            <tr>
-                <td class='bot'>
-                    <%= button_to "#{t('Execute')}", {:controller => "ahp", :action=> "execute_ahp"} , method: :post %>
-                </td>
-                <td class='bot'>
-                    <%= button_to "#{t('comeBack')}", root_path, method: :get%>
-                </td>
-            </tr>
-        </table>
-    </div>
+</div>
+
+<div>
+
+    <h3>
+        <b>Distribuição de pesos</b> aplicada a hierarquia
+    </h3>
+</div>
+
+<%= render 'form_category'%>
+
+<div class='actions' style='padding:2px;float:right;'>
+    <table class='botoes'>
+        <tr>
+            <td class='bot'>
+                <%=button_to "#{t('Execute')}", {:controller => "ahp", :action=> "execute_ahp"}  ,method: :post %>
+            </td>
+            <td class='bot'>
+                <%=button_to "#{t('comeBack')}", root_path, method: :get%>
+            </td>
+        </tr>
+    </table>
 </div>

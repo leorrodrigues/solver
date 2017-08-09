@@ -17,7 +17,7 @@ class AlternativesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create alternative" do
     assert_difference('Alternative.count') do
-      post alternatives_url, params: { alternative: { name: @alternative.name, weight: @alternative.weight } }
+      post alternatives_url, params: { alternative: { category_id: @alternative.category_id, name: @alternative.name, weight: @alternative.weight } }
     end
 
     assert_redirected_to alternative_url(Alternative.last)
@@ -34,7 +34,7 @@ class AlternativesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update alternative" do
-    patch alternative_url(@alternative), params: { alternative: { name: @alternative.name, weight: @alternative.weight } }
+    patch alternative_url(@alternative), params: { alternative: { category_id: @alternative.category_id, name: @alternative.name, weight: @alternative.weight } }
     assert_redirected_to alternative_url(@alternative)
   end
 

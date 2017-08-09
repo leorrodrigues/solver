@@ -1,13 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Nodes</h1>
+<h1>Nós</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Weight</th>
-      <th>Hight</th>
+      <th>Nome</th>
+      <th>Peso</th>
+      <th>Altura</th>
+      <th>Categoria</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,6 +19,7 @@
         <td><%= node.name %></td>
         <td><%= node.weight %></td>
         <td><%= node.hight %></td>
+        <td><%= node.category.name %></td>
         <td><%= link_to 'Show', node %></td>
         <td><%= link_to 'Edit', edit_node_path(node) %></td>
         <td><%= link_to 'Destroy', node, method: :delete, data: { confirm: 'Are you sure?' } %></td>

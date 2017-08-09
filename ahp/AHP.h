@@ -2,6 +2,7 @@
 
 #include <assert.h>
 #include <iostream>
+#include <unistd.h>
 #include <fstream>
 #include <sstream>
 #include <cstdlib>
@@ -20,10 +21,11 @@ public:
 	AHP(AHP *);
 	virtual ~AHP();
 
-	void Conception();
+	void Conception(int);
 	void Acquisition(int);
 	void Synthesis();
 	void Consistency();
+
 private:
 	std::vector<double> CalculatePG(Node *);
 };

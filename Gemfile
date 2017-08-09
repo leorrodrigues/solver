@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#jquery
+gem 'jquery-rails'
 #Execute C++ code
 gem 'RubyInline'
 #Twitter bootstrap

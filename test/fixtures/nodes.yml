@@ -2,10 +2,12 @@
 
 one:
   name: MyString
-  weight: 1.5
+  weight: 
   hight: 1
+  category: one
 
 two:
   name: MyString
-  weight: 1.5
+  weight: 
   hight: 1
+  category: two

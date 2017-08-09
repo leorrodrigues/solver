@@ -1,0 +1,7 @@
+I"k(function() {
+  window.oi = function() {
+    return '<%=render form_category%>';
+  };
+
+}).call(this);
+:ET

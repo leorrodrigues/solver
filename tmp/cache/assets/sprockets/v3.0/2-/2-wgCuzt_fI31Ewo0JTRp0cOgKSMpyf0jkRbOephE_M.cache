@@ -1,0 +1,7 @@
+I"f(function() {
+  window.oi = function() {
+    $`<%=render form_tree_flat%>`;
+  };
+
+}).call(this);
+:ET

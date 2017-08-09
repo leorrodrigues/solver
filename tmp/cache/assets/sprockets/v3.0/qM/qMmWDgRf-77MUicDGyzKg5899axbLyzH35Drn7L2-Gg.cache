@@ -1,0 +1,9 @@
+I"X(function() {
+  var oi;
+
+  oi = function() {
+    alert('OI');
+  };
+
+}).call(this);
+:ET

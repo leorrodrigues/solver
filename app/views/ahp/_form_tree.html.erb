@@ -1,0 +1,18 @@
+<%=form_for :ahps,remote: true do |f|%>
+    <div>
+        <table class='ahp'>
+            <caption>Hierarquia de decisão #Tipo:<%= Tree.find(1).name%></caption>
+            <%hight_count%>
+            <tr>
+                <%(0..hight_count).each do |i|%>
+                    <th><%=level="Level #{i}"%></th>
+                <%end%>
+            </tr>
+            <tbody>
+                <%res="<tr class=\'even\'>"%>
+                <%res<<render_nodes(Node.first,true,hight_count)%>
+                <%=res.html_safe%>
+            </tbody>
+        </table>
+    </div>
+<%end%>

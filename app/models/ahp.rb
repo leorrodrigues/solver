@@ -1,0 +1,2 @@
+class Ahp < ApplicationRecord
+end

@@ -3,9 +3,7 @@
 one:
   name: MyString
   tree: one
-  node: one
 
 two:
   name: MyString
   tree: two
-  node: two

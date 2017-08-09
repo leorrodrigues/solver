@@ -69,6 +69,6 @@ class AlternativesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def alternative_params
-      params.require(:alternative).permit(:name, :weight)
+      params.require(:alternative).permit(:name, :weight, :category_id)
     end
 end

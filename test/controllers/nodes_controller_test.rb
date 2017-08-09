@@ -17,7 +17,7 @@ class NodesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create node" do
     assert_difference('Node.count') do
-      post nodes_url, params: { node: { hight: @node.hight, name: @node.name, weight: @node.weight } }
+      post nodes_url, params: { node: { category_id: @node.category_id, hight: @node.hight, name: @node.name, weight: @node.weight } }
     end
 
     assert_redirected_to node_url(Node.last)
@@ -34,7 +34,7 @@ class NodesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update node" do
-    patch node_url(@node), params: { node: { hight: @node.hight, name: @node.name, weight: @node.weight } }
+    patch node_url(@node), params: { node: { category_id: @node.category_id, hight: @node.hight, name: @node.name, weight: @node.weight } }
     assert_redirected_to node_url(@node)
   end
 

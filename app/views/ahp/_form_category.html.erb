@@ -1,0 +1,30 @@
+<%=form_for :ahp, remote: true do |f|%>
+    <div>
+        <table class='ahp'>
+            <tr>
+                <td>
+                    <%=f.check_box_tag "Flat", 1, true,:onclick=>"cb_updated();" %><label>Flat(Default)</label>
+                </td>
+                <td>
+                    <%=f.check_box_tag "Seguranca",2,false,:onclick=>"cb_updated();" %><label>Segurança</label>
+                </td>
+                <td>
+                    <%=f.check_box_tag "Rede",3,false,:onclick=>"cb_updated();" %><label>Rede</label>
+                </td>
+                <td>
+                    <%=f.check_box_tag "Qualidade",4,false,:onclick=>"cb_updated();" %><label> Qualidade de Serviço Reservada</label>
+                </td>
+                <td>
+                    <%=f.check_box_tag "Hospedagem",5,false,:onclick=>"cb_updated();" %><label> Hospedagem de Serviços</label>
+                </td>
+                <td>
+                    <%=f.check_box_tag "Comunicacao",6,false,:onclick=>"cb_updated();" %><label> Comunicação de Dados</label>
+                </td>
+                <!--<td>
+                    <%=f.check_box_tag "Custom",7,false,:onclick=>"cb_updated();" %><label> Custom</label>
+                </td>-->
+            </tr>
+        </table>
+    </div>
+
+<%end%>

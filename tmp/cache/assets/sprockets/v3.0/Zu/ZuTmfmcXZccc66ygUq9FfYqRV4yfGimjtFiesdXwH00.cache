@@ -1,0 +1,7 @@
+I"b(function() {
+  $("#Flat").change(function() {
+    return alert("OI");
+  });
+
+}).call(this);
+:ET

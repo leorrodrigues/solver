@@ -1,0 +1,7 @@
+I"T(function() {
+  window.oi = function() {
+    alert('OI');
+  };
+
+}).call(this);
+:ET
