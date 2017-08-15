@@ -52,7 +52,6 @@ class CreateOptions < ActiveRecord::Migration[5.1]
       t.integer :value23
       t.integer :value24
       t.integer :value25
-      t.references :search, foreign_key: true
 
       t.timestamps
     end

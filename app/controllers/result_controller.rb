@@ -28,19 +28,23 @@ class ResultController < ApplicationController
                 if !pg.empty?
                     x.push("PG"=>pg)
                     pg=[]
-                elsif !pml.empty?
+                end
+                if !pml.empty?
                     x.push("PML"=>pml)
                     pml=[]
-                elsif !matrix.empty?
+                end
+                if !matrix.empty?
                     x.push("Matrix"=>matrix)
                     matrix=[]
-                elsif !normalized.empty?
+                end
+                if !normalized.empty?
                     x.push("Normalized"=>normalized)
                     normalized=[]
-                elsif !x.empty?
+                end
+                if !x.empty?
                     @results.push(model => x)
                 end
-                model=parse[1]
+                model=parse[1].split("\n")
                 x=[]
             elsif parse[0]=="PG"
                 tam=parse[1].to_i
