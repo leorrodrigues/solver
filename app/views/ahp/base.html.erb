@@ -41,8 +41,7 @@
                 <%=button_to "#{t('Execute')}", ahp_execute_ahp_path(:cloudId => @cloud),method: :post %>
             </td>
             <td class='bot'>
-                <%="PORRA #{@cloud}"%>
-                <%#=button_to "#{t('comeBack')}", edit_cloud_path(params[:id]), method: :get%>
+                <%=button_to "#{t('comeBack')}", new_cloud_path(params[:id]), method: :get%>
             </td>
         </tr>
     </table>

@@ -1,10 +1,10 @@
 class ResultController < ApplicationController
-    helper_method :create_kiviat,:show_results,:get_modules,:get_axis,:get_data
+    helper_method :create_kiviat, :show_results, :get_models,:get_axis, :get_data, :get_alternatives, :req_sum, :calculate
 
     def index
         @number=params[:number]
         @cloud = params[:id]
-        @results= Array.new
+        @results= Hash.new
         if load_file @number
             flash[:notice]="AHP Executado com sucesso"
         else
@@ -16,32 +16,41 @@ class ResultController < ApplicationController
     def load_file(name)
         #The results array have: ModelName => [{PG},{PML},{MATRIX},{NORMALIZED}]
         model=""
-        x=[]
+        x=Hash.new
         pg=[]
-        pml=[]
-        matrix=[]
-        normalized=[]
+        pml=Hash.new
+        matrix=Hash.new
+        normalized=Hash.new
+        alternatives=Array.new
         infile=File.open(Dir.pwd+"/ahp/Results/"+String(name)+".hrc","r")
         while(line=infile.gets)
             parse=line.split(":")
             if parse[0]=="Model"
                 if !pg.empty?
-                    x.push("PG"=>pg)
+                    x["PG"]=pg
                     pg=[]
-                elsif !pml.empty?
-                    x.push("PML"=>pml)
-                    pml=[]
-                elsif !matrix.empty?
-                    x.push("Matrix"=>matrix)
-                    matrix=[]
-                elsif !normalized.empty?
-                    x.push("Normalized"=>normalized)
-                    normalized=[]
-                elsif !x.empty?
-                    @results.push(model => x)
                 end
-                model=parse[1]
-                x=[]
+                if !pml.empty?
+                    x["PML"]=pml
+                    pml=Hash.new
+                end
+                if !matrix.empty?
+                    x["Matrix"]=matrix
+                    matrix=Hash.new
+                end
+                if !normalized.empty?
+                    x["Normalized"]=normalized
+                    normalized=Hash.new
+                end
+                if !alternatives.empty?
+                    x["Alternatives"]=alternatives
+                    alternatives=Array.new
+                end
+                if !x.empty?
+                    @results[model] = x
+                end
+                model=parse[1].split("\n")[0]
+                x=Hash.new
             elsif parse[0]=="PG"
                 tam=parse[1].to_i
                 parse[2]=parse[2].split
@@ -57,7 +66,7 @@ class ResultController < ApplicationController
                 (0...tam).each do |value|
                     aux_pml.push(parse[3][value])
                 end
-                pml.push(name=>aux_pml)
+                pml[name]=aux_pml
 
             elsif parse[0]=="Matrix"
                 name=parse[1]
@@ -76,7 +85,7 @@ class ResultController < ApplicationController
                         count=0
                     end
                 end
-                matrix.push(name=>aux_matrix)
+                matrix[name]=aux_matrix
 
             elsif parse[0]=="Normalized"
                 name=parse[1]
@@ -95,14 +104,24 @@ class ResultController < ApplicationController
                         count=0
                     end
                 end
-                normalized.push(name=>aux_normalized)
+                normalized[name]=aux_normalized
+
+            elsif parse[0]=="Alternatives"
+                parse[1]=parse[1].split(";")
+                parse[1].each do |value|
+                    if value!="\n"
+                        alternatives<<value
+                    end
+                end
             end
+
         end
-        x.push("PG"=>pg)
-        x.push("PML"=>pml)
-        x.push("Matrix"=>matrix)
-        x.push("Normalized"=>normalized)
-        @results.push(model => x)
+        x["PG"]=pg
+        x["PML"]=pml
+        x["Matrix"]=matrix
+        x["Normalized"]=normalized
+        x["Alternatives"]=alternatives
+        @results[model] = x
         #puts(@@results)
         if @results.size()!=0
             true
@@ -144,13 +163,66 @@ class ResultController < ApplicationController
         @results
     end
 
-    def get_modules
+    def get_alternatives(model)
+        @results[model]["Alternatives"]
+    end
+
+    def get_models
+        @results.keys
     end
 
     def get_axis
+        @results["Flat"]["Matrix"].keys
     end
 
-    def get_data
+    def get_data(model)
+        dt=[]
+        data=@results[model]["PG"]
+        data.each do |value|
+            dt<<value.to_f
+        end
+        dt
+    end
+
+    def req_sum(alternative)
+        #req[model]=>(vm,cpu,ram,storage))
+        costs={"Amazon AWS"=>[1,1,1,1],"Google Cloud"=>[1,1,1,1],"Microsoft Azure"=>[1,1,1,1],"RackSpace"=>[1,1,1,1]}
+        req=Cloud.where(id: @cloud)[0]
+        sum=0.0
+        sum+=req.vm*costs[alternative][0]
+        sum+=req.cpu*costs[alternative][1]
+        sum+=req.ram*costs[alternative][2]
+        sum+=req.storage*costs[alternative][3]
+
+        while(sum.to_f>1.0)
+            sum=sum.to_f/10
+        end
+        sum
+    end
+
+    def calculate
+        result=Array.new
+        data=Hash.new
+        cost=[]
+        models=get_models
+        alternatives=get_alternatives(models[0])
+        models.each do |m|
+            if m!="Cost"
+                data[m]=get_data(m)
+            else
+                cost=get_data(m)
+            end
+        end
+        models.each do |m|
+            if m!="Cost"
+                arr=Array.new
+                (0...alternatives.size).each do |i|
+                    arr<<(data[m][i]*0.5+cost[i]*0.3+req_sum(alternatives[i])*0.2)
+                end
+                result<<arr
+            end
+        end
+        result
     end
 
 end

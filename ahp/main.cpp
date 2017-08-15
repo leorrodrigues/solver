@@ -62,6 +62,7 @@ int Save(AHP *ptrAHP,char *name,int model){
 					file<<top->pml[i]<<";";
 			}
 			file<<"\n";
+
 		}
 		/**************************************************/
 		/************WRITING MATRIX IN FILE****************/
@@ -115,6 +116,14 @@ int Save(AHP *ptrAHP,char *name,int model){
 			}
 			file<<"\n";
 		}
+		/**************************************************/
+		/************WRITING Alternatives IN FILE**********/
+		/**************************************************/
+		file<<"Alternatives:";
+		for(std::vector<Node *>::iterator it=ptrAHP->hierarchy->alternatives.begin();it!=ptrAHP->hierarchy->alternatives.end();it++){
+			file<<(*it)->name<<";";
+		}
+		file<<"\n";
 		file.close();
 	}
 	return 0;

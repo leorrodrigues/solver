@@ -42,7 +42,7 @@ class CloudsController < ApplicationController
   def update
     respond_to do |format|
       if @cloud.update(cloud_params)
-        format.html { redirect_to @cloud, notice: 'Cloud was successfully updated.' }
+        format.html { redirect_to ahp_base_path(:id =>@cloud) }
         format.json { render :show, status: :ok, location: @cloud }
       else
         format.html { render :edit }
