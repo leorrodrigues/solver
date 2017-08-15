@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170809023912) do
+ActiveRecord::Schema.define(version: 20170814181248) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,16 @@ ActiveRecord::Schema.define(version: 20170809023912) do
     t.index ["node_id"], name: "index_children_on_node_id"
   end
 
+  create_table "clouds", force: :cascade do |t|
+    t.integer "vm"
+    t.integer "cpu"
+    t.integer "ram"
+    t.integer "storage"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "number"
+  end
+
   create_table "identities", force: :cascade do |t|
     t.integer "number"
     t.datetime "created_at", null: false
@@ -67,14 +77,59 @@ ActiveRecord::Schema.define(version: 20170809023912) do
   end
 
   create_table "options", force: :cascade do |t|
+    t.string "name"
     t.string "op1"
     t.string "op2"
-    t.integer "checked"
-    t.integer "value"
-    t.bigint "search_id"
+    t.string "op3"
+    t.string "op4"
+    t.string "op5"
+    t.string "op6"
+    t.string "op7"
+    t.string "op8"
+    t.string "op9"
+    t.string "op10"
+    t.string "op11"
+    t.string "op12"
+    t.string "op13"
+    t.string "op14"
+    t.string "op15"
+    t.string "op16"
+    t.string "op17"
+    t.string "op18"
+    t.string "op19"
+    t.string "op20"
+    t.string "op21"
+    t.string "op22"
+    t.string "op23"
+    t.string "op24"
+    t.string "op25"
+    t.integer "value1"
+    t.integer "value2"
+    t.integer "value3"
+    t.integer "value4"
+    t.integer "value5"
+    t.integer "value6"
+    t.integer "value7"
+    t.integer "value8"
+    t.integer "value9"
+    t.integer "value10"
+    t.integer "value11"
+    t.integer "value12"
+    t.integer "value13"
+    t.integer "value14"
+    t.integer "value15"
+    t.integer "value16"
+    t.integer "value17"
+    t.integer "value18"
+    t.integer "value19"
+    t.integer "value20"
+    t.integer "value21"
+    t.integer "value22"
+    t.integer "value23"
+    t.integer "value24"
+    t.integer "value25"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["search_id"], name: "index_options_on_search_id"
   end
 
   create_table "searches", force: :cascade do |t|
@@ -93,5 +148,4 @@ ActiveRecord::Schema.define(version: 20170809023912) do
   add_foreign_key "categories", "trees"
   add_foreign_key "children", "nodes"
   add_foreign_key "nodes", "categories"
-  add_foreign_key "options", "searches"
 end

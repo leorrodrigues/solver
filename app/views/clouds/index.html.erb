@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Clouds</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Máquinas virtuais</th>
+      <th>Processadores(Cpu's)</th>
+      <th>Memória Ram(Gb)</th>
+      <th>Armazenamento(Gb)</th>
+      <th colspan="6"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @clouds.each do |cloud| %>
+      <tr>
+        <td><%= cloud.vm %></td>
+        <td><%= cloud.cpu %></td>
+        <td><%= cloud.ram %></td>
+        <td><%= cloud.storage %></td>
+        <td><%= link_to 'Show', cloud %></td>
+        <td><%= link_to 'Edit', edit_cloud_path(cloud) %></td>
+        <td><%= link_to 'Destroy', cloud, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Cloud', new_cloud_path %>

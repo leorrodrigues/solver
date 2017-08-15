@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
+  resources :clouds
   resources :options
-  resources :searches
   resources :identities
   resources :categories
   resources :nodes
@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   resources :trees
   resources :result
 
+  get 'options/thanks'
   get 'about/info'
   get 'ahp/base'
   post 'ahp/base'
@@ -18,4 +19,5 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root "welcome#index"
   match '/ahp/renderForm' => 'ahp#renderForm', :via => :post
+
 end

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vm: 1
+  cpu: 1
+  ram: 1
+  storage: 1
+
+two:
+  vm: 1
+  cpu: 1
+  ram: 1
+  storage: 1

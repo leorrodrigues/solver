@@ -1,0 +1,18 @@
+<%=form_for :ahps,remote: true do |f|%>
+    <div>
+        <table class='ahp'>
+            <caption>Hierarquia de decisão #Tipo:<%= "Custos"%></caption>
+            <%hight_count(true)%>
+            <tr>
+                <%(0..hight_count-1).each do |i|%>
+                    <th><%=level="Level #{i}"%></th>
+                <%end%>
+            </tr>
+            <tbody>
+                <%res="<tr class=\'even\'>"%>
+                <%res<<render_nodes(Node.where(name:"Qual é o provedor de serviço com menor custo?")[0],true,hight_count,true)%>
+                <%=res.html_safe%>
+            </tbody>
+        </table>
+    </div>
+<%end%>

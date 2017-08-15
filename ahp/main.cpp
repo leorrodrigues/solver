@@ -31,7 +31,8 @@ int Save(AHP *ptrAHP,char *name,int model){
 		else if(model==4) file<<"QoS\n";
 		else if(model==5) file<<"Hospedagem\n";
 		else if(model==6) file<<"Comunicação\n";
-		else file<<"Custom\n";
+		else if(model==7) file<<"Custom\n";
+		else file<<"Cost\n";
 		/**************************************************/
 		/************WRITING PG IN FILE********************/
 		/**************************************************/
@@ -125,8 +126,6 @@ int main(int argc,char *argv[]){
 		AHP	*ptrAHP = new AHP();
 
 		ptrAHP->Conception(atoi(argv[i]));
-
-		//ptrAHP->hierarchy->printTree();
 
 		ptrAHP->Acquisition(atoi(argv[i]));
 

@@ -24,17 +24,16 @@ void AHP::Conception(int opt) {
 	#else
 		char cwd[1024];
    		getcwd(cwd, sizeof(cwd));
-		if(opt==7){
+		if(opt==7)
 			strcat(cwd,"/ahp/tree/tree_custom.hrc");
-			inputFileStream.open(cwd,std::ios::in);
-		}
-		else{
+		else if(opt==8)
+			strcat(cwd,"/ahp/tree/treeCost.hrc");
+		else
 			strcat(cwd,"/ahp/tree/tree.hrc");
-			inputFileStream.open(cwd, std::ios::in);
-		}
+		inputFileStream.open(cwd, std::ios::in);
 	#endif
 	if (!inputFileStream.good()) {
-		std::cerr<<"Error in opening the file\n";
+		std::cerr<<"Error in opening the file E0x1\n";
 		return;
 	}
 	std::string line, name,nameChild;
@@ -113,9 +112,11 @@ void AHP::Acquisition(int option) { // Put the weights on the criterias of the h
 			strcat(cwd,"/ahp/weights/expert.hrc");
 		else if(option==7)
 			strcat(cwd,"/ahp/weights/custom.hrc");
+		else if(option==8)
+			strcat(cwd,"/ahp/weights/cost.hrc");
 		inputFileStream.open(cwd, std::ios::in);
 		if (!inputFileStream.good()) {
-			std::cerr<<"Error in opening the file\n";
+			std::cout<<"Error in opening the file Ex2\n";
 			return;
 		}
 	#endif

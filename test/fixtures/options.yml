@@ -1,15 +1,109 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  name: MyString
   op1: MyString
   op2: MyString
-  checked: 1
-  value: 1
+  op3: MyString
+  op4: MyString
+  op5: MyString
+  op6: MyString
+  op7: MyString
+  op8: MyString
+  op9: MyString
+  op10: MyString
+  op11: MyString
+  op12: MyString
+  op13: MyString
+  op14: MyString
+  op15: MyString
+  op16: MyString
+  op17: MyString
+  op18: MyString
+  op19: MyString
+  op20: MyString
+  op21: MyString
+  op22: MyString
+  op23: MyString
+  op24: MyString
+  op25: MyString
+  value1: 1
+  value2: 1
+  value3: 1
+  value4: 1
+  value5: 1
+  value6: 1
+  value7: 1
+  value8: 1
+  value9: 1
+  value10: 1
+  value11: 1
+  value12: 1
+  value13: 1
+  value14: 1
+  value15: 1
+  value16: 1
+  value17: 1
+  value18: 1
+  value19: 1
+  value20: 1
+  value21: 1
+  value22: 1
+  value23: 1
+  value24: 1
+  value25: 1
   search: one
 
 two:
+  name: MyString
   op1: MyString
   op2: MyString
-  checked: 1
-  value: 1
+  op3: MyString
+  op4: MyString
+  op5: MyString
+  op6: MyString
+  op7: MyString
+  op8: MyString
+  op9: MyString
+  op10: MyString
+  op11: MyString
+  op12: MyString
+  op13: MyString
+  op14: MyString
+  op15: MyString
+  op16: MyString
+  op17: MyString
+  op18: MyString
+  op19: MyString
+  op20: MyString
+  op21: MyString
+  op22: MyString
+  op23: MyString
+  op24: MyString
+  op25: MyString
+  value1: 1
+  value2: 1
+  value3: 1
+  value4: 1
+  value5: 1
+  value6: 1
+  value7: 1
+  value8: 1
+  value9: 1
+  value10: 1
+  value11: 1
+  value12: 1
+  value13: 1
+  value14: 1
+  value15: 1
+  value16: 1
+  value17: 1
+  value18: 1
+  value19: 1
+  value20: 1
+  value21: 1
+  value22: 1
+  value23: 1
+  value24: 1
+  value25: 1
   search: two

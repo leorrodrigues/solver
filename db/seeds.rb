@@ -7,6 +7,7 @@ numb.save
 #CREATE THE DEFAULT TREE#
 tree_default = Tree.create(name:"default")
 tree_custom = Tree.create(name:"custom")
+tree_cost = Tree.create(name:"cost")
 
 #CREATE THE CATEGORIES#
 category_flat= Category.create(name:"flat")
@@ -36,6 +37,10 @@ category_comunication.save
 category_custom=Category.create(name:"custom")
 category_custom.tree=tree_custom
 category_custom.save
+
+category_cost=Category.create(name:"cost")
+category_cost.tree=tree_cost
+category_cost.save
 
 #CREATE THE FLAT TREE#
 root_flat = Node.create(name:"Qual provedor de serviço escolher?",weight:0,hight:0)
@@ -1052,6 +1057,88 @@ l4_custom_child=Child.create(name:"L4")
 l4_custom_child.node=rede_node_custom
 l4_custom_child.save
 
+
+#CREATE THE COST TREE#
+root_cost = Node.create(name:"Qual é o provedor de serviço com menor custo?",weight:0,hight:0)
+root_cost.category= category_cost
+root_cost.save
+
+infra_node_cost= Node.create(name:"Infraestrutura Virtual",weight:0.5,hight:1)
+infra_node_cost.category= category_cost
+infra_node_cost.save
+infra_child_cost=Child.create(name:"Infraestrutura Virtual")
+infra_child_cost.node=root_cost
+infra_child_cost.save
+
+servicos_node_cost=Node.create(name:"Serviços",weight:0.5,hight:1)
+servicos_node_cost.category= category_cost
+servicos_node_cost.save
+servicos_child_cost=Child.create(name:"Serviços")
+servicos_child_cost.node=root_cost
+servicos_child_cost.save
+
+maquina_cost=Node.create(name:"Máquina Virtual",weight:0.25,hight:2)
+maquina_cost.category= category_cost
+maquina_cost.save
+maquina_cost_child=Child.create(name:"Máquina Virtual")
+maquina_cost_child.node=infra_node_cost
+maquina_cost_child.save
+
+comutador_cost=Node.create(name:"Comutador",weight:0.25,hight:2)
+comutador_cost.category= category_cost
+comutador_cost.save
+comutador_cost_child= Child.create(name:"Comutador")
+comutador_cost_child.node=infra_node_cost
+comutador_cost_child.save
+
+roteador_cost=Node.create(name:"Roteador",weight:0.25,hight:2)
+roteador_cost.category= category_cost
+roteador_cost.save
+roteador_cost_child=Child.create(name:"Roteador")
+roteador_cost_child.node=infra_node_cost
+roteador_cost_child.save
+
+sdn_cost=Node.create(name:"Equipamento SDN",weight:0.25,hight:2)
+sdn_cost.category= category_cost
+sdn_cost.save
+sdn_cost_child=Child.create(name:"Equipamento SDN")
+sdn_cost_child.node=infra_node_cost
+sdn_cost_child.save
+
+seguranca_node_cost=Node.create(name:"Segurança",weight:0.2,hight:2)
+seguranca_node_cost.category= category_cost
+seguranca_node_cost.save
+seguranca_child_cost=Child.create(name:"Segurança")
+seguranca_child_cost.node=servicos_node_cost
+seguranca_child_cost.save
+
+qos_node_cost=Node.create(name:"QoSServices",weight:0.2,hight:2)
+qos_node_cost.category= category_cost
+qos_node_cost.save
+qos_child_cost=Child.create(name:"QoSServices")
+qos_child_cost.node=servicos_node_cost
+qos_child_cost.save
+
+dns_cost=Node.create(name:"DNS",weight:0.2,hight:2)
+dns_cost.category= category_cost
+dns_cost.save
+dns_cost_child=Child.create(name:"DNS")
+dns_cost_child.node=servicos_node_cost
+dns_cost_child.save
+
+bal_cost=Node.create(name:"Balanceador de Carga",weight:0.2,hight:2)
+bal_cost.category= category_cost
+bal_cost.save
+bal_cost_child=Child.create(name:"Balanceador de Carga")
+bal_cost_child.node=servicos_node_cost
+bal_cost_child.save
+
+rede_node_cost=Node.create(name:"Rede Virtual",weight:0.2,hight:2)
+rede_node_cost.category= category_cost
+rede_node_cost.save
+rede_child_cost=Child.create(name:"Rede Virtual")
+rede_child_cost.node=servicos_node_cost
+rede_child_cost.save
 
 #Create the alternatives
 rack_flat=Alternative.create(name:"Rackspace",weight:0.25)

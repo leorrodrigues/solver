@@ -12,31 +12,924 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :op1 %>
-    <%= form.text_field :op1, id: :option_op1 %>
+    <%= form.label "Nome do entrevistado" %>
+    <%= form.text_field :name, id: :formtion_name %>
   </div>
 
-  <div class="field">
-    <%= form.label :op2 %>
-    <%= form.text_field :op2, id: :option_op2 %>
-  </div>
+  <b>A seguir serão apresentadas 25 perguntas para saber qual é a sua preferência entre dois itens (A e B).<br /> Para quantificar a sua preferência, os valores apresentados representam: <br / >1- Igual preferência, 3- Preferência moderada, 5- Muita preferência, 7- Alta preferência, 9- Preferência absoluta. <br/>Favor preencher todas as perguntas, caso não exista prefência entre dois itens, selecione o item A e em seguida igual importância.</b>
 
-  <div class="field">
-    <%= form.label :checked %>
-    <%= form.number_field :checked, id: :option_checked %>
-  </div>
-
-  <div class="field">
-    <%= form.label :value %>
-    <%= form.number_field :value, id: :option_value %>
-  </div>
-
-  <div class="field">
-    <%= form.label :search_id %>
-    <%= form.text_field :search_id, id: :option_search_id %>
-  </div>
+  <table>
+      <tr class='header'>
+          <th colspan='3' align='middle'>Qual é mais importante?</th>
+          <th>Igual Importância</th>
+          <th colspan='9' align='middle'>Quanto mais?</th>
+      </tr>
+      <tbody>
+          <tr class="even">
+              <td valign="middle" class="odd">1</td>
+              <td>
+                  <%=form.radio_button :op1,"infra" %>Infraestrutura
+              </td>
+              <td>
+                  ou <%=form.radio_button :op1,"servicos"%> Serviços
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value1,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">2</td>
+              <td>
+                  <%=form.radio_button :op2,"maquina" %>Máquina Virtual
+              </td>
+              <td>
+                  ou <%=form.radio_button :op2,"comutador"%> Comutador
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value2,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">3</td>
+              <td>
+                  <%=form.radio_button :op3,"maquina" %>Máquina Virtual
+              </td>
+              <td>
+                  ou <%=form.radio_button :op3,"roteador"%> Roteador
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value3,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">4</td>
+              <td>
+                  <%=form.radio_button :op4,"maquina" %>Máquina Virtual
+              </td>
+              <td>
+                  ou <%=form.radio_button :op4,"sdn"%> Equipamento SDN
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value4,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">5</td>
+              <td>
+                  <%=form.radio_button :op5,"comutador" %>Comutador
+              </td>
+              <td>
+                  ou <%=form.radio_button :op5,"roteador"%>Roteador
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value5,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">6</td>
+              <td>
+                  <%=form.radio_button :op6,"comutador" %>Comutador
+              </td>
+              <td>
+                  ou <%=form.radio_button :op6,"sdn"%>Equipamento SDN
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value6,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">7</td>
+              <td>
+                  <%=form.radio_button :op7,"roteador" %>Roteador
+              </td>
+              <td>
+                  ou <%=form.radio_button :op7,"sdn"%> Equipamento SDN
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value7,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">8</td>
+              <td>
+                  <%=form.radio_button :op8,"seguranca" %>Segurança
+              </td>
+              <td>
+                  ou <%=form.radio_button :op8,"qos"%> Qualidade de Serviço (QoS)
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value8,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">9</td>
+              <td>
+                  <%=form.radio_button :op9,"seguranca" %>Segurança
+              </td>
+              <td>
+                  ou <%=form.radio_button :op9,"dns"%> DNS
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value9,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">10</td>
+              <td>
+                  <%=form.radio_button :op10,"seguranca" %>Segurança
+              </td>
+              <td>
+                  ou <%=form.radio_button :op10,"balanceador"%>Balanceador de Carga
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value10,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">11</td>
+              <td>
+                  <%=form.radio_button :op11,"seguranca" %>Segurança
+              </td>
+              <td>
+                  ou <%=form.radio_button :op11,"rede"%>Rede Virtual
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value11,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">12</td>
+              <td>
+                  <%=form.radio_button :op12,"qos" %>Qualidade de Serviço (QoS)
+              </td>
+              <td>
+                  ou <%=form.radio_button :op12,"rede"%>Rede Virtual
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value12,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">13</td>
+              <td>
+                  <%=form.radio_button :op13,"dns" %>DNS
+              </td>
+              <td>
+                  ou <%=form.radio_button :op13,"balanceador"%> Balanceador de Carga
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value13,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">14</td>
+              <td>
+                  <%=form.radio_button :op14,"dms" %>DNS
+              </td>
+              <td>
+                  ou <%=form.radio_button :op14,"rede"%>Rede Virtual
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value14,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">15</td>
+              <td>
+                  <%=form.radio_button :op15,"balanceador" %>Balanceador de Carga
+              </td>
+              <td>
+                  ou <%=form.radio_button :op15,"rede"%> Rede Virtual
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value15,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">16</td>
+              <td>
+                  <%=form.radio_button :op16,"ids" %>IDS
+              </td>
+              <td>
+                  ou <%=form.radio_button :op16,"nat"%> NAT
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value16,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">17</td>
+              <td>
+                  <%=form.radio_button :op17,"ids" %>IDS
+              </td>
+              <td>
+                  ou <%=form.radio_button :op17,"firewall"%>Firewall
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value17,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">18</td>
+              <td>
+                  <%=form.radio_button :op18,"nat" %>NAT
+              </td>
+              <td>
+                  ou <%=form.radio_button :op18,"firewall"%> Firewall
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value18,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">19</td>
+              <td>
+                  <%=form.radio_button :op19,"latencia" %>Latência
+              </td>
+              <td>
+                  ou <%=form.radio_button :op19,"largura"%> Largura de Banda
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value19,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">20</td>
+              <td>
+                  <%=form.radio_button :op20,"l1" %>Camada de Rede L1
+              </td>
+              <td>
+                  ou <%=form.radio_button :op20,"l2"%> Camade de Rede L2
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value20,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">21</td>
+              <td>
+                  <%=form.radio_button :op21,"l1" %>Camada de Rede L1
+              </td>
+              <td>
+                  ou <%=form.radio_button :op21,"l3"%> Camada de Rede L3
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value21,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">22</td>
+              <td>
+                  <%=form.radio_button :op22,"l1" %>Camada de Rede L1
+              </td>
+              <td>
+                  ou <%=form.radio_button :op22,"l4"%> Camada de Rede L4
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value22,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">23</td>
+              <td>
+                  <%=form.radio_button :op23,"l2" %>Camada de Rede L2
+              </td>
+              <td>
+                  ou <%=form.radio_button :op23,"l3"%> Camada de Rede L3
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value23,"9"%>9
+              </td>
+          </tr>
+          <tr class="odd">
+              <td valign="middle" class="odd">24</td>
+              <td>
+                  <%=form.radio_button :op24,"L2" %>Camada de Rede L2
+              </td>
+              <td>
+                  ou <%=form.radio_button :op24,"l4"%> Camada de Rede L4
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value24,"9"%>9
+              </td>
+          </tr>
+          <tr class="even">
+              <td valign="middle" class="odd">25</td>
+              <td>
+                  <%=form.radio_button :op25,"l3" %>Camada de Rede L3
+              </td>
+              <td>
+                  ou <%=form.radio_button :op25,"l4"%> Camada de Rede L4
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"1"%>1
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"2"%>2
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"3"%>3
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"4"%>4
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"5"%>5
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"6"%>6
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"7"%>7
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"8"%>8
+              </td>
+              <td>
+                  <%=form.radio_button :value25,"9"%>9
+              </td>
+          </tr>
+          </tr>
+      </tbody>
+  </table>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Enviar Pesquisa" %>
   </div>
 <% end %>

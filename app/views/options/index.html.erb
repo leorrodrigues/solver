@@ -5,11 +5,57 @@
 <table>
   <thead>
     <tr>
+      <th>Name</th>
       <th>Op1</th>
       <th>Op2</th>
-      <th>Checked</th>
-      <th>Value</th>
-      <th>Search</th>
+      <th>Op3</th>
+      <th>Op4</th>
+      <th>Op5</th>
+      <th>Op6</th>
+      <th>Op7</th>
+      <th>Op8</th>
+      <th>Op9</th>
+      <th>Op10</th>
+      <th>Op11</th>
+      <th>Op12</th>
+      <th>Op13</th>
+      <th>Op14</th>
+      <th>Op15</th>
+      <th>Op16</th>
+      <th>Op17</th>
+      <th>Op18</th>
+      <th>Op19</th>
+      <th>Op20</th>
+      <th>Op21</th>
+      <th>Op22</th>
+      <th>Op23</th>
+      <th>Op24</th>
+      <th>Op25</th>
+      <th>Value1</th>
+      <th>Value2</th>
+      <th>Value3</th>
+      <th>Value4</th>
+      <th>Value5</th>
+      <th>Value6</th>
+      <th>Value7</th>
+      <th>Value8</th>
+      <th>Value9</th>
+      <th>Value10</th>
+      <th>Value11</th>
+      <th>Value12</th>
+      <th>Value13</th>
+      <th>Value14</th>
+      <th>Value15</th>
+      <th>Value16</th>
+      <th>Value17</th>
+      <th>Value18</th>
+      <th>Value19</th>
+      <th>Value20</th>
+      <th>Value21</th>
+      <th>Value22</th>
+      <th>Value23</th>
+      <th>Value24</th>
+      <th>Value25</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -17,14 +63,60 @@
   <tbody>
     <% @options.each do |option| %>
       <tr>
+        <td><%= option.name %></td>
         <td><%= option.op1 %></td>
         <td><%= option.op2 %></td>
-        <td><%= option.checked %></td>
-        <td><%= option.value %></td>
-        <td><%= option.search %></td>
-        <td><%= link_to 'Show', option %></td>
-        <td><%= link_to 'Edit', edit_option_path(option) %></td>
-        <td><%= link_to 'Destroy', option, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= option.op3 %></td>
+        <td><%= option.op4 %></td>
+        <td><%= option.op5 %></td>
+        <td><%= option.op6 %></td>
+        <td><%= option.op7 %></td>
+        <td><%= option.op8 %></td>
+        <td><%= option.op9 %></td>
+        <td><%= option.op10 %></td>
+        <td><%= option.op11 %></td>
+        <td><%= option.op12 %></td>
+        <td><%= option.op13 %></td>
+        <td><%= option.op14 %></td>
+        <td><%= option.op15 %></td>
+        <td><%= option.op16 %></td>
+        <td><%= option.op17 %></td>
+        <td><%= option.op18 %></td>
+        <td><%= option.op19 %></td>
+        <td><%= option.op20 %></td>
+        <td><%= option.op21 %></td>
+        <td><%= option.op22 %></td>
+        <td><%= option.op23 %></td>
+        <td><%= option.op24 %></td>
+        <td><%= option.op25 %></td>
+        <td><%= option.value1 %></td>
+        <td><%= option.value2 %></td>
+        <td><%= option.value3 %></td>
+        <td><%= option.value4 %></td>
+        <td><%= option.value5 %></td>
+        <td><%= option.value6 %></td>
+        <td><%= option.value7 %></td>
+        <td><%= option.value8 %></td>
+        <td><%= option.value9 %></td>
+        <td><%= option.value10 %></td>
+        <td><%= option.value11 %></td>
+        <td><%= option.value12 %></td>
+        <td><%= option.value13 %></td>
+        <td><%= option.value14 %></td>
+        <td><%= option.value15 %></td>
+        <td><%= option.value16 %></td>
+        <td><%= option.value17 %></td>
+        <td><%= option.value18 %></td>
+        <td><%= option.value19 %></td>
+        <td><%= option.value20 %></td>
+        <td><%= option.value21 %></td>
+        <td><%= option.value22 %></td>
+        <td><%= option.value23 %></td>
+        <td><%= option.value24 %></td>
+        <td><%= option.value25 %></td>
+        <td><%= link_to 'Mostrar', option %></td>
+        <td><%= link_to 'Editar', edit_option_path(option) %></td>
+        <td><%= link_to 'Destruir', option, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -32,4 +124,4 @@
 
 <br>
 
-<%= link_to 'New Option', new_option_path %>
+<%= link_to 'Nova Pesquisa', new_option_path %>

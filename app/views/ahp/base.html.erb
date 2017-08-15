@@ -11,9 +11,18 @@
     <h3>
         <b>Hierarquia Default</b>: <span style="color:blue">Nuvens computacionais</spam>
     </h3>
-    <div class="tree">
-        <%=render(:partial =>'form_tree') %>
-    </div>
+    <table>
+        <div class="tree">
+            <th>
+                <td>
+                    <%=render(:partial =>'form_tree') %>
+                </td>
+                <td>
+                    <%=render(:partial =>'form_tree_custom')%>
+                </td>
+            </th>
+        </div>
+    </table>
 </div>
 
 <div>
@@ -29,10 +38,11 @@
     <table class='botoes'>
         <tr>
             <td class='bot'>
-                <%=button_to "#{t('Execute')}", {:controller => "ahp", :action=> "execute_ahp"}  ,method: :post %>
+                <%=button_to "#{t('Execute')}", ahp_execute_ahp_path(:cloudId => @cloud),method: :post %>
             </td>
             <td class='bot'>
-                <%=button_to "#{t('comeBack')}", root_path, method: :get%>
+                <%="PORRA #{@cloud}"%>
+                <%#=button_to "#{t('comeBack')}", edit_cloud_path(params[:id]), method: :get%>
             </td>
         </tr>
     </table>

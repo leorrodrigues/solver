@@ -1,16 +1,16 @@
 class ResultController < ApplicationController
-
-    @@results=[]
+    helper_method :create_kiviat,:show_results,:get_modules,:get_axis,:get_data
 
     def index
         @number=params[:number]
+        @cloud = params[:id]
+        @results= Array.new
         if load_file @number
             flash[:notice]="AHP Executado com sucesso"
         else
             flash[:error]="Não foi possível realizar a execução do AHP"
             redirect_to ahp_base_path
         end
-        puts @@results
     end
 
     def load_file(name)
@@ -38,7 +38,7 @@ class ResultController < ApplicationController
                     x.push("Normalized"=>normalized)
                     normalized=[]
                 elsif !x.empty?
-                    @@results.push(model => x)
+                    @results.push(model => x)
                 end
                 model=parse[1]
                 x=[]
@@ -102,13 +102,55 @@ class ResultController < ApplicationController
         x.push("PML"=>pml)
         x.push("Matrix"=>matrix)
         x.push("Normalized"=>normalized)
-        @@results.push(model => x)
+        @results.push(model => x)
         #puts(@@results)
-        if @@results.size()!=0
+        if @results.size()!=0
             true
         else
             false
         end
+    end
+
+    def create_kiviat(chartName,model,category,data)
+        res=""
+        res<<"<title>KIVIAT GRAPH</title><script type=\"text/javascript\" src=\"http://static.fusioncharts.com/code/latest/fusioncharts.js\"></script> <script type=\"text/javascript\" src=\"http://static.fusioncharts.com/code/latest/themes/fusioncharts.theme.fint.js?cacheBust=56\"></script><script type=\"text/javascript\"> FusionCharts.ready(function(){ var fusioncharts = new FusionCharts({ type: 'radar', renderAt: 'chart-container', width: '600', height: '450', dataFormat: 'json', dataSource: { \"chart\": {\"caption\": \"#{chartName}\",\"numberPreffix\": \"$\", \"theme\": \"fint\", \"radarfillcolor\": \"#ffffff\" }, \"categories\": [{ \"category\": ["
+
+        category.each do |c|
+            res<<"{\"label\": \"#{c}\"}"
+            if c!=category.last
+                res<<", "
+            end
+        end
+        res<<"]}], \"dataset\": [{"
+        i=0
+        model.each do |m|
+            res<<"\"seriesname\": \"#{m}\", \"data\": ["
+            (0...data[i].size).each do |v|
+                res<<"{\"value\": \"#{data[i][v]}\"}"
+                if v!=data[i].size-1
+                    res<<","
+                end
+            end
+            if m!=model.last
+                res<<"]},{ "
+            end
+            i+=1
+        end
+        res<<"]}]}}); fusioncharts.render(); }); </script><div id=\"chart-container\">FusionCharts XT will load here!</div> "
+        res
+    end
+
+    def show_results
+        @results
+    end
+
+    def get_modules
+    end
+
+    def get_axis
+    end
+
+    def get_data
     end
 
 end

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Vm:</strong>
+  <%= @cloud.vm %>
+</p>
+
+<p>
+  <strong>Cpu:</strong>
+  <%= @cloud.cpu %>
+</p>
+
+<p>
+  <strong>Ram:</strong>
+  <%= @cloud.ram %>
+</p>
+
+<p>
+  <strong>Storage:</strong>
+  <%= @cloud.storage %>
+</p>
+
+<%= link_to 'Edit', edit_cloud_path(@cloud) %> |
+<%= link_to 'Back', clouds_path %>

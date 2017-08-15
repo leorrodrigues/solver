@@ -1,0 +1,13 @@
+Qual é o provedor de serviço com menor custo?: Infraestrutura Virtual; Serviços;
+Infraestrutura Virtual: Máquina Virtual; Comutador; Roteador; Equipamento SDN;
+Serviços: Segurança; QoSServices; DNS; Balanceador de carga; Rede Virtual;
+Segurança: Alternatives;
+QoSServices: Alternatives;
+DNS: Alternatives;
+Balanceador de carga: Alternatives;
+Rede Virtual: Alternatives;
+Máquina Virtual: Alternatives;
+Comutador: Alternatives;
+Roteador: Alternatives;
+Equipamento SDN: Alternatives;
+Alternatives: RackSpace; Microsoft Azure; Amazon AWS; Google Cloud;
