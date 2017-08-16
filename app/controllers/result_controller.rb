@@ -1,5 +1,5 @@
 class ResultController < ApplicationController
-    helper_method :create_kiviat, :show_results, :get_models,:get_axis, :get_data, :get_alternatives, :req_sum, :calculate
+    helper_method :create_kiviat, :show_results, :get_models,:get_axis, :get_data, :get_alternatives, :req_sum, :calculate, :create_show
 
     def index
         @number=params[:number]
@@ -186,7 +186,7 @@ class ResultController < ApplicationController
 
     def req_sum(alternative)
         #req[model]=>(vm,cpu,ram,storage))
-        costs={"Amazon AWS"=>[1,1,1,1],"Google Cloud"=>[1,1,1,1],"Microsoft Azure"=>[1,1,1,1],"RackSpace"=>[1,1,1,1]}
+        costs={"Amazon AWS"=>[14.64,9.98,7.50,4.0],"Google Cloud"=>[12.47,11.78,7.9,3.5],"Microsoft Azure"=>[13.2,8.1,8.9,3.7],"RackSpace"=>[13.0,10.4,6.7,3.45]}
         req=Cloud.where(id: @cloud)[0]
         sum=0.0
         sum+=req.vm*costs[alternative][0]
@@ -217,12 +217,41 @@ class ResultController < ApplicationController
             if m!="Cost"
                 arr=Array.new
                 (0...alternatives.size).each do |i|
-                    arr<<(data[m][i]*0.5+cost[i]*0.3+req_sum(alternatives[i])*0.2)
+                    arr<<(data[m][i]*0.4+cost[i]*0.25+req_sum(alternatives[i])*0.35)
                 end
                 result<<arr
             end
         end
         result
+    end
+
+    def create_show(ans,models,res)
+        x=Hash.new
+        (0...ans.size).each do |i|
+            h=Hash.new
+            h["RackSpace"]=ans[i][0]
+            h["Microsoft Azure"]=ans[i][1]
+            h["Amazon AWS"]=ans[i][2]
+            h["Google Cloud"]=ans[i][3]
+            x[models[i]]=h
+        end
+        html="<table><tr><td colspawn=#{models.size+1}>#{res.html_safe}</td></tr></table>"
+        html<<"<table><tr>"
+        (0...models.size).each do |i|
+            html<<"<td>Modelo #{models[i]}</td>"
+        end
+        html<<"</tr><tr>"
+        models.each do |m|
+            i=0
+            html<<"<td>"
+            x[m]=Hash[x[m].sort_by{|k,v|v}.reverse]
+            x[m].each do |k,v|
+                i+=1
+                html<<"#{i}: #{k}<br/>"
+            end
+            html<<"</td>"
+        end
+        html<<"</tr></table>"
     end
 
 end

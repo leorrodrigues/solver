@@ -8,14 +8,10 @@
             models<<m
         end
     end
+    ans=calculate
 %>
-<%res=create_kiviat("Resultados",models,get_alternatives(models[0]),calculate)%>
+<%res=create_kiviat("Resultados",models,get_alternatives(models[0]),ans)%>
 
-<table>
-    <tr>
+<%tab=create_show(ans,models,res)%>
 
-        <td>
-            <%=res.html_safe%>
-        </td>
-    </tr>
-</table>
+<%=tab.html_safe%>
