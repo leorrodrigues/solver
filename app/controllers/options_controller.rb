@@ -17,6 +17,11 @@ class OptionsController < ApplicationController
     @option = Option.new
   end
 
+ #GET /options/pesquisa
+  def pesquisa
+    @option= Option.new
+  end
+
   # GET /options/1/edit
   def edit
   end
