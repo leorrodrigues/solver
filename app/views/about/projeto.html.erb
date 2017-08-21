@@ -1,0 +1,44 @@
+
+<%=image_tag('/udesc.png', width: "300" , height: "100")%>
+<br />
+
+<br />
+<div>
+    Projeto de análise multicritério utilizando o método AHP para qualificar diferentes provedores de serviço em nuvem, tendo o objetivo de auxiliar o usuário na tomada de decisão de qual é o provedor de nuvem mais adequado para as suas necessidades. Orientado por <%=link_to "Omir Alves","http://www.joinville.udesc.br/portal/professores/omir/"%>. O algoritmo elaborado é demostrado a seguir:
+    <br />
+    <img src="/modeloProposto.png" alt="ModeloProposto" align="middle" width="250", height="500" />
+</div>
+Levando em consideração o funcionamento do método AHP, foram modelado duas estruturas hierarquicas que correspondem a qualidade e custos dos provedores.
+<table>
+    <tr>
+        <th >
+            Modelo de qualidade
+        </th>
+        <th>
+            Modelo de custo
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <%=image_tag('/hierarquia.png', size: "600")%>
+        </td>
+        <td>
+            <%=image_tag('/ModelagemCusto1.png', size: "600")%>
+        </td>
+    </tr>
+</table>
+<div>
+    <table
+        <tr >
+            <td >
+                <%=button_to "Executar AHP", new_cloud_path, method: :get%>
+            </td>
+            <td>
+                <%=button_to "Pesquisa", options_pesquisa_path ,method: :get%>
+            </td>
+            <td>
+                <%=button_to "Home", root_path, method: :get%>
+            </td>
+        </tr>
+    </table>
+</div>

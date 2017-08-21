@@ -13,7 +13,7 @@ class OptionsController < ApplicationController
   end
 
   # GET /options/new
-  def new
+  def novaPesquisa
     @option = Option.new
   end
 
@@ -36,7 +36,7 @@ class OptionsController < ApplicationController
         format.html { redirect_to @option, notice: 'Obrigado por realizar a pesquisa!' }
         format.json { render :show, status: :created, location: @option }
       else
-        format.html { render :new }
+        format.html { render :novaPesquisa }
         format.json { render json: @option.errors, status: :unprocessable_entity }
       end
     end
