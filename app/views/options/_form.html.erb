@@ -13,10 +13,8 @@
 
 
     <div class="field">
-        <%= form.label "Nome do entrevistado" %>
+        <%= form.label "Nome do entrevistado / Empresa" %>
         <%= form.text_field :name, id: :formtion_name %>
-        <%= form.label "Empresa/Instituição" %>
-        <%= form.text_field :empresa, id: :formtion_empresa %>
     </div>
 
   <b>A seguir serão apresentadas 25 perguntas para saber qual é a sua preferência entre dois itens (A e B).<br /> Para quantificar a sua preferência, os valores apresentados representam: <br / >1- Igual preferência, 3- Preferência moderada, 5- Muita preferência, 7- Alta preferência, 9- Preferência absoluta. <br/>Favor preencher todas as perguntas, caso não exista prefência entre dois itens, selecione o item A e em seguida igual importância.</b>
@@ -1018,8 +1016,8 @@
   </table>
   <br />
   <%= form.label "Deseja ser notificado quando o protótipo estiver concluído?" %>
-  <%=form.radio_button :prototipo,"Sim"%> Sim
-  <%=form.radio_button :prototipo,"Não"%> Não
+  <%=form.radio_button :prototipo, "1"%> Sim
+  <%=form.radio_button :prototipo, "0"%> Não
   <br />
   <br />
   <div class="actions">
