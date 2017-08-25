@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Name</th>
+      <th>Empresa</th>
       <th>Op1</th>
       <th>Op2</th>
       <th>Op3</th>
@@ -56,6 +57,7 @@
       <th>Value23</th>
       <th>Value24</th>
       <th>Value25</th>
+      <th>Enviar protótipo</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -64,6 +66,7 @@
     <% @options.each do |option| %>
       <tr>
         <td><%= option.name %></td>
+        <td><%= option.empresa %></td>
         <td><%= option.op1 %></td>
         <td><%= option.op2 %></td>
         <td><%= option.op3 %></td>
@@ -114,6 +117,7 @@
         <td><%= option.value23 %></td>
         <td><%= option.value24 %></td>
         <td><%= option.value25 %></td>
+        <td><%= option.prototipo%></td>
         <td><%= link_to 'Mostrar', option %></td>
         <td><%= link_to 'Editar', edit_option_path(option) %></td>
         <td><%= link_to 'Destruir', option, method: :delete, data: { confirm: 'Você tem certeza?' } %></td>
@@ -124,4 +128,4 @@
 
 <br>
 
-<%= link_to 'Nova Pesquisa', new_option_path %>
+<%= link_to 'Nova Pesquisa', options_pesquisa_path%>

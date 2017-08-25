@@ -2,6 +2,7 @@ class CreateOptions < ActiveRecord::Migration[5.1]
   def change
     create_table :options do |t|
       t.string :name
+      t.string :empresa
       t.string :op1
       t.string :op2
       t.string :op3
@@ -52,7 +53,7 @@ class CreateOptions < ActiveRecord::Migration[5.1]
       t.integer :value23
       t.integer :value24
       t.integer :value25
-
+      t.boolean :prototipo
       t.timestamps
     end
   end

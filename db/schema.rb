@@ -72,6 +72,7 @@ ActiveRecord::Schema.define(version: 20170814161926) do
 
   create_table "options", force: :cascade do |t|
     t.string "name"
+    t.string "empresa"
     t.string "op1"
     t.string "op2"
     t.string "op3"
@@ -122,6 +123,7 @@ ActiveRecord::Schema.define(version: 20170814161926) do
     t.integer "value23"
     t.integer "value24"
     t.integer "value25"
+    t.boolean "prototipo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

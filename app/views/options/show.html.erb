@@ -4,6 +4,10 @@
   <strong>Nome do entrevistado:</strong>
   <%= @option.name %>
 </p>
+<p>
+  <strong>Empresa/Instituição do entrevistado:</strong>
+  <%= @option.empresa %>
+</p>
 
 <p>
   <strong>Pergunta 1:</strong>
@@ -253,5 +257,14 @@
   <%= @option.value25 %>
 </p>
 
+<p>
+  <strong>Enviar protótipo:</strong>
+  <%= @option.prototipo %>
+</p>
+
+<p>
+  <strong>Valor Escolhido 25:</strong>
+  <%= @option.value25 %>
+</p>
 <%= link_to 'Editar', edit_option_path(@option) %> |
 <!--<%= link_to 'Voltar', options_path %>-->

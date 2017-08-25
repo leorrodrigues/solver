@@ -12,18 +12,23 @@
   <% end %>
 
 
-  <div class="field">
-    <%= form.label "Nome do entrevistado" %>
-    <%= form.text_field :name, id: :formtion_name %>
-  </div>
+    <div class="field">
+        <%= form.label "Nome do entrevistado" %>
+        <%= form.text_field :name, id: :formtion_name %>
+        <%= form.label "Empresa/Instituição" %>
+        <%= form.text_field :empresa, id: :formtion_empresa %>
+    </div>
 
   <b>A seguir serão apresentadas 25 perguntas para saber qual é a sua preferência entre dois itens (A e B).<br /> Para quantificar a sua preferência, os valores apresentados representam: <br / >1- Igual preferência, 3- Preferência moderada, 5- Muita preferência, 7- Alta preferência, 9- Preferência absoluta. <br/>Favor preencher todas as perguntas, caso não exista prefência entre dois itens, selecione o item A e em seguida igual importância.</b>
-
+  <br />
+  <font color="red">
+      OBS: Atenção! Após ter respondido o questionário, npor favor, não esqueça de clicar no botão "Enviar Pesquisa"
+  </font>
   <table>
       <tr class="odd">
-          <td colspan='4' align="center">Qual é mais importante?</td>
+          <td colspan='4' align="center">Selecione qual dos dois Itens(A ou B) é mais importante para você?</td>
           <td rowspan="2" align="center">Igual Importância</td>
-          <td rowspan="2" colspan='8' >Quanto mais?</td>
+          <td rowspan="2" colspan='8' >Quanto mais importante um item é em relação ao outro para você?</td>
       </tr>
       <tr class="odd">
           <td>Nº</td>
@@ -35,7 +40,7 @@
           <tr class="even">
               <td valign="middle" class="odd">1</td>
               <td>
-                  Quando você deseja criar uma instância de nuvem, é mais importante o provedor de serviço apresentar:
+                  Quando você deseja criar uma instância de nuvem, é mais importante que o provedor de serviço forneça:
               </td>
               <td>
                   <%=form.radio_button :op1,"infra" %>Infraestrutura Virtual (Máquina virtual,Comutador de rede,roteador,equipamento SDN)
@@ -74,7 +79,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">2</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op2,"maquina" %>Máquina Virtual
@@ -114,7 +119,7 @@
               <td valign="middle" class="odd">3</td>
 
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op3,"maquina" %>Máquina Virtual
@@ -153,7 +158,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">4</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op4,"maquina" %>Máquina Virtual
@@ -192,7 +197,7 @@
           <tr class="even">
               <td valign="middle" class="odd">5</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op5,"comutador" %>Comutador de rede
@@ -231,7 +236,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">6</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op6,"comutador" %>Comutador de rede
@@ -270,7 +275,7 @@
           <tr class="even">
               <td valign="middle" class="odd">7</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op7,"roteador" %>Roteador
@@ -309,7 +314,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">8</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op8,"seguranca" %>Segurança
@@ -348,7 +353,7 @@
           <tr class="even">
               <td valign="middle" class="odd">9</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op9,"seguranca" %>Segurança
@@ -387,7 +392,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">10</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op10,"seguranca" %>Segurança
@@ -426,7 +431,7 @@
           <tr class="even">
               <td valign="middle" class="odd">11</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op11,"seguranca" %>Segurança
@@ -465,7 +470,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">12</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op12,"qos" %>Qualidade de Serviço (QoS)
@@ -504,7 +509,7 @@
           <tr class="even">
               <td valign="middle" class="odd">13</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op13,"dns" %>DNS
@@ -543,7 +548,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">14</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op14,"dms" %>DNS
@@ -582,7 +587,7 @@
           <tr class="even">
               <td valign="middle" class="odd">15</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op15,"balanceador" %>Balanceador de Carga
@@ -621,7 +626,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">16</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op16,"ids" %>IDS
@@ -660,7 +665,7 @@
           <tr class="even">
               <td valign="middle" class="odd">17</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op17,"ids" %>IDS
@@ -699,7 +704,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">18</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op18,"nat" %>NAT
@@ -738,7 +743,7 @@
           <tr class="even">
               <td valign="middle" class="odd">19</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op19,"latencia" %>Menor latência na qualidade de serviço
@@ -777,7 +782,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">20</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op20,"l1" %>Camada de Rede L1
@@ -816,7 +821,7 @@
           <tr class="even">
               <td valign="middle" class="odd">21</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op21,"l1" %>Camada de Rede L1
@@ -855,7 +860,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">22</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op22,"l1" %>Camada de Rede L1
@@ -894,7 +899,7 @@
           <tr class="even">
               <td valign="middle" class="odd">23</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op23,"l2" %>Camada de Rede L2
@@ -933,7 +938,7 @@
           <tr class="odd">
               <td valign="middle" class="odd">24</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op24,"L2" %>Camada de Rede L2
@@ -972,7 +977,7 @@
           <tr class="even">
               <td valign="middle" class="odd">25</td>
               <td>
-                 É mais importante o provedor possuir:
+                 Para você é mais importante o provedor oferecer serviço de:
               </td>
               <td>
                   <%=form.radio_button :op25,"l3" %>Camada de Rede L3
@@ -1011,10 +1016,16 @@
           </tr>
       </tbody>
   </table>
-
+  <br />
+  <%= form.label "Deseja ser notificado quando o protótipo estiver concluído?" %>
+  <%=form.radio_button :prototipo,"Sim"%> Sim
+  <%=form.radio_button :prototipo,"Não"%> Não
+  <br />
+  <br />
   <div class="actions">
     <%= form.submit "Enviar Pesquisa" %>
   </div>
+  <br />
   <div align="right">
       Pesquisador responsável: Leonardo Rosa Rodrigues. E-mail: leu_rr1@hotmail.com. Endereço: UDESC – Joinville
   </div>
