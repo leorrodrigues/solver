@@ -162,47 +162,47 @@ void AHP::Synthesis() {
 	//**********************************************************************
 	//				Normalizing the tables of judgments
 	//**********************************************************************
-	std::vector<Node *> list;
-	list.push_back(hierarchy->root);
-	Node *top=NULL;
-	double sum;
-	int tam;
-	while(!list.empty()){
-		top=list.front();
-		tam=top->child.size();
-		if(tam==0) tam=hierarchy->alternatives.size();
-		top->normalizedBoard.resize(tam);
-		for(int i=0;i<tam;i++)
-			top->normalizedBoard[i].resize(tam);
-		list.erase(list.begin());
-		for(std::vector<Node *>::iterator it=top->child.begin();it!=top->child.end();it++)
-			list.push_back(*it);
+	std::vector<Node *> list; //O(1)
+	list.push_back(hierarchy->root); //O(1)
+	Node *top=NULL; //O(1)
+	double sum; //O(1)
+	int tam; //O(1)
+	while(!list.empty()){ //O(E) -> O(E+N**2+V)
+		top=list.front(); //O(1)
+		tam=top->child.size(); //O(1)
+		if(tam==0) tam=hierarchy->alternatives.size(); //O(1)
+		top->normalizedBoard.resize(tam); //O(n)
+		for(int i=0;i<tam;i++) //O(N) -> O(N**2)
+			top->normalizedBoard[i].resize(tam); //O(N)
+		list.erase(list.begin()); //O(1)
+		for(std::vector<Node *>::iterator it=top->child.begin();it!=top->child.end();it++) //O(V)
+			list.push_back(*it); //O(1)
 
-		for(int j=0;j<tam;j++){
-			sum=0;
-			for(int i=0;i<tam;i++)
-				sum+=top->board[i][j];
-			for(int i=0;i<tam;i++)
-				top->normalizedBoard[i][j]=top->board[i][j]/sum;
+		for(int j=0;j<tam;j++){ //O(n) ->O(n**2)
+			sum=0; //O(1)
+			for(int i=0;i<tam;i++) //O(n)
+				sum+=top->board[i][j]; //O(1)
+			for(int i=0;i<tam;i++) //O(n)
+				top->normalizedBoard[i][j]=top->board[i][j]/sum; //O(1)
 		}
 	}
 	//**********************************************************************
 	//				Building the PMLs
 	//**********************************************************************
-	list.clear();
-	list.push_back(hierarchy->root);
-	while(!list.empty()){
-		top=list.front();
-		tam=top->child.size();
-		if(tam==0) tam=hierarchy->alternatives.size();
-		list.erase(list.begin());
-		for(std::vector<Node *>::iterator it=top->child.begin();it!=top->child.end();it++)
-			list.push_back(*it);
-		for(int i=0;i<tam;i++){
-			sum=0;
-			for(int j=0;j<tam;j++)
-				sum+=top->normalizedBoard[i][j];
-			top->pml.push_back(sum/tam);
+	list.clear(); //O(n)
+	list.push_back(hierarchy->root);//O(1)
+	while(!list.empty()){ //O(E) ->O(E+V)
+		top=list.front(); //O(1)
+		tam=top->child.size(); //O(1)
+		if(tam==0) tam=hierarchy->alternatives.size(); //O(1)
+		list.erase(list.begin()); //O(1)
+		for(std::vector<Node *>::iterator it=top->child.begin();it!=top->child.end();it++) //O(V)
+			list.push_back(*it); //O(1)
+		for(int i=0;i<tam;i++){ //O(N)
+			sum=0; //O(1)
+			for(int j=0;j<tam;j++) //O(N)
+				sum+=top->normalizedBoard[i][j]; //O(1)
+			top->pml.push_back(sum/tam); //O(1)
 		}
 		#ifdef DEBUG
 			std::cout<<top->name<<" ->PML: ";
@@ -214,9 +214,9 @@ void AHP::Synthesis() {
 	//**********************************************************************
 	//				Building the PGs
 	//**********************************************************************
-	tam=hierarchy->alternatives.size();
-	pg.resize(tam);
-	pg=CalculatePG(hierarchy->root);
+	tam=hierarchy->alternatives.size(); //O(1)
+	pg.resize(tam); //O(n)
+	pg=CalculatePG(hierarchy->root); //O(V+N*A)
 	#ifdef DEBUG
 		std::cout<<"PG: (";
 		for(std::vector<double>::iterator it=pg.begin();it!=pg.end();it++)
@@ -226,41 +226,42 @@ void AHP::Synthesis() {
 	#endif
 }
 
-std::vector<double> AHP::CalculatePG(Node *node){
-	std::vector<std::vector<double> > pgInd;
-	std::vector<double> pgCalc;
-	int k=0;
+std::vector<double> AHP::CalculatePG(Node *node){ //O(V+N*A) //Where V is the lenght of children's node and A the size of the alternatives and N the size of the matrix
+	std::vector<std::vector<double> > pgInd; //O(1)
+	std::vector<double> pgCalc; //O(1)
+	int k=0; //O(1)
 
-	if(node->leaf)
-		return node->pml;
-	for(std::vector<Node *>::iterator it=node->child.begin();it!=node->child.end();it++){
+	if(node->leaf) //O(1)
+		return node->pml; //O(1)
+	for(std::vector<Node *>::iterator it=node->child.begin();it!=node->child.end();it++){ //O(V)
 		std::vector<double> a=CalculatePG(*it);
-		pgInd.push_back(a);
+		pgInd.push_back(a); //O(1)
 	}
-	pgCalc.resize(hierarchy->alternatives.size());
-	for(std::vector<double>::iterator it=node->pml.begin();it!=node->pml.end();it++){
-		for(int i=0;i<hierarchy->alternatives.size();i++)
-			pgCalc[i]+=((*it)*pgInd[k][i]);
-		k++;
+	pgCalc.resize(hierarchy->alternatives.size()); //O(n)
+	for(std::vector<double>::iterator  it=node->pml.begin();it!=node->pml.end();it++){ //O(n)
+		for(int i=0;i<hierarchy->alternatives.size();i++) //O(a)
+			pgCalc[i]+=((*it)*pgInd[k][i]); //O(1)
+		k++; //O(1)
 	}
-	return pgCalc;
+	return pgCalc; //O(1)
 }
 
-std::vector<std::vector<double> >multiply(std::vector<std::vector<double> > board,std::vector<double> pml){
-	int a=board.size();
-	std::vector<std::vector<double> > matrix;
-	matrix.resize(a);
-	for(int i=0;i<a;i++)
-		matrix[i].resize(a);
-	for(int j=0;j<a;j++){
-		for(int i=0;i<a;i++){
-			matrix[i][j]=board[i][j]*pml[j];
+std::vector<std::vector<double> >multiply(std::vector<std::vector<double> > board,std::vector<double> pml){ //O(n**2)
+	int a=board.size(); //O(1)
+	std::vector<std::vector<double> > matrix; //O(1)
+	matrix.resize(a); //O(n)
+	for(int i=0;i<a;i++) //O(n)
+		matrix[i].resize(a); //O(n)
+	for(int j=0;j<a;j++){ //O(n)
+		for(int i=0;i<a;i++){ //O(n)
+			matrix[i][j]=board[i][j]*pml[j]; //O(1)
 		}
 	}
-	return matrix;
+	return matrix; //O(1)
 }
 
 void AHP::Consistency() {// Check the consistency of every board created.
+	//Complexity O(V+N**2)
 	#ifdef DEBUG
 		std::cout<<"#######################################################\n";
 	#endif
@@ -270,32 +271,32 @@ void AHP::Consistency() {// Check the consistency of every board created.
 	std::vector<std::vector<double> >aux;
 	std::vector<Node *> list;
 	Node *top;
-	list.push_back(hierarchy->root);
+	list.push_back(hierarchy->root); // O(1)
 	while(!list.empty()){
-		lambda=IC=RC=0;
-		aux.clear();
-		p.clear();
-		pAux.clear();
-		top=list.front();
-		list.erase(list.begin());
-		for(std::vector<Node *>::iterator it=top->child.begin();it!=top->child.end();it++)
+		lambda=IC=RC=0; //O(1)
+		aux.clear(); //O(n)
+		p.clear(); //O(n)
+		pAux.clear(); //O(n)
+		top=list.front(); //O(1)
+		list.erase(list.begin()); //O(1)
+		for(std::vector<Node *>::iterator it=top->child.begin();it!=top->child.end();it++) //O(V)
 			list.push_back(*it);
-		if(top->board.size()>2){
-			aux=multiply(top->board,top->pml);
-			p.resize(aux.size());
-			for(int i=0;i<aux.size();i++)
-				for(int j=0;j<aux.size();j++)
+		if(top->board.size()>2){ //O(N)
+			aux=multiply(top->board,top->pml); //O(n**2)
+			p.resize(aux.size()); //O(1)
+			for(int i=0;i<aux.size();i++) //O(N)
+				for(int j=0;j<aux.size();j++) // O(N)
 					p[i]+=aux[i][j];
-			pAux.resize(p.size());
-			for(int i=0;i<p.size();i++)
+			pAux.resize(p.size()); //O(N)
+			for(int i=0;i<p.size();i++) //O(N)
 				pAux[i]=p[i]/top->pml[i];
-			for(int i=0;i<pAux.size();i++)
+			for(int i=0;i<pAux.size();i++) //O(N)
 				lambda+=pAux[i];
 			lambda/=pAux.size();
 			IC=fabs(lambda-pAux.size())/(pAux.size()-1);
 			RC=IC/ir[pAux.size()];
 		}
-		else{
+		else{ //O(1)
 			RC=IC=0;
 		}
 		#ifdef DEBUG

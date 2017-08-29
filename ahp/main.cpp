@@ -129,7 +129,7 @@ int Save(AHP *ptrAHP,char *name,int model){
 	return 0;
 }
 
-int main(int argc,char *argv[]){
+int main(int argc,char *argv[]){ //O(E+N**2+2*V+N*A+M+C)
 	setlocale(LC_ALL, "");
 	for(int i=2;i<argc;i++){
 		AHP	*ptrAHP = new AHP();
@@ -138,9 +138,9 @@ int main(int argc,char *argv[]){
 
 		ptrAHP->Acquisition(atoi(argv[i]));
 
-		ptrAHP->Synthesis();
+		ptrAHP->Synthesis(); //O(E+N**2+ 2*V + N*A)
 
-		ptrAHP->Consistency();
+		ptrAHP->Consistency(); //O(V+N**2)
 
 		Save(ptrAHP,argv[1],atoi(argv[i]));
 	}
