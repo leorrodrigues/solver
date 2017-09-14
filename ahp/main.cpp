@@ -198,7 +198,7 @@ int GenerateValues(AHP *ptrAHP,char *name,int model,std::vector<int> req,std::ve
 	}
 }
 
-int main(int argc,char *argv[]){ //O(E+N**2+2*V+N*A+M+C)
+int main(int argc,char *argv[]){//O(C*(E*(N**2+V)+E*N**2+N*A)) -> O(N**4)
 	setlocale(LC_ALL, "");
 	#ifdef TIME
 		double total=0;
@@ -218,13 +218,13 @@ int main(int argc,char *argv[]){ //O(E+N**2+2*V+N*A+M+C)
 	#endif
 		AHP	*ptrAHP = new AHP();
 
-		ptrAHP->Conception(atoi(argv[i]));
+		ptrAHP->Conception(atoi(argv[i])); //O(N**2)
 
-		ptrAHP->Acquisition(atoi(argv[i]));
+		ptrAHP->Acquisition(atoi(argv[i])); //O(N**2)
 
-		ptrAHP->Synthesis(); //O(E+N**2+ 2*V + N*A)
+		ptrAHP->Synthesis(); //O(E*N**2+N*A)
 
-		ptrAHP->Consistency(); //O(V+N**2)
+		ptrAHP->Consistency(); //O(E*(N**2+V))
 
 		#ifdef ANALYSIS
 			if(atoi(argv[i])==8)
