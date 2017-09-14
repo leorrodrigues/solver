@@ -1,0 +1,29 @@
+Cenario;Provedor;Selecao
+Custo;Rackspace;792
+Custo;Microsoft Azure;127
+Custo;Amazon AWS;59
+Custo;Google Cloud;22
+FLAT;Rackspace;788
+FLAT;Microsoft Azure;110
+FLAT;Amazon AWS;69
+FLAT;Google Cloud;23
+Segurança;Rackspace;787
+Segurança;Microsoft Azure;127
+Segurança;Amazon AWS;59
+Segurança;Google Cloud;32
+Rede;Rackspace;789
+Rede;Microsoft Azure;110
+Rede;Amazon AWS;59
+Rede;Google Cloud;23
+QSR;Rackspace;788
+QSR;Microsoft Azure;109
+QSR;Amazon AWS;69
+QSR;Google Cloud;34
+HS;Rackspace;789
+HS;Microsoft Azure;136
+HS;Amazon AWS;122
+HS;Google Cloud;189
+CD;Rackspace;788
+CD;Microsoft Azure;110
+CD;Amazon AWS;69
+CD;Google Cloud;32
