@@ -19,4 +19,4 @@ L1: Alternatives;
 L2: Alternatives;
 L3: Alternatives;
 L4: Alternatives;
-Alternatives: Alt0;Alt1;Alt2;Alt3;
+Alternatives: RackSpace; Microsoft Azure; Amazon AWS; Google Cloud;

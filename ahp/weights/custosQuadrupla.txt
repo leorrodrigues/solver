@@ -1,0 +1,23 @@
+Amazon:
+    Storage: 0.023 GB/Mes
+    CPU: 7.9 $/M
+    RAM: 8.64 $/M
+    MV:  25.43 $/M
+
+Azure:
+    Storage: 0.07 GB/Mes
+    CPU: 5.1 $/M
+    RAM: 4.87 $/M
+    MV: 29.4 $/M
+
+Rackspace: 73
+    Storage: 0.1 GB $/M
+    CPU: 4.75 $/M
+    RAM: 4.75 $/M
+    MV: 27 $/M
+
+Google:
+    Storage: 0.054 GB/Mes
+    CPU: 9.1 $/M
+    RAM: 3.35 $/M
+    MV: 24.27 $/M

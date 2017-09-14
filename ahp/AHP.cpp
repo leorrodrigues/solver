@@ -15,7 +15,7 @@ AHP::~AHP(){}
 
 void AHP::Conception(int opt) {
 	#ifdef DEBUG
-		std::cout<<"#######################################################\n";
+		std::cout<<"##Option "<<opt<<"###################################################\n";
 	#endif
 	bool first=true;
 	std::ifstream inputFileStream;
@@ -302,9 +302,11 @@ void AHP::Consistency() {// Check the consistency of every board created.
 		#ifdef DEBUG
 			std::cout<<"Matriz "<<top->name<<" apresenta RC de "<<RC<<", sendo o IC de "<<IC<<" e IR de "<<ir[pAux.size()]<<std::endl<<std::endl;
 		#endif
+		#ifndef TIME
 		if(RC>=0.1){
 			std::cout<<"Matrix "<<top->name<<" are inconsistent, the RC is "<<RC<<" change the judgment weights and reexecute the method\n";
 		}
+		#endif
 	}
 	#ifdef DEBUG
 		std::cout<<"#######################################################\n";

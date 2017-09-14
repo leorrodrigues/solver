@@ -186,7 +186,7 @@ class ResultController < ApplicationController
 
     def req_sum(alternative)
         #req[model]=>(vm,cpu,ram,storage))
-        costs={"Amazon AWS"=>[14.64,9.98,7.50,4.0],"Google Cloud"=>[12.47,11.78,7.9,3.5],"Microsoft Azure"=>[13.2,8.1,8.9,3.7],"RackSpace"=>[13.0,10.4,6.7,3.45]}
+        costs={"Amazon AWS"=>[25.43,7.9,8.64,0.023],"Google Cloud"=>[24.27,9.1,3.35,0.054],"Microsoft Azure"=>[29.4,5.1,4.87,0.07],"RackSpace"=>[27,4.75,4.75,0.1]}
         req=Cloud.where(id: @cloud)[0]
         sum=0.0
         sum+=req.vm*costs[alternative][0]

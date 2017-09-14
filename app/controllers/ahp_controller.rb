@@ -130,6 +130,7 @@ class AhpController < ApplicationController
         id.save
         fileName=SecureRandom.hex(8)+String(numberFile.number)+SecureRandom.hex(10)
         op<<fileName<<" ";
+        op<<"8 "
         @@option.each do |x|
             x=x.downcase
             if x=="flat"
@@ -148,7 +149,6 @@ class AhpController < ApplicationController
                 op<<"7 "
             end
         end
-        op<<"8 "
         result=`./ahp/solver #{op}`
         puts result
         if result

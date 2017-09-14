@@ -1,0 +1,200 @@
+Custo Requisição:
+    Rackspace:
+        1: 792
+        2: 60
+        3: 23
+        4: 125
+
+    Microsoft Azure:
+        1: 127
+        2: 793
+        3: 60
+        4: 20
+
+    Amazon AWS:
+        1: 59
+        2: 20
+        3: 167
+        4: 754
+
+    Google Cloud:
+        1: 22
+        2: 127
+        3: 750
+        4: 101
+
+Fórmula (0,4 * AHP Qualidade  + 0.2 * AHP Custo + 0.4 * Custo Requisição):
+    "Feito por mim - Não precisa colocar no gráfico":
+        Rackspace:
+            1: 553
+            2: 124
+            3: 185
+            4: 138
+
+        Microsoft Azure:
+            1: 136
+            2: 91
+            3: 590
+            4: 183
+
+        Amazon AWS:
+            1: 122
+            2: 201
+            3: 91
+            4: 586
+
+        Google Cloud:
+            1: 189
+            2: 584
+            3: 134
+            4: 93
+
+    FLAT
+        Rackspace:
+            1: 788
+            2: 44
+            3: 45
+            4: 122
+
+        Microsoft Azure:
+            1: 110
+            2: 11
+            3: 719
+            4: 159
+
+        Amazon AWS:
+            1: 69
+            2: 51
+            3: 162
+            4: 718
+
+        Google Cloud:
+            1: 32
+            2: 893
+            3: 74
+            4: 0
+
+    Segurança:
+        Rackspace:
+            1: 787
+            2: 44
+            3: 45
+            4: 122
+
+        Microsoft Azure:
+            1: 127
+            2: 791
+            3: 60
+            4: 20
+
+        Amazon AWS:
+            1: 59
+            2: 20
+            3: 167
+            4: 752
+
+        Google Cloud:
+            1: 32
+            2: 892
+            3: 74
+            4: 0
+
+    Rede:
+        Rackspace:
+            1: 789
+            2: 44
+            3: 45
+            4: 122
+
+        Microsoft Azure:
+            1: 110
+            2: 11
+            3: 720
+            4: 159
+
+        Amazon AWS:
+            1: 69
+            2: 51
+            3: 61
+            4: 719
+
+        Google Cloud:
+            1: 32
+            2: 894
+            3: 74
+            4: 0
+
+    Qualidade de Serviço Reservada:
+        Rackspace:
+            1: 788
+            2: 44
+            3: 46
+            4: 122
+
+        Microsoft Azure:
+            1: 109
+            2: 12
+            3: 719
+            4: 160
+
+        Amazon AWS:
+            1: 69
+            2: 48
+            3: 164
+            4: 719
+
+        Google Cloud:
+            1: 34
+            2: 895
+            3: 71
+            4: 0
+
+    Hospedagem de Serviços:
+        Rackspace:
+            1: 789
+            2: 124
+            3: 185
+            4: 138
+
+        Microsoft Azure:
+            1: 136
+            2: 91
+            3: 590
+            4: 183
+
+        Amazon AWS:
+            1: 122
+            2: 201
+            3: 91
+            4: 586
+
+        Google Cloud:
+            1: 189
+            2: 584
+            3: 134
+            4: 93
+
+    Comunicação de Dados:
+        Rackspace:
+            1: 788
+            2: 44
+            3: 45
+            4: 122
+
+        Microsoft Azure:
+            1: 110
+            2: 11
+            3: 719
+            4: 159
+
+        Amazon AWS:
+            1: 69
+            2: 50
+            3: 162
+            4: 718
+
+        Google Cloud:
+            1: 32
+            2: 894
+            3: 73
+            4: 0
