@@ -25,7 +25,7 @@ void AHP::Conception(int opt) {
 		char cwd[1024];
    		getcwd(cwd, sizeof(cwd));
 		if(opt==7)
-			strcat(cwd,"/ahp/tree/tree_custom.hrc");
+			strcat(cwd,"/ahp/tree/tree.hrc");
 		else if(opt==8)
 			strcat(cwd,"/ahp/tree/treeCost.hrc");
 		else

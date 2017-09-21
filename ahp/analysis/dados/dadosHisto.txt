@@ -3,27 +3,31 @@ Custo;Rackspace;792
 Custo;Microsoft Azure;127
 Custo;Amazon AWS;59
 Custo;Google Cloud;22
-FLAT;Rackspace;788
-FLAT;Microsoft Azure;110
-FLAT;Amazon AWS;69
-FLAT;Google Cloud;23
-Segurança;Rackspace;787
-Segurança;Microsoft Azure;127
-Segurança;Amazon AWS;59
-Segurança;Google Cloud;32
-Rede;Rackspace;789
-Rede;Microsoft Azure;110
-Rede;Amazon AWS;59
-Rede;Google Cloud;23
-QSR;Rackspace;788
-QSR;Microsoft Azure;109
-QSR;Amazon AWS;69
-QSR;Google Cloud;34
-HS;Rackspace;789
-HS;Microsoft Azure;136
-HS;Amazon AWS;122
-HS;Google Cloud;189
-CD;Rackspace;788
-CD;Microsoft Azure;110
-CD;Amazon AWS;69
-CD;Google Cloud;32
+FLAT;Rackspace;13
+FLAT;Microsoft Azure;384
+FLAT;Amazon AWS;586
+FLAT;Google Cloud;17
+Segurança;Rackspace;291
+Segurança;Microsoft Azure;164
+Segurança;Amazon AWS;297
+Segurança;Google Cloud;253
+Rede;Rackspace;317
+Rede;Microsoft Azure;91
+Rede;Amazon AWS;338
+Rede;Google Cloud;254
+Qualidade de Serviço Reservada;Rackspace;285
+Qualidade de Serviço Reservada;Microsoft Azure;111
+Qualidade de Serviço Reservada;Amazon AWS;369
+Qualidade de Serviço Reservada;Google Cloud;235
+Hospedagem de Serviço;Rackspace;271
+Hospedagem de Serviço;Microsoft Azure;237
+Hospedagem de Serviço;Amazon AWS;302
+Hospedagem de Serviço;Google Cloud;170
+Comunicação de Dados;Rackspace;199
+Comunicação de Dados;Microsoft Azure;224
+Comunicação de Dados;Amazon AWS;272
+Comunicação de Dados;Google Cloud;305
+Pesquisa;Rackspace;0
+Pesquisa;Microsoft Azure;410
+Pesquisa;Amazon AWS;590
+Pesquisa;Google Cloud;0

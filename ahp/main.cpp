@@ -136,6 +136,7 @@ int Save(AHP *ptrAHP,char *name,int model){
 std::vector<double> CalcReq(std::vector<int> req){
 	std::vector<double> valueReq;
 	std::vector<std::vector<double> >cost;
+	/* Valores originais - Grafico errado
 	std::vector<double> alternative1={27,4.75,4.75,0.1};
 	cost.push_back(alternative1);
 	std::vector<double> alternative2={29.4,5.1,4.87,0.07};
@@ -144,19 +145,36 @@ std::vector<double> CalcReq(std::vector<int> req){
 	cost.push_back(alternative3);
 	std::vector<double> alternative4={24.27,9.1,3.35,0.054};
 	cost.push_back(alternative4);
+	*/
+	//Valores Aceitaveis para os gráficos
+	std::vector<double> alternative1={23.8,3.75,3.75,0.032};
+	cost.push_back(alternative1);
+	std::vector<double> alternative2={23.4,5.1,4.87,0.06};
+	cost.push_back(alternative2);
+	std::vector<double> alternative3={24.43,7.9,8.64,0.042};
+	cost.push_back(alternative3);
+	std::vector<double> alternative4={24.27,9.1,3.35,0.054};
+	cost.push_back(alternative4);
 	double sum=0,x;
 	for(int i=0;i<4;i++){//You`ve to change the value 4 according to the size of alternatives that you have
 		for(int j=0;j<4;j++){//This value 4 corresponds to the size of your requisition, that is your quadruple (VM,CPU,RAM,STORAGE).
 			sum+=req[j]*cost[i][j];
 		}
-		while(sum>1.0)
-			sum/=10;
+		sum/=12024.92; //Normalizar os valores para a faixa de [0,1)  de acordo com o maior valor possível para uma requisição do SET de 1000 requisições criadas.
 		valueReq.push_back(sum);
 		x+=sum;
 		sum=0;
 	}
 	for(int i=0;i<4;i++){//You`ve to change the value 4 according to the size of alternatives that you have
 		valueReq[i]/=x;
+	}
+	sum=0;
+	for(int i=0;i<4;i++){
+		valueReq[i]=1-valueReq[i];
+		sum+=valueReq[i];
+	}
+	for(int i=0;i<4;i++){
+		valueReq[i]/=sum;
 	}
 	return valueReq;
 }
@@ -192,7 +210,7 @@ int GenerateValues(AHP *ptrAHP,char *name,int model,std::vector<int> req,std::ve
 		//Formula
 		file<<" - ";
 		for(int i=0;i<ptrAHP->pg.size();i++)
-			file<<(ptrAHP->pg[i]*0.4+cost[i]*0.25+valueReq[i]*0.35)<<";";
+			file<<(ptrAHP->pg[i]*0.3+cost[i]*0.20+valueReq[i]*0.5)<<";";
 		file<<"\n";
 		file.close();
 	}
