@@ -1,13 +1,13 @@
 Cenario;Provedor;Selecao
-Custo;Rackspace;792
+Custo;Rackspace;592
 Custo;Microsoft Azure;127
 Custo;Amazon AWS;59
-Custo;Google Cloud;22
+Custo;Google Cloud;222
 FLAT;Rackspace;13
 FLAT;Microsoft Azure;384
 FLAT;Amazon AWS;586
 FLAT;Google Cloud;17
-Segurança;Rackspace;291
+Segurança;Rackspace;286
 Segurança;Microsoft Azure;164
 Segurança;Amazon AWS;297
 Segurança;Google Cloud;253
@@ -22,12 +22,12 @@ Qualidade de Serviço Reservada;Google Cloud;235
 Hospedagem de Serviço;Rackspace;271
 Hospedagem de Serviço;Microsoft Azure;237
 Hospedagem de Serviço;Amazon AWS;302
-Hospedagem de Serviço;Google Cloud;170
+Hospedagem de Serviço;Google Cloud;190
 Comunicação de Dados;Rackspace;199
 Comunicação de Dados;Microsoft Azure;224
 Comunicação de Dados;Amazon AWS;272
 Comunicação de Dados;Google Cloud;305
-Pesquisa;Rackspace;0
-Pesquisa;Microsoft Azure;410
-Pesquisa;Amazon AWS;590
-Pesquisa;Google Cloud;0
+Pesquisa;Rackspace;317
+Pesquisa;Microsoft Azure;92
+Pesquisa;Amazon AWS;338
+Pesquisa;Google Cloud;253

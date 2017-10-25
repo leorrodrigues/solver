@@ -20,29 +20,29 @@ while True:
     if not line:
         break
     line=line.split(" - ")
-    line[3]=line[3].split(';')
+    line[4]=line[4].split(';')
     for i in range(4):
-        line[3][i]=float(line[3][i])
-    rack+=line[3][0]
-    if line[3][0]<rack_min :
-        rack_min=line[3][0]
-    if line[3][0]>rack_max:
-        rack_max=line[3][0]
-    azure+=line[3][1]
-    if line[3][1]<azure_min :
-        azure_min=line[3][1]
-    if line[3][1]>azure_max:
-        azure_max=line[3][1]
-    aws+=line[3][2]
-    if line[3][2]<aws_min :
-        aws_min=line[3][2]
-    if line[3][2]>aws_max:
-        aws_max=line[3][2]
-    google+=line[3][3]
-    if line[3][3]<google_min :
-        google_min=line[3][3]
-    if line[3][3]>google_max:
-        google_max=line[3][3]
+        line[4][i]=float(line[4][i])
+    rack+=line[4][0]
+    if line[4][0]<rack_min :
+        rack_min=line[4][0]
+    if line[4][0]>rack_max:
+        rack_max=line[4][0]
+    azure+=line[4][1]
+    if line[4][1]<azure_min :
+        azure_min=line[4][1]
+    if line[4][1]>azure_max:
+        azure_max=line[4][1]
+    aws+=line[4][2]
+    if line[4][2]<aws_min :
+        aws_min=line[4][2]
+    if line[4][2]>aws_max:
+        aws_max=line[4][2]
+    google+=line[4][3]
+    if line[4][3]<google_min :
+        google_min=line[4][3]
+    if line[4][3]>google_max:
+        google_max=line[4][3]
 
 rack_media=rack/1000
 azure_media=azure/1000
@@ -64,13 +64,13 @@ while True:
     if not line:
         break
     line=line.split(" - ")
-    line[3]=line[3].split(';')
+    line[4]=line[4].split(';')
     for i in range(4):
-        line[3][i]=float(line[3][i])
-    rack_desvio+=(line[3][0]-rack_media)**2
-    azure_desvio+=(line[3][1]-azure_media)**2
-    aws_desvio+=(line[3][2]-aws_media)**2
-    google_desvio+=(line[3][3]-google_media)**2
+        line[4][i]=float(line[4][i])
+    rack_desvio+=(line[4][0]-rack_media)**2
+    azure_desvio+=(line[4][1]-azure_media)**2
+    aws_desvio+=(line[4][2]-aws_media)**2
+    google_desvio+=(line[4][3]-google_media)**2
 
 import math
 
@@ -79,7 +79,7 @@ azure_desvio=math.sqrt(azure_desvio/1000)
 aws_desvio=math.sqrt(aws_desvio/1000)
 google_desvio=math.sqrt(google_desvio/1000)
 
-vez="Custo"
+vez="Pesquisa"
 
 print(vez+";Rackspace;"+str(rack_media)+";"+str(rack_min)+";"+str(rack_max)+";"+str(rack_desvio))
 print(vez+";Microsoft Azure;"+str(azure_media)+";"+str(azure_min)+";"+str(azure_max)+";"+str(azure_desvio))

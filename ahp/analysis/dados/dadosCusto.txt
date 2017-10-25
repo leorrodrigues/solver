@@ -1,0 +1,25 @@
+Cenario;Provedor;Percentagem Custo/Cenário
+Comunicação de Dados;Amazon AWS;4.610169491525424
+Comunicação de Dados;Google Cloud;1.3738738738738738
+Comunicação de Dados;Microsoft Azure;1.763779527559055
+Comunicação de Dados;Rackspace;-2.9748743718592965
+Hospedagem de Serviço;Amazon AWS;5.11864406779661
+Hospedagem de Serviço;Google Cloud;0.8558558558558559
+Hospedagem de Serviço;Microsoft Azure;1.8661417322834646
+Hospedagem de Serviço;Rackspace;-2.1845018450184504
+Pesquisa;Amazon AWS;5.728813559322034
+Pesquisa;Google Cloud;1.1396396396396395
+Pesquisa;Microsoft Azure;0.7244094488188977
+Pesquisa;Rackspace;-1.8675078864353312
+Qualidade de Serviço Reservada;Amazon AWS;6.254237288135593
+Qualidade de Serviço Reservada;Google Cloud;1.0585585585585586
+Qualidade de Serviço Reservada;Microsoft Azure;0.8740157480314961
+Qualidade de Serviço Reservada;Rackspace;-2.07719298245614
+Rede;Amazon AWS;5.728813559322034
+Rede;Google Cloud;1.1441441441441442
+Rede;Microsoft Azure;0.7165354330708661
+Rede;Rackspace;-1.8675078864353312
+Segurança;Amazon AWS;5.033898305084746
+Segurança;Google Cloud;1.1396396396396395
+Segurança;Microsoft Azure;1.2913385826771653
+Segurança;Rackspace;-2.06993006993007

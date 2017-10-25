@@ -23,9 +23,9 @@ print(h)
 dev.off()
 
 h<-ggplot(data=df,aes(x=Provedor,y=Media,fill=Provedor))+
-  ggtitle("Média da seleção dos provedores em relação\nA todos os cenários")+
-  xlab("Quantidade de vezes selecionado")+
-  ylab("Cenário")+
+  ggtitle("Seleção dos provedores em relação\nA todos os cenários")+
+  xlab("Provedor de Serviço")+
+  ylab("Quantidade de vezes selecionado")+
   theme_economist(base_size=9)+
   geom_bar(stat="identity",color="black")+
   geom_text(aes(label=Media),vjust=-0.5,hjust=1.2,color="black")+

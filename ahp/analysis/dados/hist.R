@@ -2,6 +2,7 @@ df<- (read.table('dadosHisto.txt',header=TRUE,sep=';'))
 df
 
 library(ggplot2)
+library("ggthemes")
 
 h<-ggplot(data=df,aes(x=Cenario,y=Selecao,fill=Provedor))+
   ggtitle("Desempenho das alternativas em relação ao cenário")+
@@ -9,11 +10,14 @@ h<-ggplot(data=df,aes(x=Cenario,y=Selecao,fill=Provedor))+
   ylab("Frequência de Seleção")+
   theme_economist(base_size=9)+
   geom_bar(stat="identity",color="black",position=position_dodge())+
-  geom_text(aes(label=Selecao),vjust=-0.5,color="black",position=position_dodge(0.9),size=3.0,rotate=45)+
+  geom_text(aes(label=Selecao),vjust=-0.5,color="black",position=position_dodge(0.9),size=3.0)+
   scale_fill_manual(values=c("#ff9900", "#006600", "#0000ff","#ff1a1a"))+
   theme(legend.position="top",axis.text.x = element_text(angle = 90, hjust = 1))
 h
 
 png("histograma.png")
+pdf("histograma.pdf")
 print(h)
 dev.off()
+
+t.test(df$Selecao)

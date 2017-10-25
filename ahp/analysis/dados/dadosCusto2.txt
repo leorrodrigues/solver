@@ -1,0 +1,5 @@
+Cenario;Provedor;Percentagem Custo/Cenário
+FLAT;Amazon AWS;9.932203389830509
+FLAT;Google Cloud;-13.058823529411764
+FLAT;Microsoft Azure;3.0236220472440944
+FLAT;Rackspace;-45.53846153846154

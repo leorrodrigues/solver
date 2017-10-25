@@ -2,8 +2,24 @@ file=open("results.hrc","r+")
 
 file2=open("PORRA.txt","w")
 
-cenario="Custo"
+opt=int(input())
 
+if opt==1:
+    cenario="FLAT"
+elif opt==2:
+    cenario="Segurança"
+elif opt==3:
+    cenario="Rede"
+elif opt==4:
+    cenario="Qualidade de Serviço Reservada"
+elif opt==5:
+    cenario="Hospedagem de Serviços"
+elif opt==6:
+    cenario="Comunicação de Dados"
+elif opt==7:
+    cenario="Pesquisa"
+elif opt==8:
+    cenario="Custo"
 while True:
     line=file.readline()
     line=line.rstrip()

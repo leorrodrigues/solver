@@ -1,5 +1,5 @@
 Provedor;Quantidade;Media
-Amazon AWS;2813;353
-Google Cloud;1256;157
-Microsoft Azure;1748;219
-Rackspace;2168;271
+Amazon AWS;2651;329
+Google Cloud;1529;189
+Microsoft Azure;1430;177
+Rackspace;2480;305

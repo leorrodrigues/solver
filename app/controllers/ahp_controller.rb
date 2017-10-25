@@ -150,7 +150,7 @@ class AhpController < ApplicationController
             end
         end
         result=`./ahp/solver #{op}`
-        puts result
+        puts result #Faz a chamada do AHP -.-' hehehe '
         if result
             redirect_to result_index_path(:id=>cloudId,:number=> fileName)
         else
