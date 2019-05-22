@@ -20,4 +20,5 @@ while True:
     for i in line[2]:
         arguments+=" "+str(i)
 
+    print(arguments)
     os.system("./ahp/solver "+arguments)

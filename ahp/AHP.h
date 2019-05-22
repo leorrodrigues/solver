@@ -11,21 +11,21 @@
 #include "Tree.h"
 #include <regex>
 
-class AHP{
+class AHP {
 public:
-	Tree *hierarchy;
-	std::vector<double> pg;
+Tree *hierarchy;
+std::vector<double> pg;
 
-	AHP();
-	AHP(const AHP &);
-	AHP(AHP *);
-	virtual ~AHP();
+AHP();
+AHP(const AHP &);
+AHP(AHP *);
+virtual ~AHP();
 
-	void Conception(int);
-	void Acquisition(int);
-	void Synthesis();
-	void Consistency();
+void Conception(int);
+void Acquisition(int);
+void Synthesis(int);
+void Consistency();
 
 private:
-	std::vector<double> CalculatePG(Node *);
+std::vector<double> CalculatePG(Node *);
 };

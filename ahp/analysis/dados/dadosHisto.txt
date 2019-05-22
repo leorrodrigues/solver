@@ -1,33 +1,37 @@
-Cenario;Provedor;Selecao
-Custo;Rackspace;592
-Custo;Microsoft Azure;127
-Custo;Amazon AWS;59
-Custo;Google Cloud;222
-FLAT;Rackspace;13
-FLAT;Microsoft Azure;384
-FLAT;Amazon AWS;586
-FLAT;Google Cloud;17
-Segurança;Rackspace;286
-Segurança;Microsoft Azure;164
-Segurança;Amazon AWS;297
-Segurança;Google Cloud;253
-Rede;Rackspace;317
-Rede;Microsoft Azure;91
-Rede;Amazon AWS;338
-Rede;Google Cloud;254
-Qualidade de Serviço Reservada;Rackspace;285
-Qualidade de Serviço Reservada;Microsoft Azure;111
-Qualidade de Serviço Reservada;Amazon AWS;369
-Qualidade de Serviço Reservada;Google Cloud;235
-Hospedagem de Serviço;Rackspace;271
-Hospedagem de Serviço;Microsoft Azure;237
-Hospedagem de Serviço;Amazon AWS;302
-Hospedagem de Serviço;Google Cloud;190
-Comunicação de Dados;Rackspace;199
-Comunicação de Dados;Microsoft Azure;224
-Comunicação de Dados;Amazon AWS;272
-Comunicação de Dados;Google Cloud;305
-Pesquisa;Rackspace;317
-Pesquisa;Microsoft Azure;92
-Pesquisa;Amazon AWS;338
-Pesquisa;Google Cloud;253
+Cenario;Provider;Selecao
+Custo;Rackspace;59.2
+Custo;Microsoft Azure;12.7
+Custo;Amazon AWS;5.9
+Custo;Google Cloud;22.2
+FLAT;Rackspace;1.3
+FLAT;Microsoft Azure;38.4
+FLAT;Amazon AWS;58.6
+FLAT;Google Cloud;1.7
+Segurança;Rackspace;28.6
+Segurança;Microsoft Azure;16.4
+Segurança;Amazon AWS;29.7
+Segurança;Google Cloud;25.3
+Rede;Rackspace;31.7
+Rede;Microsoft Azure;9.1
+Rede;Amazon AWS;33.8
+Rede;Google Cloud;25.4
+Qualidade de Serviço Reservada;Rackspace;28.5
+Qualidade de Serviço Reservada;Microsoft Azure;11.1
+Qualidade de Serviço Reservada;Amazon AWS;36.9
+Qualidade de Serviço Reservada;Google Cloud;23.5
+Hospedagem de Serviço;Rackspace;27.1
+Hospedagem de Serviço;Microsoft Azure;23.7
+Hospedagem de Serviço;Amazon AWS;30.2
+Hospedagem de Serviço;Google Cloud;19.0
+Comunicação de Dados;Rackspace;19.9
+Comunicação de Dados;Microsoft Azure;22.4
+Comunicação de Dados;Amazon AWS;27.2
+Comunicação de Dados;Google Cloud;30.5
+Pesquisa;Rackspace;31.7
+Pesquisa;Microsoft Azure;9.2
+Pesquisa;Amazon AWS;33.8
+Pesquisa;Google Cloud;25.3
+ZFAHP;Rackspace;14.2
+ZFAHP;Microsoft Azure;22.9
+ZFAHP;Amazon AWS;39.8
+ZFAHP;Google Cloud;23.1

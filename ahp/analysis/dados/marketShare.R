@@ -1,14 +1,13 @@
-df<- (read.table('dadosHisto.txt',header=TRUE,sep=';'))
+library(ggplot2) # for creating ggplot
+library(ggthemes)
+
+df<- (read.table('dadosMarket.txt',header=TRUE,sep=';'))
 df
 
-library(ggplot2)
-library("ggthemes")
-
-h<-ggplot(data=df,aes(x=Cenario,y=Selecao,fill=Provider))+
-    xlab("")+
-    ylab("Selection Frequency(%)")+
+p<- ggplot(data=df,aes(x=Referência,y=Valor,fill = Provedor)) +
+    xlab('Reference') + 
+    ylab('Selection Frequency(%)') +
     theme_classic()+
-    ylim(0, 100)+
     geom_bar(stat="identity",color="black",position=position_dodge())+
     scale_fill_grey(start = .3, end = 1)+
     theme(
@@ -26,21 +25,18 @@ h<-ggplot(data=df,aes(x=Cenario,y=Selecao,fill=Provider))+
         legend.title = element_text(size=15)
     )+
     scale_x_discrete(labels=c(
-        "Network\nIntensive",
-        "Costs",
-        "Flat",
-        "Web\nHosting",
-        "Market\nResearch",
-        "QoS",
-        "Network\nElasticity",
-        "Security",
-        "FAHP"
+        "(COLES,2017)",
+        "(GROUP,2017)",
+        "(HALL,2017)",
+        "(FAHP)",
+        "(VIMAM)"
         )
-    )
-h
+    )+
+    ylim(0,100)+
+    labs(fill='Provedor')
 
-pdf("histograma.pdf",width=8.3, height=5.7)
-print(h)
+p
+
+pdf("marketShare.pdf",width=10.3, height=4.7)
+print(p)
 dev.off()
-
-t.test(df$Selecao)

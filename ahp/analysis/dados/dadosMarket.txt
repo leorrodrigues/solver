@@ -1,16 +1,21 @@
 Provedor;Valor;Referência
-Amazon AWS;34;(HALL,2017)
-Microsoft Azure;11;(HALL,2017)
-Google Cloud;5;(HALL,2017)
-Rackspace;3;(HALL,2017)
-Demais Provedores;47;(HALL,2017)
-Amazon AWS;40;(GROUP,2017)
-Microsoft Azure;12;(GROUP,2017)
-Google Cloud;5;(GROUP,2017)
-Rackspace;3;(GROUP,2017)
-Demais Provedores;40;(GROUP,2017)
-Amazon AWS;47.1;(COLES,2017)
-Microsoft Azure;10;(COLES,2017)
-Google Cloud;3.95;(COLES,2017)
-Rackspace;1.4;(COLES,2017)
-Demais Provedores;37.55;(COLES,2017)
+Amazon AWS;64.15;(HALL,2017)
+Microsoft Azure;20.75;(HALL,2017)
+Google Cloud;9.4;(HALL,2017)
+Rackspace;5.7;(HALL,2017)
+Amazon AWS;67;(GROUP,2017)
+Microsoft Azure;20;(GROUP,2017)
+Google Cloud;8.3;(GROUP,2017)
+Rackspace;5;(GROUP,2017)
+Amazon AWS;75.4;(COLES,2017)
+Microsoft Azure;16;(COLES,2017)
+Google Cloud;6;(COLES,2017)
+Rackspace;2;(COLES,2017)
+Amazon AWS;33.77;VIMAM
+Microsoft Azure;16.67;VIMAM
+Google Cloud;17.9;VIMAM
+Rackspace;31.66;VIMAM
+Amazon AWS;38.7;FEA
+Microsoft Azure;21.9;FEA
+Google Cloud;21.7;FEA
+Rackspace;13.2;FEA

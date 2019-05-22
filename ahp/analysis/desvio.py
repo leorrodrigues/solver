@@ -1,4 +1,4 @@
-file=open("results.hrc","r+")
+file=open("results_vimam.hrc","r+")
 
 count=0
 aws=0
@@ -79,7 +79,7 @@ azure_desvio=math.sqrt(azure_desvio/1000)
 aws_desvio=math.sqrt(aws_desvio/1000)
 google_desvio=math.sqrt(google_desvio/1000)
 
-vez="Pesquisa"
+vez="VIMAM"
 
 print(vez+";Rackspace;"+str(rack_media)+";"+str(rack_min)+";"+str(rack_max)+";"+str(rack_desvio))
 print(vez+";Microsoft Azure;"+str(azure_media)+";"+str(azure_min)+";"+str(azure_max)+";"+str(azure_desvio))

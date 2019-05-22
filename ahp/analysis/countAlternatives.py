@@ -1,4 +1,4 @@
-file=open("results.hrc","r+")
+file=open("results_vimam.hrc","r+")
 
 pg={}
 custo={}

@@ -1,0 +1,8 @@
+Qual provedor de serviço escolher?: acquisiton; availability; storage; cpu; performance; security;
+acquisiton: Alternatives
+availability: Alternatives
+storage: Alternatives
+cpu: Alternatives
+performance: Alternatives
+security: Alternatives
+Alternatives: RackSpace; Microsoft Azure; Amazon AWS; Google Cloud;

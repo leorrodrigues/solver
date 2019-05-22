@@ -1,4 +1,4 @@
-Cenario;Provedor;Selecao
+Cenario;Provider;Selecao
 FLAT;Rackspace;0.249797
 FLAT;Microsoft Azure;0.249356
 FLAT;Amazon AWS;0.254644
@@ -31999,3 +31999,4003 @@ Custo;Rackspace;0.274656
 Custo;Microsoft Azure;0.231719
 Custo;Amazon AWS;0.25058
 Custo;Google Cloud;0.243045
+VIMAM;Rackspace;0.295493
+VIMAM;Microsoft Azure;0.24228
+VIMAM;Amazon AWS;0.246896
+VIMAM;Google Cloud;0.215485
+VIMAM;Rackspace;0.296085
+VIMAM;Microsoft Azure;0.242562
+VIMAM;Amazon AWS;0.243886
+VIMAM;Google Cloud;0.217622
+VIMAM;Rackspace;0.296607
+VIMAM;Microsoft Azure;0.241108
+VIMAM;Amazon AWS;0.247114
+VIMAM;Google Cloud;0.215325
+VIMAM;Rackspace;0.295592
+VIMAM;Microsoft Azure;0.244523
+VIMAM;Amazon AWS;0.240408
+VIMAM;Google Cloud;0.219631
+VIMAM;Rackspace;0.295149
+VIMAM;Microsoft Azure;0.242341
+VIMAM;Amazon AWS;0.246598
+VIMAM;Google Cloud;0.216068
+VIMAM;Rackspace;0.295944
+VIMAM;Microsoft Azure;0.242022
+VIMAM;Amazon AWS;0.245858
+VIMAM;Google Cloud;0.216331
+VIMAM;Rackspace;0.295196
+VIMAM;Microsoft Azure;0.245027
+VIMAM;Amazon AWS;0.239298
+VIMAM;Google Cloud;0.220633
+VIMAM;Rackspace;0.294007
+VIMAM;Microsoft Azure;0.245913
+VIMAM;Amazon AWS;0.240075
+VIMAM;Google Cloud;0.22016
+VIMAM;Rackspace;0.292177
+VIMAM;Microsoft Azure;0.25122
+VIMAM;Amazon AWS;0.230688
+VIMAM;Google Cloud;0.226069
+VIMAM;Rackspace;0.295092
+VIMAM;Microsoft Azure;0.243409
+VIMAM;Amazon AWS;0.244419
+VIMAM;Google Cloud;0.217233
+VIMAM;Rackspace;0.295205
+VIMAM;Microsoft Azure;0.243721
+VIMAM;Amazon AWS;0.242591
+VIMAM;Google Cloud;0.218639
+VIMAM;Rackspace;0.293368
+VIMAM;Microsoft Azure;0.251057
+VIMAM;Amazon AWS;0.228513
+VIMAM;Google Cloud;0.227216
+VIMAM;Rackspace;0.29544
+VIMAM;Microsoft Azure;0.248393
+VIMAM;Amazon AWS;0.230683
+VIMAM;Google Cloud;0.225639
+VIMAM;Rackspace;0.296112
+VIMAM;Microsoft Azure;0.243778
+VIMAM;Amazon AWS;0.240824
+VIMAM;Google Cloud;0.219441
+VIMAM;Rackspace;0.290687
+VIMAM;Microsoft Azure;0.25324
+VIMAM;Amazon AWS;0.229762
+VIMAM;Google Cloud;0.226466
+VIMAM;Rackspace;0.295927
+VIMAM;Microsoft Azure;0.242444
+VIMAM;Amazon AWS;0.24483
+VIMAM;Google Cloud;0.216953
+VIMAM;Rackspace;0.296688
+VIMAM;Microsoft Azure;0.242576
+VIMAM;Amazon AWS;0.24509
+VIMAM;Google Cloud;0.2158
+VIMAM;Rackspace;0.296104
+VIMAM;Microsoft Azure;0.243035
+VIMAM;Amazon AWS;0.242899
+VIMAM;Google Cloud;0.218116
+VIMAM;Rackspace;0.29506
+VIMAM;Microsoft Azure;0.242408
+VIMAM;Amazon AWS;0.246431
+VIMAM;Google Cloud;0.216255
+VIMAM;Rackspace;0.296676
+VIMAM;Microsoft Azure;0.241675
+VIMAM;Amazon AWS;0.244912
+VIMAM;Google Cloud;0.216891
+VIMAM;Rackspace;0.295996
+VIMAM;Microsoft Azure;0.242094
+VIMAM;Amazon AWS;0.245756
+VIMAM;Google Cloud;0.21631
+VIMAM;Rackspace;0.295645
+VIMAM;Microsoft Azure;0.242506
+VIMAM;Amazon AWS;0.245152
+VIMAM;Google Cloud;0.216851
+VIMAM;Rackspace;0.295919
+VIMAM;Microsoft Azure;0.242711
+VIMAM;Amazon AWS;0.24378
+VIMAM;Google Cloud;0.217745
+VIMAM;Rackspace;0.294174
+VIMAM;Microsoft Azure;0.243698
+VIMAM;Amazon AWS;0.244983
+VIMAM;Google Cloud;0.2173
+VIMAM;Rackspace;0.296624
+VIMAM;Microsoft Azure;0.241582
+VIMAM;Amazon AWS;0.245732
+VIMAM;Google Cloud;0.216216
+VIMAM;Rackspace;0.2956
+VIMAM;Microsoft Azure;0.243136
+VIMAM;Amazon AWS;0.244328
+VIMAM;Google Cloud;0.217091
+VIMAM;Rackspace;0.294118
+VIMAM;Microsoft Azure;0.246173
+VIMAM;Amazon AWS;0.238493
+VIMAM;Google Cloud;0.221371
+VIMAM;Rackspace;0.29621
+VIMAM;Microsoft Azure;0.241448
+VIMAM;Amazon AWS;0.247006
+VIMAM;Google Cloud;0.215491
+VIMAM;Rackspace;0.294464
+VIMAM;Microsoft Azure;0.244117
+VIMAM;Amazon AWS;0.244306
+VIMAM;Google Cloud;0.217268
+VIMAM;Rackspace;0.296545
+VIMAM;Microsoft Azure;0.241784
+VIMAM;Amazon AWS;0.244839
+VIMAM;Google Cloud;0.216987
+VIMAM;Rackspace;0.295447
+VIMAM;Microsoft Azure;0.24279
+VIMAM;Amazon AWS;0.245247
+VIMAM;Google Cloud;0.21667
+VIMAM;Rackspace;0.292531
+VIMAM;Microsoft Azure;0.253445
+VIMAM;Amazon AWS;0.225428
+VIMAM;Google Cloud;0.22875
+VIMAM;Rackspace;0.295551
+VIMAM;Microsoft Azure;0.243097
+VIMAM;Amazon AWS;0.243941
+VIMAM;Google Cloud;0.217566
+VIMAM;Rackspace;0.29508
+VIMAM;Microsoft Azure;0.245663
+VIMAM;Amazon AWS;0.238291
+VIMAM;Google Cloud;0.221121
+VIMAM;Rackspace;0.295605
+VIMAM;Microsoft Azure;0.243938
+VIMAM;Amazon AWS;0.242004
+VIMAM;Google Cloud;0.218607
+VIMAM;Rackspace;0.294985
+VIMAM;Microsoft Azure;0.245049
+VIMAM;Amazon AWS;0.240317
+VIMAM;Google Cloud;0.219804
+VIMAM;Rackspace;0.295215
+VIMAM;Microsoft Azure;0.2458
+VIMAM;Amazon AWS;0.237628
+VIMAM;Google Cloud;0.221512
+VIMAM;Rackspace;0.295218
+VIMAM;Microsoft Azure;0.243274
+VIMAM;Amazon AWS;0.244564
+VIMAM;Google Cloud;0.217098
+VIMAM;Rackspace;0.2926
+VIMAM;Microsoft Azure;0.250871
+VIMAM;Amazon AWS;0.231591
+VIMAM;Google Cloud;0.225092
+VIMAM;Rackspace;0.293756
+VIMAM;Microsoft Azure;0.247293
+VIMAM;Amazon AWS;0.237977
+VIMAM;Google Cloud;0.221128
+VIMAM;Rackspace;0.294781
+VIMAM;Microsoft Azure;0.247435
+VIMAM;Amazon AWS;0.234355
+VIMAM;Google Cloud;0.223584
+VIMAM;Rackspace;0.295203
+VIMAM;Microsoft Azure;0.242546
+VIMAM;Amazon AWS;0.245782
+VIMAM;Google Cloud;0.216623
+VIMAM;Rackspace;0.29495
+VIMAM;Microsoft Azure;0.243753
+VIMAM;Amazon AWS;0.243937
+VIMAM;Google Cloud;0.217515
+VIMAM;Rackspace;0.295042
+VIMAM;Microsoft Azure;0.244759
+VIMAM;Amazon AWS;0.240558
+VIMAM;Google Cloud;0.219795
+VIMAM;Rackspace;0.295722
+VIMAM;Microsoft Azure;0.244085
+VIMAM;Amazon AWS;0.241876
+VIMAM;Google Cloud;0.218472
+VIMAM;Rackspace;0.29484
+VIMAM;Microsoft Azure;0.250266
+VIMAM;Amazon AWS;0.226248
+VIMAM;Google Cloud;0.2288
+VIMAM;Rackspace;0.29571
+VIMAM;Microsoft Azure;0.242142
+VIMAM;Amazon AWS;0.245865
+VIMAM;Google Cloud;0.216438
+VIMAM;Rackspace;0.296447
+VIMAM;Microsoft Azure;0.240945
+VIMAM;Amazon AWS;0.247431
+VIMAM;Google Cloud;0.215331
+VIMAM;Rackspace;0.295901
+VIMAM;Microsoft Azure;0.242427
+VIMAM;Amazon AWS;0.245138
+VIMAM;Google Cloud;0.216688
+VIMAM;Rackspace;0.294812
+VIMAM;Microsoft Azure;0.244301
+VIMAM;Amazon AWS;0.242293
+VIMAM;Google Cloud;0.218749
+VIMAM;Rackspace;0.296754
+VIMAM;Microsoft Azure;0.240859
+VIMAM;Amazon AWS;0.247059
+VIMAM;Google Cloud;0.215483
+VIMAM;Rackspace;0.29586
+VIMAM;Microsoft Azure;0.242091
+VIMAM;Amazon AWS;0.245892
+VIMAM;Google Cloud;0.216312
+VIMAM;Rackspace;0.293662
+VIMAM;Microsoft Azure;0.246559
+VIMAM;Amazon AWS;0.23991
+VIMAM;Google Cloud;0.220023
+VIMAM;Rackspace;0.296495
+VIMAM;Microsoft Azure;0.242363
+VIMAM;Amazon AWS;0.24377
+VIMAM;Google Cloud;0.217526
+VIMAM;Rackspace;0.293673
+VIMAM;Microsoft Azure;0.247104
+VIMAM;Amazon AWS;0.239309
+VIMAM;Google Cloud;0.220068
+VIMAM;Rackspace;0.296756
+VIMAM;Microsoft Azure;0.241377
+VIMAM;Amazon AWS;0.24594
+VIMAM;Google Cloud;0.216081
+VIMAM;Rackspace;0.291636
+VIMAM;Microsoft Azure;0.251896
+VIMAM;Amazon AWS;0.230793
+VIMAM;Google Cloud;0.225829
+VIMAM;Rackspace;0.295845
+VIMAM;Microsoft Azure;0.243036
+VIMAM;Amazon AWS;0.243192
+VIMAM;Google Cloud;0.218082
+VIMAM;Rackspace;0.296332
+VIMAM;Microsoft Azure;0.242648
+VIMAM;Amazon AWS;0.243031
+VIMAM;Google Cloud;0.218143
+VIMAM;Rackspace;0.295916
+VIMAM;Microsoft Azure;0.241866
+VIMAM;Amazon AWS;0.246046
+VIMAM;Google Cloud;0.216326
+VIMAM;Rackspace;0.295673
+VIMAM;Microsoft Azure;0.243117
+VIMAM;Amazon AWS;0.243347
+VIMAM;Google Cloud;0.218018
+VIMAM;Rackspace;0.296378
+VIMAM;Microsoft Azure;0.242508
+VIMAM;Amazon AWS;0.243805
+VIMAM;Google Cloud;0.217464
+VIMAM;Rackspace;0.296443
+VIMAM;Microsoft Azure;0.242509
+VIMAM;Amazon AWS;0.243718
+VIMAM;Google Cloud;0.217485
+VIMAM;Rackspace;0.296457
+VIMAM;Microsoft Azure;0.242602
+VIMAM;Amazon AWS;0.243228
+VIMAM;Google Cloud;0.217867
+VIMAM;Rackspace;0.295694
+VIMAM;Microsoft Azure;0.245655
+VIMAM;Amazon AWS;0.237689
+VIMAM;Google Cloud;0.221116
+VIMAM;Rackspace;0.296594
+VIMAM;Microsoft Azure;0.241711
+VIMAM;Amazon AWS;0.246551
+VIMAM;Google Cloud;0.215298
+VIMAM;Rackspace;0.29565
+VIMAM;Microsoft Azure;0.24214
+VIMAM;Amazon AWS;0.246599
+VIMAM;Google Cloud;0.215766
+VIMAM;Rackspace;0.294937
+VIMAM;Microsoft Azure;0.244331
+VIMAM;Amazon AWS;0.242252
+VIMAM;Google Cloud;0.218634
+VIMAM;Rackspace;0.296026
+VIMAM;Microsoft Azure;0.243274
+VIMAM;Amazon AWS;0.242486
+VIMAM;Google Cloud;0.218369
+VIMAM;Rackspace;0.295628
+VIMAM;Microsoft Azure;0.241757
+VIMAM;Amazon AWS;0.247212
+VIMAM;Google Cloud;0.215558
+VIMAM;Rackspace;0.295876
+VIMAM;Microsoft Azure;0.242146
+VIMAM;Amazon AWS;0.245951
+VIMAM;Google Cloud;0.216182
+VIMAM;Rackspace;0.292132
+VIMAM;Microsoft Azure;0.246775
+VIMAM;Amazon AWS;0.243544
+VIMAM;Google Cloud;0.217703
+VIMAM;Rackspace;0.29624
+VIMAM;Microsoft Azure;0.243665
+VIMAM;Amazon AWS;0.241804
+VIMAM;Google Cloud;0.218446
+VIMAM;Rackspace;0.295985
+VIMAM;Microsoft Azure;0.241812
+VIMAM;Amazon AWS;0.246338
+VIMAM;Google Cloud;0.216019
+VIMAM;Rackspace;0.295435
+VIMAM;Microsoft Azure;0.243464
+VIMAM;Amazon AWS;0.243616
+VIMAM;Google Cloud;0.217639
+VIMAM;Rackspace;0.295913
+VIMAM;Microsoft Azure;0.244341
+VIMAM;Amazon AWS;0.240331
+VIMAM;Google Cloud;0.21957
+VIMAM;Rackspace;0.294461
+VIMAM;Microsoft Azure;0.244625
+VIMAM;Amazon AWS;0.242123
+VIMAM;Google Cloud;0.218945
+VIMAM;Rackspace;0.296109
+VIMAM;Microsoft Azure;0.242614
+VIMAM;Amazon AWS;0.244099
+VIMAM;Google Cloud;0.217332
+VIMAM;Rackspace;0.296495
+VIMAM;Microsoft Azure;0.24115
+VIMAM;Amazon AWS;0.246807
+VIMAM;Google Cloud;0.215702
+VIMAM;Rackspace;0.294523
+VIMAM;Microsoft Azure;0.243488
+VIMAM;Amazon AWS;0.245638
+VIMAM;Google Cloud;0.216506
+VIMAM;Rackspace;0.29656
+VIMAM;Microsoft Azure;0.242173
+VIMAM;Amazon AWS;0.244176
+VIMAM;Google Cloud;0.217245
+VIMAM;Rackspace;0.294813
+VIMAM;Microsoft Azure;0.249362
+VIMAM;Amazon AWS;0.231226
+VIMAM;Google Cloud;0.224754
+VIMAM;Rackspace;0.295635
+VIMAM;Microsoft Azure;0.242903
+VIMAM;Amazon AWS;0.244314
+VIMAM;Google Cloud;0.217303
+VIMAM;Rackspace;0.29659
+VIMAM;Microsoft Azure;0.242175
+VIMAM;Amazon AWS;0.244006
+VIMAM;Google Cloud;0.217383
+VIMAM;Rackspace;0.296479
+VIMAM;Microsoft Azure;0.24116
+VIMAM;Amazon AWS;0.24668
+VIMAM;Google Cloud;0.215836
+VIMAM;Rackspace;0.295264
+VIMAM;Microsoft Azure;0.245905
+VIMAM;Amazon AWS;0.237768
+VIMAM;Google Cloud;0.221217
+VIMAM;Rackspace;0.292642
+VIMAM;Microsoft Azure;0.248464
+VIMAM;Amazon AWS;0.236722
+VIMAM;Google Cloud;0.222327
+VIMAM;Rackspace;0.295917
+VIMAM;Microsoft Azure;0.242106
+VIMAM;Amazon AWS;0.245903
+VIMAM;Google Cloud;0.216228
+VIMAM;Rackspace;0.295459
+VIMAM;Microsoft Azure;0.242039
+VIMAM;Amazon AWS;0.246848
+VIMAM;Google Cloud;0.215809
+VIMAM;Rackspace;0.296329
+VIMAM;Microsoft Azure;0.242108
+VIMAM;Amazon AWS;0.244516
+VIMAM;Google Cloud;0.217202
+VIMAM;Rackspace;0.295158
+VIMAM;Microsoft Azure;0.246754
+VIMAM;Amazon AWS;0.23548
+VIMAM;Google Cloud;0.222762
+VIMAM;Rackspace;0.295267
+VIMAM;Microsoft Azure;0.244062
+VIMAM;Amazon AWS;0.242089
+VIMAM;Google Cloud;0.218736
+VIMAM;Rackspace;0.295879
+VIMAM;Microsoft Azure;0.243902
+VIMAM;Amazon AWS;0.240724
+VIMAM;Google Cloud;0.219649
+VIMAM;Rackspace;0.296612
+VIMAM;Microsoft Azure;0.241494
+VIMAM;Amazon AWS;0.245663
+VIMAM;Google Cloud;0.216385
+VIMAM;Rackspace;0.295936
+VIMAM;Microsoft Azure;0.241746
+VIMAM;Amazon AWS;0.246885
+VIMAM;Google Cloud;0.215587
+VIMAM;Rackspace;0.294538
+VIMAM;Microsoft Azure;0.245376
+VIMAM;Amazon AWS;0.239877
+VIMAM;Google Cloud;0.220363
+VIMAM;Rackspace;0.296264
+VIMAM;Microsoft Azure;0.241239
+VIMAM;Amazon AWS;0.247347
+VIMAM;Google Cloud;0.215305
+VIMAM;Rackspace;0.296165
+VIMAM;Microsoft Azure;0.241661
+VIMAM;Amazon AWS;0.246491
+VIMAM;Google Cloud;0.215837
+VIMAM;Rackspace;0.291957
+VIMAM;Microsoft Azure;0.250909
+VIMAM;Amazon AWS;0.231641
+VIMAM;Google Cloud;0.225648
+VIMAM;Rackspace;0.295673
+VIMAM;Microsoft Azure;0.243949
+VIMAM;Amazon AWS;0.241808
+VIMAM;Google Cloud;0.218725
+VIMAM;Rackspace;0.293986
+VIMAM;Microsoft Azure;0.245818
+VIMAM;Amazon AWS;0.239907
+VIMAM;Google Cloud;0.220443
+VIMAM;Rackspace;0.296417
+VIMAM;Microsoft Azure;0.242477
+VIMAM;Amazon AWS;0.243365
+VIMAM;Google Cloud;0.217896
+VIMAM;Rackspace;0.296728
+VIMAM;Microsoft Azure;0.241785
+VIMAM;Amazon AWS;0.245003
+VIMAM;Google Cloud;0.216638
+VIMAM;Rackspace;0.295515
+VIMAM;Microsoft Azure;0.243293
+VIMAM;Amazon AWS;0.243149
+VIMAM;Google Cloud;0.218197
+VIMAM;Rackspace;0.29553
+VIMAM;Microsoft Azure;0.242536
+VIMAM;Amazon AWS;0.245772
+VIMAM;Google Cloud;0.216316
+VIMAM;Rackspace;0.295906
+VIMAM;Microsoft Azure;0.243296
+VIMAM;Amazon AWS;0.242812
+VIMAM;Google Cloud;0.21814
+VIMAM;Rackspace;0.296231
+VIMAM;Microsoft Azure;0.241737
+VIMAM;Amazon AWS;0.24626
+VIMAM;Google Cloud;0.215926
+VIMAM;Rackspace;0.29566
+VIMAM;Microsoft Azure;0.243098
+VIMAM;Amazon AWS;0.24395
+VIMAM;Google Cloud;0.217446
+VIMAM;Rackspace;0.296374
+VIMAM;Microsoft Azure;0.242298
+VIMAM;Amazon AWS;0.244376
+VIMAM;Google Cloud;0.217107
+VIMAM;Rackspace;0.295637
+VIMAM;Microsoft Azure;0.242461
+VIMAM;Amazon AWS;0.245345
+VIMAM;Google Cloud;0.216712
+VIMAM;Rackspace;0.294786
+VIMAM;Microsoft Azure;0.243279
+VIMAM;Amazon AWS;0.245709
+VIMAM;Google Cloud;0.21638
+VIMAM;Rackspace;0.295404
+VIMAM;Microsoft Azure;0.242137
+VIMAM;Amazon AWS;0.246579
+VIMAM;Google Cloud;0.216034
+VIMAM;Rackspace;0.294971
+VIMAM;Microsoft Azure;0.244437
+VIMAM;Amazon AWS;0.241503
+VIMAM;Google Cloud;0.219244
+VIMAM;Rackspace;0.296721
+VIMAM;Microsoft Azure;0.241293
+VIMAM;Amazon AWS;0.24587
+VIMAM;Google Cloud;0.216271
+VIMAM;Rackspace;0.29296
+VIMAM;Microsoft Azure;0.248314
+VIMAM;Amazon AWS;0.236304
+VIMAM;Google Cloud;0.222575
+VIMAM;Rackspace;0.291213
+VIMAM;Microsoft Azure;0.253427
+VIMAM;Amazon AWS;0.226276
+VIMAM;Google Cloud;0.229238
+VIMAM;Rackspace;0.295496
+VIMAM;Microsoft Azure;0.242159
+VIMAM;Amazon AWS;0.246449
+VIMAM;Google Cloud;0.21605
+VIMAM;Rackspace;0.292327
+VIMAM;Microsoft Azure;0.251654
+VIMAM;Amazon AWS;0.228638
+VIMAM;Google Cloud;0.227535
+VIMAM;Rackspace;0.295832
+VIMAM;Microsoft Azure;0.243972
+VIMAM;Amazon AWS;0.241276
+VIMAM;Google Cloud;0.219074
+VIMAM;Rackspace;0.295464
+VIMAM;Microsoft Azure;0.243191
+VIMAM;Amazon AWS;0.244143
+VIMAM;Google Cloud;0.217356
+VIMAM;Rackspace;0.296192
+VIMAM;Microsoft Azure;0.241698
+VIMAM;Amazon AWS;0.246263
+VIMAM;Google Cloud;0.216002
+VIMAM;Rackspace;0.295289
+VIMAM;Microsoft Azure;0.246847
+VIMAM;Amazon AWS;0.236477
+VIMAM;Google Cloud;0.221542
+VIMAM;Rackspace;0.293639
+VIMAM;Microsoft Azure;0.245017
+VIMAM;Amazon AWS;0.244664
+VIMAM;Google Cloud;0.216834
+VIMAM;Rackspace;0.294542
+VIMAM;Microsoft Azure;0.247165
+VIMAM;Amazon AWS;0.238405
+VIMAM;Google Cloud;0.220043
+VIMAM;Rackspace;0.293858
+VIMAM;Microsoft Azure;0.247491
+VIMAM;Amazon AWS;0.237449
+VIMAM;Google Cloud;0.221356
+VIMAM;Rackspace;0.292527
+VIMAM;Microsoft Azure;0.249724
+VIMAM;Amazon AWS;0.233422
+VIMAM;Google Cloud;0.224482
+VIMAM;Rackspace;0.294675
+VIMAM;Microsoft Azure;0.24563
+VIMAM;Amazon AWS;0.239248
+VIMAM;Google Cloud;0.220602
+VIMAM;Rackspace;0.29569
+VIMAM;Microsoft Azure;0.242965
+VIMAM;Amazon AWS;0.24393
+VIMAM;Google Cloud;0.217569
+VIMAM;Rackspace;0.296634
+VIMAM;Microsoft Azure;0.241225
+VIMAM;Amazon AWS;0.246368
+VIMAM;Google Cloud;0.215928
+VIMAM;Rackspace;0.295949
+VIMAM;Microsoft Azure;0.242997
+VIMAM;Amazon AWS;0.243159
+VIMAM;Google Cloud;0.218049
+VIMAM;Rackspace;0.296607
+VIMAM;Microsoft Azure;0.241775
+VIMAM;Amazon AWS;0.244724
+VIMAM;Google Cloud;0.217049
+VIMAM;Rackspace;0.294249
+VIMAM;Microsoft Azure;0.245719
+VIMAM;Amazon AWS;0.239414
+VIMAM;Google Cloud;0.220772
+VIMAM;Rackspace;0.296734
+VIMAM;Microsoft Azure;0.241531
+VIMAM;Amazon AWS;0.245456
+VIMAM;Google Cloud;0.216434
+VIMAM;Rackspace;0.295927
+VIMAM;Microsoft Azure;0.245468
+VIMAM;Amazon AWS;0.237562
+VIMAM;Google Cloud;0.221198
+VIMAM;Rackspace;0.295268
+VIMAM;Microsoft Azure;0.243099
+VIMAM;Amazon AWS;0.244468
+VIMAM;Google Cloud;0.21732
+VIMAM;Rackspace;0.293512
+VIMAM;Microsoft Azure;0.249226
+VIMAM;Amazon AWS;0.233183
+VIMAM;Google Cloud;0.224233
+VIMAM;Rackspace;0.296661
+VIMAM;Microsoft Azure;0.241091
+VIMAM;Amazon AWS;0.246989
+VIMAM;Google Cloud;0.215413
+VIMAM;Rackspace;0.296517
+VIMAM;Microsoft Azure;0.242156
+VIMAM;Amazon AWS;0.244768
+VIMAM;Google Cloud;0.216713
+VIMAM;Rackspace;0.290441
+VIMAM;Microsoft Azure;0.252776
+VIMAM;Amazon AWS;0.232302
+VIMAM;Google Cloud;0.224635
+VIMAM;Rackspace;0.293704
+VIMAM;Microsoft Azure;0.245577
+VIMAM;Amazon AWS;0.242828
+VIMAM;Google Cloud;0.218045
+VIMAM;Rackspace;0.296686
+VIMAM;Microsoft Azure;0.241885
+VIMAM;Amazon AWS;0.245382
+VIMAM;Google Cloud;0.216202
+VIMAM;Rackspace;0.296503
+VIMAM;Microsoft Azure;0.240993
+VIMAM;Amazon AWS;0.247529
+VIMAM;Google Cloud;0.215129
+VIMAM;Rackspace;0.295696
+VIMAM;Microsoft Azure;0.243098
+VIMAM;Amazon AWS;0.244154
+VIMAM;Google Cloud;0.217207
+VIMAM;Rackspace;0.293452
+VIMAM;Microsoft Azure;0.249119
+VIMAM;Amazon AWS;0.232397
+VIMAM;Google Cloud;0.225187
+VIMAM;Rackspace;0.295879
+VIMAM;Microsoft Azure;0.243257
+VIMAM;Amazon AWS;0.243163
+VIMAM;Google Cloud;0.217856
+VIMAM;Rackspace;0.296263
+VIMAM;Microsoft Azure;0.242
+VIMAM;Amazon AWS;0.245304
+VIMAM;Google Cloud;0.216588
+VIMAM;Rackspace;0.296456
+VIMAM;Microsoft Azure;0.24193
+VIMAM;Amazon AWS;0.244776
+VIMAM;Google Cloud;0.216993
+VIMAM;Rackspace;0.296559
+VIMAM;Microsoft Azure;0.242012
+VIMAM;Amazon AWS;0.244289
+VIMAM;Google Cloud;0.217295
+VIMAM;Rackspace;0.295004
+VIMAM;Microsoft Azure;0.243871
+VIMAM;Amazon AWS;0.243549
+VIMAM;Google Cloud;0.21773
+VIMAM;Rackspace;0.29371
+VIMAM;Microsoft Azure;0.251259
+VIMAM;Amazon AWS;0.228479
+VIMAM;Google Cloud;0.226706
+VIMAM;Rackspace;0.296319
+VIMAM;Microsoft Azure;0.241886
+VIMAM;Amazon AWS;0.246305
+VIMAM;Google Cloud;0.215644
+VIMAM;Rackspace;0.295768
+VIMAM;Microsoft Azure;0.242153
+VIMAM;Amazon AWS;0.245925
+VIMAM;Google Cloud;0.216308
+VIMAM;Rackspace;0.295653
+VIMAM;Microsoft Azure;0.24531
+VIMAM;Amazon AWS;0.238803
+VIMAM;Google Cloud;0.220388
+VIMAM;Rackspace;0.292297
+VIMAM;Microsoft Azure;0.249552
+VIMAM;Amazon AWS;0.233453
+VIMAM;Google Cloud;0.224853
+VIMAM;Rackspace;0.295621
+VIMAM;Microsoft Azure;0.24406
+VIMAM;Amazon AWS;0.241785
+VIMAM;Google Cloud;0.218688
+VIMAM;Rackspace;0.29632
+VIMAM;Microsoft Azure;0.242528
+VIMAM;Amazon AWS;0.243413
+VIMAM;Google Cloud;0.217893
+VIMAM;Rackspace;0.296229
+VIMAM;Microsoft Azure;0.241973
+VIMAM;Amazon AWS;0.245589
+VIMAM;Google Cloud;0.216363
+VIMAM;Rackspace;0.295832
+VIMAM;Microsoft Azure;0.24181
+VIMAM;Amazon AWS;0.246729
+VIMAM;Google Cloud;0.215784
+VIMAM;Rackspace;0.296089
+VIMAM;Microsoft Azure;0.242768
+VIMAM;Amazon AWS;0.244161
+VIMAM;Google Cloud;0.217136
+VIMAM;Rackspace;0.295347
+VIMAM;Microsoft Azure;0.244636
+VIMAM;Amazon AWS;0.240694
+VIMAM;Google Cloud;0.219477
+VIMAM;Rackspace;0.296271
+VIMAM;Microsoft Azure;0.242127
+VIMAM;Amazon AWS;0.244737
+VIMAM;Google Cloud;0.217019
+VIMAM;Rackspace;0.294921
+VIMAM;Microsoft Azure;0.242868
+VIMAM;Amazon AWS;0.246045
+VIMAM;Google Cloud;0.21632
+VIMAM;Rackspace;0.295689
+VIMAM;Microsoft Azure;0.242789
+VIMAM;Amazon AWS;0.244513
+VIMAM;Google Cloud;0.217163
+VIMAM;Rackspace;0.296576
+VIMAM;Microsoft Azure;0.241739
+VIMAM;Amazon AWS;0.245181
+VIMAM;Google Cloud;0.216659
+VIMAM;Rackspace;0.295455
+VIMAM;Microsoft Azure;0.2431
+VIMAM;Amazon AWS;0.244825
+VIMAM;Google Cloud;0.216775
+VIMAM;Rackspace;0.291588
+VIMAM;Microsoft Azure;0.248472
+VIMAM;Amazon AWS;0.23793
+VIMAM;Google Cloud;0.222165
+VIMAM;Rackspace;0.296754
+VIMAM;Microsoft Azure;0.241138
+VIMAM;Amazon AWS;0.246557
+VIMAM;Google Cloud;0.215705
+VIMAM;Rackspace;0.295234
+VIMAM;Microsoft Azure;0.248353
+VIMAM;Amazon AWS;0.232532
+VIMAM;Google Cloud;0.224036
+VIMAM;Rackspace;0.29639
+VIMAM;Microsoft Azure;0.242522
+VIMAM;Amazon AWS;0.24374
+VIMAM;Google Cloud;0.217502
+VIMAM;Rackspace;0.295425
+VIMAM;Microsoft Azure;0.241956
+VIMAM;Amazon AWS;0.247182
+VIMAM;Google Cloud;0.215592
+VIMAM;Rackspace;0.29343
+VIMAM;Microsoft Azure;0.244203
+VIMAM;Amazon AWS;0.246079
+VIMAM;Google Cloud;0.216443
+VIMAM;Rackspace;0.295162
+VIMAM;Microsoft Azure;0.244076
+VIMAM;Amazon AWS;0.242134
+VIMAM;Google Cloud;0.218783
+VIMAM;Rackspace;0.296402
+VIMAM;Microsoft Azure;0.242513
+VIMAM;Amazon AWS;0.244134
+VIMAM;Google Cloud;0.217105
+VIMAM;Rackspace;0.293325
+VIMAM;Microsoft Azure;0.249027
+VIMAM;Amazon AWS;0.234193
+VIMAM;Google Cloud;0.223609
+VIMAM;Rackspace;0.296352
+VIMAM;Microsoft Azure;0.241553
+VIMAM;Amazon AWS;0.245972
+VIMAM;Google Cloud;0.216279
+VIMAM;Rackspace;0.295612
+VIMAM;Microsoft Azure;0.244644
+VIMAM;Amazon AWS;0.239995
+VIMAM;Google Cloud;0.219903
+VIMAM;Rackspace;0.293683
+VIMAM;Microsoft Azure;0.247885
+VIMAM;Amazon AWS;0.235227
+VIMAM;Google Cloud;0.223359
+VIMAM;Rackspace;0.295569
+VIMAM;Microsoft Azure;0.242277
+VIMAM;Amazon AWS;0.24564
+VIMAM;Google Cloud;0.216668
+VIMAM;Rackspace;0.296042
+VIMAM;Microsoft Azure;0.242865
+VIMAM;Amazon AWS;0.2437
+VIMAM;Google Cloud;0.217548
+VIMAM;Rackspace;0.295784
+VIMAM;Microsoft Azure;0.244016
+VIMAM;Amazon AWS;0.241045
+VIMAM;Google Cloud;0.219309
+VIMAM;Rackspace;0.295751
+VIMAM;Microsoft Azure;0.243583
+VIMAM;Amazon AWS;0.242246
+VIMAM;Google Cloud;0.218575
+VIMAM;Rackspace;0.295886
+VIMAM;Microsoft Azure;0.242973
+VIMAM;Amazon AWS;0.243654
+VIMAM;Google Cloud;0.217642
+VIMAM;Rackspace;0.295267
+VIMAM;Microsoft Azure;0.243701
+VIMAM;Amazon AWS;0.243041
+VIMAM;Google Cloud;0.218145
+VIMAM;Rackspace;0.295711
+VIMAM;Microsoft Azure;0.242291
+VIMAM;Amazon AWS;0.245723
+VIMAM;Google Cloud;0.216431
+VIMAM;Rackspace;0.296515
+VIMAM;Microsoft Azure;0.241256
+VIMAM;Amazon AWS;0.246381
+VIMAM;Google Cloud;0.216002
+VIMAM;Rackspace;0.295444
+VIMAM;Microsoft Azure;0.243693
+VIMAM;Amazon AWS;0.242621
+VIMAM;Google Cloud;0.218396
+VIMAM;Rackspace;0.296
+VIMAM;Microsoft Azure;0.243196
+VIMAM;Amazon AWS;0.243276
+VIMAM;Google Cloud;0.217683
+VIMAM;Rackspace;0.294302
+VIMAM;Microsoft Azure;0.246741
+VIMAM;Amazon AWS;0.237754
+VIMAM;Google Cloud;0.221357
+VIMAM;Rackspace;0.295453
+VIMAM;Microsoft Azure;0.247561
+VIMAM;Amazon AWS;0.233924
+VIMAM;Google Cloud;0.223216
+VIMAM;Rackspace;0.295791
+VIMAM;Microsoft Azure;0.242701
+VIMAM;Amazon AWS;0.244322
+VIMAM;Google Cloud;0.217341
+VIMAM;Rackspace;0.296643
+VIMAM;Microsoft Azure;0.241831
+VIMAM;Amazon AWS;0.245506
+VIMAM;Google Cloud;0.216173
+VIMAM;Rackspace;0.292219
+VIMAM;Microsoft Azure;0.250793
+VIMAM;Amazon AWS;0.232348
+VIMAM;Google Cloud;0.224794
+VIMAM;Rackspace;0.29438
+VIMAM;Microsoft Azure;0.244572
+VIMAM;Amazon AWS;0.242699
+VIMAM;Google Cloud;0.218503
+VIMAM;Rackspace;0.296039
+VIMAM;Microsoft Azure;0.243316
+VIMAM;Amazon AWS;0.242231
+VIMAM;Google Cloud;0.218568
+VIMAM;Rackspace;0.295094
+VIMAM;Microsoft Azure;0.24458
+VIMAM;Amazon AWS;0.241122
+VIMAM;Google Cloud;0.219358
+VIMAM;Rackspace;0.295047
+VIMAM;Microsoft Azure;0.244795
+VIMAM;Amazon AWS;0.241485
+VIMAM;Google Cloud;0.218827
+VIMAM;Rackspace;0.29651
+VIMAM;Microsoft Azure;0.24244
+VIMAM;Amazon AWS;0.243649
+VIMAM;Google Cloud;0.217556
+VIMAM;Rackspace;0.290685
+VIMAM;Microsoft Azure;0.252055
+VIMAM;Amazon AWS;0.232404
+VIMAM;Google Cloud;0.225011
+VIMAM;Rackspace;0.296516
+VIMAM;Microsoft Azure;0.24235
+VIMAM;Amazon AWS;0.244061
+VIMAM;Google Cloud;0.217228
+VIMAM;Rackspace;0.293604
+VIMAM;Microsoft Azure;0.247566
+VIMAM;Amazon AWS;0.236625
+VIMAM;Google Cloud;0.22236
+VIMAM;Rackspace;0.293941
+VIMAM;Microsoft Azure;0.246065
+VIMAM;Amazon AWS;0.239903
+VIMAM;Google Cloud;0.220245
+VIMAM;Rackspace;0.295145
+VIMAM;Microsoft Azure;0.243889
+VIMAM;Amazon AWS;0.242372
+VIMAM;Google Cloud;0.218748
+VIMAM;Rackspace;0.294444
+VIMAM;Microsoft Azure;0.244522
+VIMAM;Amazon AWS;0.245181
+VIMAM;Google Cloud;0.216007
+VIMAM;Rackspace;0.296566
+VIMAM;Microsoft Azure;0.242879
+VIMAM;Amazon AWS;0.242446
+VIMAM;Google Cloud;0.218263
+VIMAM;Rackspace;0.293955
+VIMAM;Microsoft Azure;0.244765
+VIMAM;Amazon AWS;0.242594
+VIMAM;Google Cloud;0.218841
+VIMAM;Rackspace;0.295694
+VIMAM;Microsoft Azure;0.242016
+VIMAM;Amazon AWS;0.246066
+VIMAM;Google Cloud;0.216379
+VIMAM;Rackspace;0.29086
+VIMAM;Microsoft Azure;0.249783
+VIMAM;Amazon AWS;0.238826
+VIMAM;Google Cloud;0.220686
+VIMAM;Rackspace;0.295764
+VIMAM;Microsoft Azure;0.2434
+VIMAM;Amazon AWS;0.242755
+VIMAM;Google Cloud;0.218236
+VIMAM;Rackspace;0.295206
+VIMAM;Microsoft Azure;0.242972
+VIMAM;Amazon AWS;0.245033
+VIMAM;Google Cloud;0.216944
+VIMAM;Rackspace;0.295886
+VIMAM;Microsoft Azure;0.244358
+VIMAM;Amazon AWS;0.239825
+VIMAM;Google Cloud;0.220086
+VIMAM;Rackspace;0.29565
+VIMAM;Microsoft Azure;0.242956
+VIMAM;Amazon AWS;0.243936
+VIMAM;Google Cloud;0.217613
+VIMAM;Rackspace;0.291497
+VIMAM;Microsoft Azure;0.253213
+VIMAM;Amazon AWS;0.226838
+VIMAM;Google Cloud;0.228606
+VIMAM;Rackspace;0.295978
+VIMAM;Microsoft Azure;0.242841
+VIMAM;Amazon AWS;0.24581
+VIMAM;Google Cloud;0.215526
+VIMAM;Rackspace;0.296497
+VIMAM;Microsoft Azure;0.243024
+VIMAM;Amazon AWS;0.241936
+VIMAM;Google Cloud;0.218698
+VIMAM;Rackspace;0.2954
+VIMAM;Microsoft Azure;0.243215
+VIMAM;Amazon AWS;0.243573
+VIMAM;Google Cloud;0.217967
+VIMAM;Rackspace;0.295851
+VIMAM;Microsoft Azure;0.24296
+VIMAM;Amazon AWS;0.243616
+VIMAM;Google Cloud;0.217727
+VIMAM;Rackspace;0.295915
+VIMAM;Microsoft Azure;0.242722
+VIMAM;Amazon AWS;0.243823
+VIMAM;Google Cloud;0.217694
+VIMAM;Rackspace;0.293756
+VIMAM;Microsoft Azure;0.244422
+VIMAM;Amazon AWS;0.244538
+VIMAM;Google Cloud;0.217439
+VIMAM;Rackspace;0.296154
+VIMAM;Microsoft Azure;0.245196
+VIMAM;Amazon AWS;0.238889
+VIMAM;Google Cloud;0.219916
+VIMAM;Rackspace;0.296014
+VIMAM;Microsoft Azure;0.243669
+VIMAM;Amazon AWS;0.24135
+VIMAM;Google Cloud;0.219121
+VIMAM;Rackspace;0.296207
+VIMAM;Microsoft Azure;0.242462
+VIMAM;Amazon AWS;0.245121
+VIMAM;Google Cloud;0.216364
+VIMAM;Rackspace;0.294916
+VIMAM;Microsoft Azure;0.244337
+VIMAM;Amazon AWS;0.241581
+VIMAM;Google Cloud;0.219321
+VIMAM;Rackspace;0.295288
+VIMAM;Microsoft Azure;0.243387
+VIMAM;Amazon AWS;0.243803
+VIMAM;Google Cloud;0.217676
+VIMAM;Rackspace;0.295667
+VIMAM;Microsoft Azure;0.243016
+VIMAM;Amazon AWS;0.243707
+VIMAM;Google Cloud;0.217765
+VIMAM;Rackspace;0.295602
+VIMAM;Microsoft Azure;0.242728
+VIMAM;Amazon AWS;0.244793
+VIMAM;Google Cloud;0.217031
+VIMAM;Rackspace;0.295765
+VIMAM;Microsoft Azure;0.24257
+VIMAM;Amazon AWS;0.244789
+VIMAM;Google Cloud;0.21703
+VIMAM;Rackspace;0.292598
+VIMAM;Microsoft Azure;0.250103
+VIMAM;Amazon AWS;0.232438
+VIMAM;Google Cloud;0.225016
+VIMAM;Rackspace;0.295964
+VIMAM;Microsoft Azure;0.243089
+VIMAM;Amazon AWS;0.242747
+VIMAM;Google Cloud;0.218354
+VIMAM;Rackspace;0.293724
+VIMAM;Microsoft Azure;0.247958
+VIMAM;Amazon AWS;0.236085
+VIMAM;Google Cloud;0.222388
+VIMAM;Rackspace;0.295138
+VIMAM;Microsoft Azure;0.245328
+VIMAM;Amazon AWS;0.239313
+VIMAM;Google Cloud;0.220376
+VIMAM;Rackspace;0.296544
+VIMAM;Microsoft Azure;0.242031
+VIMAM;Amazon AWS;0.244544
+VIMAM;Google Cloud;0.217036
+VIMAM;Rackspace;0.2957
+VIMAM;Microsoft Azure;0.242921
+VIMAM;Amazon AWS;0.244207
+VIMAM;Google Cloud;0.217328
+VIMAM;Rackspace;0.2961
+VIMAM;Microsoft Azure;0.24349
+VIMAM;Amazon AWS;0.241802
+VIMAM;Google Cloud;0.218763
+VIMAM;Rackspace;0.296134
+VIMAM;Microsoft Azure;0.245188
+VIMAM;Amazon AWS;0.237166
+VIMAM;Google Cloud;0.221666
+VIMAM;Rackspace;0.292192
+VIMAM;Microsoft Azure;0.250309
+VIMAM;Amazon AWS;0.233905
+VIMAM;Google Cloud;0.223748
+VIMAM;Rackspace;0.293741
+VIMAM;Microsoft Azure;0.245131
+VIMAM;Amazon AWS;0.243368
+VIMAM;Google Cloud;0.217914
+VIMAM;Rackspace;0.295801
+VIMAM;Microsoft Azure;0.243684
+VIMAM;Amazon AWS;0.241817
+VIMAM;Google Cloud;0.218853
+VIMAM;Rackspace;0.292815
+VIMAM;Microsoft Azure;0.249438
+VIMAM;Amazon AWS;0.233806
+VIMAM;Google Cloud;0.224095
+VIMAM;Rackspace;0.294768
+VIMAM;Microsoft Azure;0.244411
+VIMAM;Amazon AWS;0.242363
+VIMAM;Google Cloud;0.218613
+VIMAM;Rackspace;0.294561
+VIMAM;Microsoft Azure;0.243029
+VIMAM;Amazon AWS;0.246268
+VIMAM;Google Cloud;0.216296
+VIMAM;Rackspace;0.296433
+VIMAM;Microsoft Azure;0.242234
+VIMAM;Amazon AWS;0.244437
+VIMAM;Google Cloud;0.217051
+VIMAM;Rackspace;0.296211
+VIMAM;Microsoft Azure;0.241937
+VIMAM;Amazon AWS;0.245761
+VIMAM;Google Cloud;0.216246
+VIMAM;Rackspace;0.295491
+VIMAM;Microsoft Azure;0.243065
+VIMAM;Amazon AWS;0.244311
+VIMAM;Google Cloud;0.217288
+VIMAM;Rackspace;0.294388
+VIMAM;Microsoft Azure;0.244823
+VIMAM;Amazon AWS;0.241777
+VIMAM;Google Cloud;0.219167
+VIMAM;Rackspace;0.295482
+VIMAM;Microsoft Azure;0.242582
+VIMAM;Amazon AWS;0.245179
+VIMAM;Google Cloud;0.216912
+VIMAM;Rackspace;0.296362
+VIMAM;Microsoft Azure;0.244375
+VIMAM;Amazon AWS;0.239649
+VIMAM;Google Cloud;0.219769
+VIMAM;Rackspace;0.294485
+VIMAM;Microsoft Azure;0.24553
+VIMAM;Amazon AWS;0.240338
+VIMAM;Google Cloud;0.219801
+VIMAM;Rackspace;0.295047
+VIMAM;Microsoft Azure;0.244645
+VIMAM;Amazon AWS;0.241046
+VIMAM;Google Cloud;0.219417
+VIMAM;Rackspace;0.295666
+VIMAM;Microsoft Azure;0.243703
+VIMAM;Amazon AWS;0.242204
+VIMAM;Google Cloud;0.218581
+VIMAM;Rackspace;0.295184
+VIMAM;Microsoft Azure;0.245855
+VIMAM;Amazon AWS;0.238963
+VIMAM;Google Cloud;0.220152
+VIMAM;Rackspace;0.295758
+VIMAM;Microsoft Azure;0.243332
+VIMAM;Amazon AWS;0.242961
+VIMAM;Google Cloud;0.218103
+VIMAM;Rackspace;0.295736
+VIMAM;Microsoft Azure;0.242662
+VIMAM;Amazon AWS;0.244832
+VIMAM;Google Cloud;0.216925
+VIMAM;Rackspace;0.295575
+VIMAM;Microsoft Azure;0.24321
+VIMAM;Amazon AWS;0.243896
+VIMAM;Google Cloud;0.217473
+VIMAM;Rackspace;0.296754
+VIMAM;Microsoft Azure;0.240962
+VIMAM;Amazon AWS;0.246949
+VIMAM;Google Cloud;0.21549
+VIMAM;Rackspace;0.295722
+VIMAM;Microsoft Azure;0.243428
+VIMAM;Amazon AWS;0.243012
+VIMAM;Google Cloud;0.217993
+VIMAM;Rackspace;0.294339
+VIMAM;Microsoft Azure;0.243146
+VIMAM;Amazon AWS;0.246326
+VIMAM;Google Cloud;0.216343
+VIMAM;Rackspace;0.291992
+VIMAM;Microsoft Azure;0.248288
+VIMAM;Amazon AWS;0.23758
+VIMAM;Google Cloud;0.222295
+VIMAM;Rackspace;0.289305
+VIMAM;Microsoft Azure;0.252621
+VIMAM;Amazon AWS;0.235901
+VIMAM;Google Cloud;0.222327
+VIMAM;Rackspace;0.295064
+VIMAM;Microsoft Azure;0.2434
+VIMAM;Amazon AWS;0.244591
+VIMAM;Google Cloud;0.2171
+VIMAM;Rackspace;0.296074
+VIMAM;Microsoft Azure;0.241675
+VIMAM;Amazon AWS;0.246639
+VIMAM;Google Cloud;0.215767
+VIMAM;Rackspace;0.296582
+VIMAM;Microsoft Azure;0.242424
+VIMAM;Amazon AWS;0.243955
+VIMAM;Google Cloud;0.217194
+VIMAM;Rackspace;0.290267
+VIMAM;Microsoft Azure;0.251736
+VIMAM;Amazon AWS;0.237984
+VIMAM;Google Cloud;0.220167
+VIMAM;Rackspace;0.295315
+VIMAM;Microsoft Azure;0.242913
+VIMAM;Amazon AWS;0.244578
+VIMAM;Google Cloud;0.217348
+VIMAM;Rackspace;0.295432
+VIMAM;Microsoft Azure;0.244077
+VIMAM;Amazon AWS;0.241502
+VIMAM;Google Cloud;0.219143
+VIMAM;Rackspace;0.296246
+VIMAM;Microsoft Azure;0.242006
+VIMAM;Amazon AWS;0.245045
+VIMAM;Google Cloud;0.216857
+VIMAM;Rackspace;0.295392
+VIMAM;Microsoft Azure;0.24318
+VIMAM;Amazon AWS;0.244211
+VIMAM;Google Cloud;0.217371
+VIMAM;Rackspace;0.293962
+VIMAM;Microsoft Azure;0.246027
+VIMAM;Amazon AWS;0.240524
+VIMAM;Google Cloud;0.219642
+VIMAM;Rackspace;0.29502
+VIMAM;Microsoft Azure;0.25368
+VIMAM;Amazon AWS;0.219426
+VIMAM;Google Cloud;0.232028
+VIMAM;Rackspace;0.294948
+VIMAM;Microsoft Azure;0.246977
+VIMAM;Amazon AWS;0.235617
+VIMAM;Google Cloud;0.222613
+VIMAM;Rackspace;0.293026
+VIMAM;Microsoft Azure;0.250713
+VIMAM;Amazon AWS;0.230137
+VIMAM;Google Cloud;0.226278
+VIMAM;Rackspace;0.294399
+VIMAM;Microsoft Azure;0.243146
+VIMAM;Amazon AWS;0.246228
+VIMAM;Google Cloud;0.216381
+VIMAM;Rackspace;0.295669
+VIMAM;Microsoft Azure;0.243247
+VIMAM;Amazon AWS;0.243371
+VIMAM;Google Cloud;0.217868
+VIMAM;Rackspace;0.294836
+VIMAM;Microsoft Azure;0.244438
+VIMAM;Amazon AWS;0.242158
+VIMAM;Google Cloud;0.218723
+VIMAM;Rackspace;0.294445
+VIMAM;Microsoft Azure;0.245672
+VIMAM;Amazon AWS;0.239714
+VIMAM;Google Cloud;0.220324
+VIMAM;Rackspace;0.295633
+VIMAM;Microsoft Azure;0.242592
+VIMAM;Amazon AWS;0.245256
+VIMAM;Google Cloud;0.216674
+VIMAM;Rackspace;0.290475
+VIMAM;Microsoft Azure;0.24916
+VIMAM;Amazon AWS;0.239985
+VIMAM;Google Cloud;0.220535
+VIMAM;Rackspace;0.290342
+VIMAM;Microsoft Azure;0.252
+VIMAM;Amazon AWS;0.232491
+VIMAM;Google Cloud;0.225321
+VIMAM;Rackspace;0.296204
+VIMAM;Microsoft Azure;0.241624
+VIMAM;Amazon AWS;0.246685
+VIMAM;Google Cloud;0.215642
+VIMAM;Rackspace;0.295936
+VIMAM;Microsoft Azure;0.243027
+VIMAM;Amazon AWS;0.243159
+VIMAM;Google Cloud;0.218033
+VIMAM;Rackspace;0.2958
+VIMAM;Microsoft Azure;0.242732
+VIMAM;Amazon AWS;0.244098
+VIMAM;Google Cloud;0.217525
+VIMAM;Rackspace;0.292266
+VIMAM;Microsoft Azure;0.251781
+VIMAM;Amazon AWS;0.229881
+VIMAM;Google Cloud;0.226226
+VIMAM;Rackspace;0.296499
+VIMAM;Microsoft Azure;0.241525
+VIMAM;Amazon AWS;0.245825
+VIMAM;Google Cloud;0.216306
+VIMAM;Rackspace;0.294653
+VIMAM;Microsoft Azure;0.245317
+VIMAM;Amazon AWS;0.239763
+VIMAM;Google Cloud;0.220421
+VIMAM;Rackspace;0.296515
+VIMAM;Microsoft Azure;0.241431
+VIMAM;Amazon AWS;0.24602
+VIMAM;Google Cloud;0.216188
+VIMAM;Rackspace;0.29532
+VIMAM;Microsoft Azure;0.242343
+VIMAM;Amazon AWS;0.246316
+VIMAM;Google Cloud;0.216176
+VIMAM;Rackspace;0.296659
+VIMAM;Microsoft Azure;0.241132
+VIMAM;Amazon AWS;0.246455
+VIMAM;Google Cloud;0.215908
+VIMAM;Rackspace;0.295881
+VIMAM;Microsoft Azure;0.243545
+VIMAM;Amazon AWS;0.242206
+VIMAM;Google Cloud;0.218522
+VIMAM;Rackspace;0.295282
+VIMAM;Microsoft Azure;0.248461
+VIMAM;Amazon AWS;0.22999
+VIMAM;Google Cloud;0.226422
+VIMAM;Rackspace;0.296424
+VIMAM;Microsoft Azure;0.241642
+VIMAM;Amazon AWS;0.246059
+VIMAM;Google Cloud;0.216029
+VIMAM;Rackspace;0.294878
+VIMAM;Microsoft Azure;0.243716
+VIMAM;Amazon AWS;0.243445
+VIMAM;Google Cloud;0.218116
+VIMAM;Rackspace;0.296182
+VIMAM;Microsoft Azure;0.245455
+VIMAM;Amazon AWS;0.237541
+VIMAM;Google Cloud;0.220977
+VIMAM;Rackspace;0.293138
+VIMAM;Microsoft Azure;0.245836
+VIMAM;Amazon AWS;0.242146
+VIMAM;Google Cloud;0.219035
+VIMAM;Rackspace;0.296119
+VIMAM;Microsoft Azure;0.241859
+VIMAM;Amazon AWS;0.246158
+VIMAM;Google Cloud;0.216019
+VIMAM;Rackspace;0.29584
+VIMAM;Microsoft Azure;0.243219
+VIMAM;Amazon AWS;0.242943
+VIMAM;Google Cloud;0.218153
+VIMAM;Rackspace;0.292327
+VIMAM;Microsoft Azure;0.247572
+VIMAM;Amazon AWS;0.240067
+VIMAM;Google Cloud;0.220188
+VIMAM;Rackspace;0.295038
+VIMAM;Microsoft Azure;0.249993
+VIMAM;Amazon AWS;0.226445
+VIMAM;Google Cloud;0.228679
+VIMAM;Rackspace;0.296359
+VIMAM;Microsoft Azure;0.241379
+VIMAM;Amazon AWS;0.246929
+VIMAM;Google Cloud;0.215487
+VIMAM;Rackspace;0.295689
+VIMAM;Microsoft Azure;0.242153
+VIMAM;Amazon AWS;0.245833
+VIMAM;Google Cloud;0.216479
+VIMAM;Rackspace;0.29503
+VIMAM;Microsoft Azure;0.242641
+VIMAM;Amazon AWS;0.246157
+VIMAM;Google Cloud;0.216326
+VIMAM;Rackspace;0.294952
+VIMAM;Microsoft Azure;0.24389
+VIMAM;Amazon AWS;0.243084
+VIMAM;Google Cloud;0.218228
+VIMAM;Rackspace;0.293799
+VIMAM;Microsoft Azure;0.251538
+VIMAM;Amazon AWS;0.227805
+VIMAM;Google Cloud;0.227013
+VIMAM;Rackspace;0.29517
+VIMAM;Microsoft Azure;0.243677
+VIMAM;Amazon AWS;0.243571
+VIMAM;Google Cloud;0.217735
+VIMAM;Rackspace;0.296441
+VIMAM;Microsoft Azure;0.241945
+VIMAM;Amazon AWS;0.245012
+VIMAM;Google Cloud;0.216757
+VIMAM;Rackspace;0.295952
+VIMAM;Microsoft Azure;0.242862
+VIMAM;Amazon AWS;0.243458
+VIMAM;Google Cloud;0.217883
+VIMAM;Rackspace;0.29594
+VIMAM;Microsoft Azure;0.243047
+VIMAM;Amazon AWS;0.242875
+VIMAM;Google Cloud;0.218293
+VIMAM;Rackspace;0.296449
+VIMAM;Microsoft Azure;0.243947
+VIMAM;Amazon AWS;0.240755
+VIMAM;Google Cloud;0.219004
+VIMAM;Rackspace;0.293824
+VIMAM;Microsoft Azure;0.246237
+VIMAM;Amazon AWS;0.240578
+VIMAM;Google Cloud;0.219515
+VIMAM;Rackspace;0.295145
+VIMAM;Microsoft Azure;0.243193
+VIMAM;Amazon AWS;0.244216
+VIMAM;Google Cloud;0.2176
+VIMAM;Rackspace;0.296405
+VIMAM;Microsoft Azure;0.242408
+VIMAM;Amazon AWS;0.243622
+VIMAM;Google Cloud;0.21772
+VIMAM;Rackspace;0.295918
+VIMAM;Microsoft Azure;0.242089
+VIMAM;Amazon AWS;0.245947
+VIMAM;Google Cloud;0.2162
+VIMAM;Rackspace;0.29668
+VIMAM;Microsoft Azure;0.24127
+VIMAM;Amazon AWS;0.247193
+VIMAM;Google Cloud;0.215011
+VIMAM;Rackspace;0.294416
+VIMAM;Microsoft Azure;0.247249
+VIMAM;Amazon AWS;0.236293
+VIMAM;Google Cloud;0.222196
+VIMAM;Rackspace;0.295546
+VIMAM;Microsoft Azure;0.242758
+VIMAM;Amazon AWS;0.244408
+VIMAM;Google Cloud;0.217441
+VIMAM;Rackspace;0.295343
+VIMAM;Microsoft Azure;0.242619
+VIMAM;Amazon AWS;0.245675
+VIMAM;Google Cloud;0.216517
+VIMAM;Rackspace;0.294795
+VIMAM;Microsoft Azure;0.247511
+VIMAM;Amazon AWS;0.23362
+VIMAM;Google Cloud;0.224229
+VIMAM;Rackspace;0.296183
+VIMAM;Microsoft Azure;0.242467
+VIMAM;Amazon AWS;0.244041
+VIMAM;Google Cloud;0.217463
+VIMAM;Rackspace;0.29294
+VIMAM;Microsoft Azure;0.246779
+VIMAM;Amazon AWS;0.240157
+VIMAM;Google Cloud;0.220279
+VIMAM;Rackspace;0.295686
+VIMAM;Microsoft Azure;0.24303
+VIMAM;Amazon AWS;0.243483
+VIMAM;Google Cloud;0.217956
+VIMAM;Rackspace;0.296242
+VIMAM;Microsoft Azure;0.241885
+VIMAM;Amazon AWS;0.245705
+VIMAM;Google Cloud;0.216323
+VIMAM;Rackspace;0.295576
+VIMAM;Microsoft Azure;0.242286
+VIMAM;Amazon AWS;0.246663
+VIMAM;Google Cloud;0.21563
+VIMAM;Rackspace;0.295542
+VIMAM;Microsoft Azure;0.242103
+VIMAM;Amazon AWS;0.24625
+VIMAM;Google Cloud;0.216259
+VIMAM;Rackspace;0.292124
+VIMAM;Microsoft Azure;0.250696
+VIMAM;Amazon AWS;0.232399
+VIMAM;Google Cloud;0.224935
+VIMAM;Rackspace;0.295812
+VIMAM;Microsoft Azure;0.242784
+VIMAM;Amazon AWS;0.243824
+VIMAM;Google Cloud;0.217734
+VIMAM;Rackspace;0.294224
+VIMAM;Microsoft Azure;0.246892
+VIMAM;Amazon AWS;0.237681
+VIMAM;Google Cloud;0.221359
+VIMAM;Rackspace;0.296186
+VIMAM;Microsoft Azure;0.242677
+VIMAM;Amazon AWS;0.243722
+VIMAM;Google Cloud;0.217569
+VIMAM;Rackspace;0.296386
+VIMAM;Microsoft Azure;0.242383
+VIMAM;Amazon AWS;0.243769
+VIMAM;Google Cloud;0.217616
+VIMAM;Rackspace;0.296266
+VIMAM;Microsoft Azure;0.242036
+VIMAM;Amazon AWS;0.245022
+VIMAM;Google Cloud;0.21683
+VIMAM;Rackspace;0.295873
+VIMAM;Microsoft Azure;0.242242
+VIMAM;Amazon AWS;0.245066
+VIMAM;Google Cloud;0.216972
+VIMAM;Rackspace;0.295036
+VIMAM;Microsoft Azure;0.243086
+VIMAM;Amazon AWS;0.245133
+VIMAM;Google Cloud;0.2169
+VIMAM;Rackspace;0.292482
+VIMAM;Microsoft Azure;0.251919
+VIMAM;Amazon AWS;0.229937
+VIMAM;Google Cloud;0.225816
+VIMAM;Rackspace;0.295924
+VIMAM;Microsoft Azure;0.242364
+VIMAM;Amazon AWS;0.244842
+VIMAM;Google Cloud;0.217025
+VIMAM;Rackspace;0.295623
+VIMAM;Microsoft Azure;0.24236
+VIMAM;Amazon AWS;0.24544
+VIMAM;Google Cloud;0.216731
+VIMAM;Rackspace;0.295482
+VIMAM;Microsoft Azure;0.244051
+VIMAM;Amazon AWS;0.242313
+VIMAM;Google Cloud;0.218308
+VIMAM;Rackspace;0.2929
+VIMAM;Microsoft Azure;0.248145
+VIMAM;Amazon AWS;0.23674
+VIMAM;Google Cloud;0.222369
+VIMAM;Rackspace;0.295613
+VIMAM;Microsoft Azure;0.24398
+VIMAM;Amazon AWS;0.24188
+VIMAM;Google Cloud;0.218681
+VIMAM;Rackspace;0.296073
+VIMAM;Microsoft Azure;0.242505
+VIMAM;Amazon AWS;0.24439
+VIMAM;Google Cloud;0.217186
+VIMAM;Rackspace;0.295583
+VIMAM;Microsoft Azure;0.241861
+VIMAM;Amazon AWS;0.247201
+VIMAM;Google Cloud;0.21551
+VIMAM;Rackspace;0.295017
+VIMAM;Microsoft Azure;0.244512
+VIMAM;Amazon AWS;0.241163
+VIMAM;Google Cloud;0.219462
+VIMAM;Rackspace;0.296008
+VIMAM;Microsoft Azure;0.241863
+VIMAM;Amazon AWS;0.246204
+VIMAM;Google Cloud;0.216079
+VIMAM;Rackspace;0.29551
+VIMAM;Microsoft Azure;0.243277
+VIMAM;Amazon AWS;0.243536
+VIMAM;Google Cloud;0.217832
+VIMAM;Rackspace;0.293904
+VIMAM;Microsoft Azure;0.246373
+VIMAM;Amazon AWS;0.239435
+VIMAM;Google Cloud;0.220442
+VIMAM;Rackspace;0.29564
+VIMAM;Microsoft Azure;0.242007
+VIMAM;Amazon AWS;0.246466
+VIMAM;Google Cloud;0.216042
+VIMAM;Rackspace;0.296701
+VIMAM;Microsoft Azure;0.241302
+VIMAM;Amazon AWS;0.246057
+VIMAM;Google Cloud;0.216094
+VIMAM;Rackspace;0.296074
+VIMAM;Microsoft Azure;0.242648
+VIMAM;Amazon AWS;0.244689
+VIMAM;Google Cloud;0.216742
+VIMAM;Rackspace;0.295913
+VIMAM;Microsoft Azure;0.242672
+VIMAM;Amazon AWS;0.244723
+VIMAM;Google Cloud;0.216847
+VIMAM;Rackspace;0.296318
+VIMAM;Microsoft Azure;0.242
+VIMAM;Amazon AWS;0.245026
+VIMAM;Google Cloud;0.21681
+VIMAM;Rackspace;0.290773
+VIMAM;Microsoft Azure;0.251999
+VIMAM;Amazon AWS;0.233521
+VIMAM;Google Cloud;0.223862
+VIMAM;Rackspace;0.296738
+VIMAM;Microsoft Azure;0.241083
+VIMAM;Amazon AWS;0.246311
+VIMAM;Google Cloud;0.216022
+VIMAM;Rackspace;0.296869
+VIMAM;Microsoft Azure;0.240644
+VIMAM;Amazon AWS;0.247588
+VIMAM;Google Cloud;0.215054
+VIMAM;Rackspace;0.296205
+VIMAM;Microsoft Azure;0.241914
+VIMAM;Amazon AWS;0.245262
+VIMAM;Google Cloud;0.216773
+VIMAM;Rackspace;0.295762
+VIMAM;Microsoft Azure;0.2429
+VIMAM;Amazon AWS;0.243737
+VIMAM;Google Cloud;0.217756
+VIMAM;Rackspace;0.296399
+VIMAM;Microsoft Azure;0.24273
+VIMAM;Amazon AWS;0.243159
+VIMAM;Google Cloud;0.217867
+VIMAM;Rackspace;0.296294
+VIMAM;Microsoft Azure;0.241955
+VIMAM;Amazon AWS;0.246234
+VIMAM;Google Cloud;0.215672
+VIMAM;Rackspace;0.295167
+VIMAM;Microsoft Azure;0.242439
+VIMAM;Amazon AWS;0.246592
+VIMAM;Google Cloud;0.215957
+VIMAM;Rackspace;0.294992
+VIMAM;Microsoft Azure;0.244642
+VIMAM;Amazon AWS;0.240779
+VIMAM;Google Cloud;0.219741
+VIMAM;Rackspace;0.296482
+VIMAM;Microsoft Azure;0.24208
+VIMAM;Amazon AWS;0.244917
+VIMAM;Google Cloud;0.216675
+VIMAM;Rackspace;0.296488
+VIMAM;Microsoft Azure;0.242008
+VIMAM;Amazon AWS;0.24448
+VIMAM;Google Cloud;0.217178
+VIMAM;Rackspace;0.295221
+VIMAM;Microsoft Azure;0.247259
+VIMAM;Amazon AWS;0.23471
+VIMAM;Google Cloud;0.222965
+VIMAM;Rackspace;0.295301
+VIMAM;Microsoft Azure;0.243789
+VIMAM;Amazon AWS;0.242467
+VIMAM;Google Cloud;0.218597
+VIMAM;Rackspace;0.295278
+VIMAM;Microsoft Azure;0.244096
+VIMAM;Amazon AWS;0.243595
+VIMAM;Google Cloud;0.217186
+VIMAM;Rackspace;0.295818
+VIMAM;Microsoft Azure;0.242614
+VIMAM;Amazon AWS;0.244695
+VIMAM;Google Cloud;0.217028
+VIMAM;Rackspace;0.296625
+VIMAM;Microsoft Azure;0.242051
+VIMAM;Amazon AWS;0.244395
+VIMAM;Google Cloud;0.217083
+VIMAM;Rackspace;0.296535
+VIMAM;Microsoft Azure;0.241563
+VIMAM;Amazon AWS;0.246087
+VIMAM;Google Cloud;0.21597
+VIMAM;Rackspace;0.296475
+VIMAM;Microsoft Azure;0.242322
+VIMAM;Amazon AWS;0.24362
+VIMAM;Google Cloud;0.217738
+VIMAM;Rackspace;0.296151
+VIMAM;Microsoft Azure;0.241479
+VIMAM;Amazon AWS;0.246947
+VIMAM;Google Cloud;0.215578
+VIMAM;Rackspace;0.292828
+VIMAM;Microsoft Azure;0.246476
+VIMAM;Amazon AWS;0.240776
+VIMAM;Google Cloud;0.220074
+VIMAM;Rackspace;0.294286
+VIMAM;Microsoft Azure;0.245038
+VIMAM;Amazon AWS;0.241766
+VIMAM;Google Cloud;0.219064
+VIMAM;Rackspace;0.294784
+VIMAM;Microsoft Azure;0.243478
+VIMAM;Amazon AWS;0.245019
+VIMAM;Google Cloud;0.216874
+VIMAM;Rackspace;0.295625
+VIMAM;Microsoft Azure;0.242941
+VIMAM;Amazon AWS;0.243868
+VIMAM;Google Cloud;0.21772
+VIMAM;Rackspace;0.296079
+VIMAM;Microsoft Azure;0.241762
+VIMAM;Amazon AWS;0.246738
+VIMAM;Google Cloud;0.215575
+VIMAM;Rackspace;0.296383
+VIMAM;Microsoft Azure;0.243067
+VIMAM;Amazon AWS;0.242174
+VIMAM;Google Cloud;0.21853
+VIMAM;Rackspace;0.295765
+VIMAM;Microsoft Azure;0.243197
+VIMAM;Amazon AWS;0.243623
+VIMAM;Google Cloud;0.21757
+VIMAM;Rackspace;0.296078
+VIMAM;Microsoft Azure;0.24205
+VIMAM;Amazon AWS;0.245322
+VIMAM;Google Cloud;0.216704
+VIMAM;Rackspace;0.295756
+VIMAM;Microsoft Azure;0.242492
+VIMAM;Amazon AWS;0.245145
+VIMAM;Google Cloud;0.216761
+VIMAM;Rackspace;0.295544
+VIMAM;Microsoft Azure;0.244505
+VIMAM;Amazon AWS;0.240529
+VIMAM;Google Cloud;0.219576
+VIMAM;Rackspace;0.294095
+VIMAM;Microsoft Azure;0.245321
+VIMAM;Amazon AWS;0.241426
+VIMAM;Google Cloud;0.219313
+VIMAM;Rackspace;0.29647
+VIMAM;Microsoft Azure;0.242146
+VIMAM;Amazon AWS;0.244602
+VIMAM;Google Cloud;0.216936
+VIMAM;Rackspace;0.294274
+VIMAM;Microsoft Azure;0.245362
+VIMAM;Amazon AWS;0.240523
+VIMAM;Google Cloud;0.219996
+VIMAM;Rackspace;0.292858
+VIMAM;Microsoft Azure;0.246299
+VIMAM;Amazon AWS;0.241871
+VIMAM;Google Cloud;0.219127
+VIMAM;Rackspace;0.294683
+VIMAM;Microsoft Azure;0.247421
+VIMAM;Amazon AWS;0.235507
+VIMAM;Google Cloud;0.222542
+VIMAM;Rackspace;0.294309
+VIMAM;Microsoft Azure;0.24695
+VIMAM;Amazon AWS;0.236782
+VIMAM;Google Cloud;0.222113
+VIMAM;Rackspace;0.296257
+VIMAM;Microsoft Azure;0.243477
+VIMAM;Amazon AWS;0.241602
+VIMAM;Google Cloud;0.218818
+VIMAM;Rackspace;0.294584
+VIMAM;Microsoft Azure;0.247579
+VIMAM;Amazon AWS;0.235411
+VIMAM;Google Cloud;0.22258
+VIMAM;Rackspace;0.296402
+VIMAM;Microsoft Azure;0.242434
+VIMAM;Amazon AWS;0.243481
+VIMAM;Google Cloud;0.217837
+VIMAM;Rackspace;0.29524
+VIMAM;Microsoft Azure;0.243187
+VIMAM;Amazon AWS;0.24499
+VIMAM;Google Cloud;0.216738
+VIMAM;Rackspace;0.29598
+VIMAM;Microsoft Azure;0.241919
+VIMAM;Amazon AWS;0.246268
+VIMAM;Google Cloud;0.215988
+VIMAM;Rackspace;0.296236
+VIMAM;Microsoft Azure;0.241948
+VIMAM;Amazon AWS;0.245327
+VIMAM;Google Cloud;0.216643
+VIMAM;Rackspace;0.29611
+VIMAM;Microsoft Azure;0.243369
+VIMAM;Amazon AWS;0.242114
+VIMAM;Google Cloud;0.218561
+VIMAM;Rackspace;0.296524
+VIMAM;Microsoft Azure;0.241374
+VIMAM;Amazon AWS;0.246063
+VIMAM;Google Cloud;0.216192
+VIMAM;Rackspace;0.295116
+VIMAM;Microsoft Azure;0.242763
+VIMAM;Amazon AWS;0.24594
+VIMAM;Google Cloud;0.216336
+VIMAM;Rackspace;0.295669
+VIMAM;Microsoft Azure;0.242547
+VIMAM;Amazon AWS;0.244698
+VIMAM;Google Cloud;0.217241
+VIMAM;Rackspace;0.295214
+VIMAM;Microsoft Azure;0.243273
+VIMAM;Amazon AWS;0.244004
+VIMAM;Google Cloud;0.217664
+VIMAM;Rackspace;0.295929
+VIMAM;Microsoft Azure;0.241805
+VIMAM;Amazon AWS;0.246311
+VIMAM;Google Cloud;0.216109
+VIMAM;Rackspace;0.293914
+VIMAM;Microsoft Azure;0.250877
+VIMAM;Amazon AWS;0.227177
+VIMAM;Google Cloud;0.228187
+VIMAM;Rackspace;0.295388
+VIMAM;Microsoft Azure;0.243607
+VIMAM;Amazon AWS;0.243009
+VIMAM;Google Cloud;0.21815
+VIMAM;Rackspace;0.295797
+VIMAM;Microsoft Azure;0.242153
+VIMAM;Amazon AWS;0.245639
+VIMAM;Google Cloud;0.216566
+VIMAM;Rackspace;0.295661
+VIMAM;Microsoft Azure;0.242917
+VIMAM;Amazon AWS;0.244197
+VIMAM;Google Cloud;0.217379
+VIMAM;Rackspace;0.296325
+VIMAM;Microsoft Azure;0.242409
+VIMAM;Amazon AWS;0.243898
+VIMAM;Google Cloud;0.217523
+VIMAM;Rackspace;0.292166
+VIMAM;Microsoft Azure;0.247352
+VIMAM;Amazon AWS;0.239871
+VIMAM;Google Cloud;0.220766
+VIMAM;Rackspace;0.294736
+VIMAM;Microsoft Azure;0.243812
+VIMAM;Amazon AWS;0.243811
+VIMAM;Google Cloud;0.217797
+VIMAM;Rackspace;0.296381
+VIMAM;Microsoft Azure;0.241219
+VIMAM;Amazon AWS;0.246858
+VIMAM;Google Cloud;0.215697
+VIMAM;Rackspace;0.296342
+VIMAM;Microsoft Azure;0.243584
+VIMAM;Amazon AWS;0.240769
+VIMAM;Google Cloud;0.21946
+VIMAM;Rackspace;0.296212
+VIMAM;Microsoft Azure;0.242314
+VIMAM;Amazon AWS;0.244584
+VIMAM;Google Cloud;0.217044
+VIMAM;Rackspace;0.296319
+VIMAM;Microsoft Azure;0.241388
+VIMAM;Amazon AWS;0.246855
+VIMAM;Google Cloud;0.215592
+VIMAM;Rackspace;0.296655
+VIMAM;Microsoft Azure;0.243423
+VIMAM;Amazon AWS;0.244237
+VIMAM;Google Cloud;0.21584
+VIMAM;Rackspace;0.295329
+VIMAM;Microsoft Azure;0.243334
+VIMAM;Amazon AWS;0.244026
+VIMAM;Google Cloud;0.217466
+VIMAM;Rackspace;0.295027
+VIMAM;Microsoft Azure;0.244513
+VIMAM;Amazon AWS;0.240939
+VIMAM;Google Cloud;0.219676
+VIMAM;Rackspace;0.295944
+VIMAM;Microsoft Azure;0.242091
+VIMAM;Amazon AWS;0.245608
+VIMAM;Google Cloud;0.216512
+VIMAM;Rackspace;0.294318
+VIMAM;Microsoft Azure;0.245737
+VIMAM;Amazon AWS;0.23976
+VIMAM;Google Cloud;0.22034
+VIMAM;Rackspace;0.295595
+VIMAM;Microsoft Azure;0.242681
+VIMAM;Amazon AWS;0.244746
+VIMAM;Google Cloud;0.217133
+VIMAM;Rackspace;0.295775
+VIMAM;Microsoft Azure;0.243108
+VIMAM;Amazon AWS;0.243243
+VIMAM;Google Cloud;0.218029
+VIMAM;Rackspace;0.295978
+VIMAM;Microsoft Azure;0.243403
+VIMAM;Amazon AWS;0.242386
+VIMAM;Google Cloud;0.218388
+VIMAM;Rackspace;0.296134
+VIMAM;Microsoft Azure;0.241698
+VIMAM;Amazon AWS;0.246441
+VIMAM;Google Cloud;0.215881
+VIMAM;Rackspace;0.294862
+VIMAM;Microsoft Azure;0.243203
+VIMAM;Amazon AWS;0.244841
+VIMAM;Google Cloud;0.21725
+VIMAM;Rackspace;0.294884
+VIMAM;Microsoft Azure;0.244295
+VIMAM;Amazon AWS;0.242339
+VIMAM;Google Cloud;0.218637
+VIMAM;Rackspace;0.29501
+VIMAM;Microsoft Azure;0.244691
+VIMAM;Amazon AWS;0.241389
+VIMAM;Google Cloud;0.219064
+VIMAM;Rackspace;0.295774
+VIMAM;Microsoft Azure;0.242488
+VIMAM;Amazon AWS;0.244941
+VIMAM;Google Cloud;0.216951
+VIMAM;Rackspace;0.295978
+VIMAM;Microsoft Azure;0.242897
+VIMAM;Amazon AWS;0.243101
+VIMAM;Google Cloud;0.218179
+VIMAM;Rackspace;0.295754
+VIMAM;Microsoft Azure;0.242418
+VIMAM;Amazon AWS;0.245235
+VIMAM;Google Cloud;0.216747
+VIMAM;Rackspace;0.296039
+VIMAM;Microsoft Azure;0.243051
+VIMAM;Amazon AWS;0.242954
+VIMAM;Google Cloud;0.218111
+VIMAM;Rackspace;0.294935
+VIMAM;Microsoft Azure;0.246816
+VIMAM;Amazon AWS;0.236339
+VIMAM;Google Cloud;0.222064
+VIMAM;Rackspace;0.294344
+VIMAM;Microsoft Azure;0.246095
+VIMAM;Amazon AWS;0.238431
+VIMAM;Google Cloud;0.221284
+VIMAM;Rackspace;0.295613
+VIMAM;Microsoft Azure;0.242134
+VIMAM;Amazon AWS;0.246538
+VIMAM;Google Cloud;0.215869
+VIMAM;Rackspace;0.294868
+VIMAM;Microsoft Azure;0.2444
+VIMAM;Amazon AWS;0.242451
+VIMAM;Google Cloud;0.218436
+VIMAM;Rackspace;0.296088
+VIMAM;Microsoft Azure;0.242501
+VIMAM;Amazon AWS;0.244307
+VIMAM;Google Cloud;0.217259
+VIMAM;Rackspace;0.295757
+VIMAM;Microsoft Azure;0.242346
+VIMAM;Amazon AWS;0.245371
+VIMAM;Google Cloud;0.216681
+VIMAM;Rackspace;0.293989
+VIMAM;Microsoft Azure;0.246596
+VIMAM;Amazon AWS;0.238282
+VIMAM;Google Cloud;0.221288
+VIMAM;Rackspace;0.295314
+VIMAM;Microsoft Azure;0.242462
+VIMAM;Amazon AWS;0.246709
+VIMAM;Google Cloud;0.215669
+VIMAM;Rackspace;0.296081
+VIMAM;Microsoft Azure;0.242167
+VIMAM;Amazon AWS;0.245449
+VIMAM;Google Cloud;0.216458
+VIMAM;Rackspace;0.293943
+VIMAM;Microsoft Azure;0.246684
+VIMAM;Amazon AWS;0.238208
+VIMAM;Google Cloud;0.22132
+VIMAM;Rackspace;0.295645
+VIMAM;Microsoft Azure;0.245454
+VIMAM;Amazon AWS;0.239683
+VIMAM;Google Cloud;0.219372
+VIMAM;Rackspace;0.295859
+VIMAM;Microsoft Azure;0.242955
+VIMAM;Amazon AWS;0.243766
+VIMAM;Google Cloud;0.217575
+VIMAM;Rackspace;0.296248
+VIMAM;Microsoft Azure;0.24161
+VIMAM;Amazon AWS;0.246127
+VIMAM;Google Cloud;0.21617
+VIMAM;Rackspace;0.296325
+VIMAM;Microsoft Azure;0.241108
+VIMAM;Amazon AWS;0.247121
+VIMAM;Google Cloud;0.2156
+VIMAM;Rackspace;0.294579
+VIMAM;Microsoft Azure;0.249736
+VIMAM;Amazon AWS;0.229231
+VIMAM;Google Cloud;0.226609
+VIMAM;Rackspace;0.291745
+VIMAM;Microsoft Azure;0.252108
+VIMAM;Amazon AWS;0.228875
+VIMAM;Google Cloud;0.227426
+VIMAM;Rackspace;0.295647
+VIMAM;Microsoft Azure;0.243948
+VIMAM;Amazon AWS;0.241808
+VIMAM;Google Cloud;0.218752
+VIMAM;Rackspace;0.294814
+VIMAM;Microsoft Azure;0.244702
+VIMAM;Amazon AWS;0.241123
+VIMAM;Google Cloud;0.219515
+VIMAM;Rackspace;0.296526
+VIMAM;Microsoft Azure;0.240749
+VIMAM;Amazon AWS;0.247659
+VIMAM;Google Cloud;0.215221
+VIMAM;Rackspace;0.294886
+VIMAM;Microsoft Azure;0.244692
+VIMAM;Amazon AWS;0.240752
+VIMAM;Google Cloud;0.219825
+VIMAM;Rackspace;0.29544
+VIMAM;Microsoft Azure;0.248302
+VIMAM;Amazon AWS;0.230969
+VIMAM;Google Cloud;0.225443
+VIMAM;Rackspace;0.29457
+VIMAM;Microsoft Azure;0.24545
+VIMAM;Amazon AWS;0.240382
+VIMAM;Google Cloud;0.219753
+VIMAM;Rackspace;0.292697
+VIMAM;Microsoft Azure;0.253453
+VIMAM;Amazon AWS;0.223738
+VIMAM;Google Cloud;0.230266
+VIMAM;Rackspace;0.296009
+VIMAM;Microsoft Azure;0.246687
+VIMAM;Amazon AWS;0.23545
+VIMAM;Google Cloud;0.222008
+VIMAM;Rackspace;0.295788
+VIMAM;Microsoft Azure;0.242677
+VIMAM;Amazon AWS;0.244465
+VIMAM;Google Cloud;0.217224
+VIMAM;Rackspace;0.296324
+VIMAM;Microsoft Azure;0.242422
+VIMAM;Amazon AWS;0.24423
+VIMAM;Google Cloud;0.217179
+VIMAM;Rackspace;0.29258
+VIMAM;Microsoft Azure;0.250741
+VIMAM;Amazon AWS;0.231458
+VIMAM;Google Cloud;0.225376
+VIMAM;Rackspace;0.290917
+VIMAM;Microsoft Azure;0.252577
+VIMAM;Amazon AWS;0.230417
+VIMAM;Google Cloud;0.226243
+VIMAM;Rackspace;0.294402
+VIMAM;Microsoft Azure;0.24894
+VIMAM;Amazon AWS;0.231887
+VIMAM;Google Cloud;0.224925
+VIMAM;Rackspace;0.292983
+VIMAM;Microsoft Azure;0.252622
+VIMAM;Amazon AWS;0.226234
+VIMAM;Google Cloud;0.228315
+VIMAM;Rackspace;0.295186
+VIMAM;Microsoft Azure;0.244257
+VIMAM;Amazon AWS;0.24131
+VIMAM;Google Cloud;0.219401
+VIMAM;Rackspace;0.296198
+VIMAM;Microsoft Azure;0.242997
+VIMAM;Amazon AWS;0.242667
+VIMAM;Google Cloud;0.218292
+VIMAM;Rackspace;0.294964
+VIMAM;Microsoft Azure;0.247053
+VIMAM;Amazon AWS;0.235552
+VIMAM;Google Cloud;0.222585
+VIMAM;Rackspace;0.296648
+VIMAM;Microsoft Azure;0.241568
+VIMAM;Amazon AWS;0.245413
+VIMAM;Google Cloud;0.216525
+VIMAM;Rackspace;0.296039
+VIMAM;Microsoft Azure;0.243328
+VIMAM;Amazon AWS;0.24208
+VIMAM;Google Cloud;0.218707
+VIMAM;Rackspace;0.295318
+VIMAM;Microsoft Azure;0.242689
+VIMAM;Amazon AWS;0.245212
+VIMAM;Google Cloud;0.216935
+VIMAM;Rackspace;0.296301
+VIMAM;Microsoft Azure;0.242959
+VIMAM;Amazon AWS;0.242996
+VIMAM;Google Cloud;0.217898
+VIMAM;Rackspace;0.295443
+VIMAM;Microsoft Azure;0.24204
+VIMAM;Amazon AWS;0.246863
+VIMAM;Google Cloud;0.215808
+VIMAM;Rackspace;0.294822
+VIMAM;Microsoft Azure;0.245421
+VIMAM;Amazon AWS;0.239973
+VIMAM;Google Cloud;0.219939
+VIMAM;Rackspace;0.296335
+VIMAM;Microsoft Azure;0.241663
+VIMAM;Amazon AWS;0.246018
+VIMAM;Google Cloud;0.216138
+VIMAM;Rackspace;0.295659
+VIMAM;Microsoft Azure;0.244781
+VIMAM;Amazon AWS;0.240397
+VIMAM;Google Cloud;0.219318
+VIMAM;Rackspace;0.29559
+VIMAM;Microsoft Azure;0.242358
+VIMAM;Amazon AWS;0.245746
+VIMAM;Google Cloud;0.21646
+VIMAM;Rackspace;0.296203
+VIMAM;Microsoft Azure;0.24265
+VIMAM;Amazon AWS;0.243738
+VIMAM;Google Cloud;0.217564
+VIMAM;Rackspace;0.293503
+VIMAM;Microsoft Azure;0.249686
+VIMAM;Amazon AWS;0.232468
+VIMAM;Google Cloud;0.224498
+VIMAM;Rackspace;0.2953
+VIMAM;Microsoft Azure;0.243079
+VIMAM;Amazon AWS;0.244811
+VIMAM;Google Cloud;0.216964
+VIMAM;Rackspace;0.295465
+VIMAM;Microsoft Azure;0.243939
+VIMAM;Amazon AWS;0.241785
+VIMAM;Google Cloud;0.218966
+VIMAM;Rackspace;0.293648
+VIMAM;Microsoft Azure;0.249989
+VIMAM;Amazon AWS;0.231021
+VIMAM;Google Cloud;0.225497
+VIMAM;Rackspace;0.290749
+VIMAM;Microsoft Azure;0.252654
+VIMAM;Amazon AWS;0.2291
+VIMAM;Google Cloud;0.227651
+VIMAM;Rackspace;0.296558
+VIMAM;Microsoft Azure;0.242158
+VIMAM;Amazon AWS;0.244196
+VIMAM;Google Cloud;0.217243
+VIMAM;Rackspace;0.294603
+VIMAM;Microsoft Azure;0.243107
+VIMAM;Amazon AWS;0.246552
+VIMAM;Google Cloud;0.215892
+VIMAM;Rackspace;0.293486
+VIMAM;Microsoft Azure;0.246646
+VIMAM;Amazon AWS;0.23941
+VIMAM;Google Cloud;0.220613
+VIMAM;Rackspace;0.295601
+VIMAM;Microsoft Azure;0.241734
+VIMAM;Amazon AWS;0.247099
+VIMAM;Google Cloud;0.21572
+VIMAM;Rackspace;0.296561
+VIMAM;Microsoft Azure;0.241552
+VIMAM;Amazon AWS;0.245967
+VIMAM;Google Cloud;0.216074
+VIMAM;Rackspace;0.293447
+VIMAM;Microsoft Azure;0.247401
+VIMAM;Amazon AWS;0.237152
+VIMAM;Google Cloud;0.222155
+VIMAM;Rackspace;0.295265
+VIMAM;Microsoft Azure;0.245475
+VIMAM;Amazon AWS;0.23881
+VIMAM;Google Cloud;0.220604
+VIMAM;Rackspace;0.296194
+VIMAM;Microsoft Azure;0.241993
+VIMAM;Amazon AWS;0.245501
+VIMAM;Google Cloud;0.216466
+VIMAM;Rackspace;0.293183
+VIMAM;Microsoft Azure;0.247457
+VIMAM;Amazon AWS;0.238313
+VIMAM;Google Cloud;0.221202
+VIMAM;Rackspace;0.295237
+VIMAM;Microsoft Azure;0.244444
+VIMAM;Amazon AWS;0.241286
+VIMAM;Google Cloud;0.219187
+VIMAM;Rackspace;0.294669
+VIMAM;Microsoft Azure;0.243755
+VIMAM;Amazon AWS;0.244377
+VIMAM;Google Cloud;0.217353
+VIMAM;Rackspace;0.296306
+VIMAM;Microsoft Azure;0.242455
+VIMAM;Amazon AWS;0.243575
+VIMAM;Google Cloud;0.217819
+VIMAM;Rackspace;0.296405
+VIMAM;Microsoft Azure;0.242711
+VIMAM;Amazon AWS;0.243298
+VIMAM;Google Cloud;0.21774
+VIMAM;Rackspace;0.296349
+VIMAM;Microsoft Azure;0.241689
+VIMAM;Amazon AWS;0.245975
+VIMAM;Google Cloud;0.216142
+VIMAM;Rackspace;0.296282
+VIMAM;Microsoft Azure;0.24403
+VIMAM;Amazon AWS;0.240792
+VIMAM;Google Cloud;0.219051
+VIMAM;Rackspace;0.29407
+VIMAM;Microsoft Azure;0.244426
+VIMAM;Amazon AWS;0.245204
+VIMAM;Google Cloud;0.216455
+VIMAM;Rackspace;0.296035
+VIMAM;Microsoft Azure;0.242906
+VIMAM;Amazon AWS;0.243096
+VIMAM;Google Cloud;0.218117
+VIMAM;Rackspace;0.295726
+VIMAM;Microsoft Azure;0.244421
+VIMAM;Amazon AWS;0.240518
+VIMAM;Google Cloud;0.219489
+VIMAM;Rackspace;0.294466
+VIMAM;Microsoft Azure;0.247749
+VIMAM;Amazon AWS;0.233944
+VIMAM;Google Cloud;0.223996
+VIMAM;Rackspace;0.288242
+VIMAM;Microsoft Azure;0.251738
+VIMAM;Amazon AWS;0.238165
+VIMAM;Google Cloud;0.222009
+VIMAM;Rackspace;0.295709
+VIMAM;Microsoft Azure;0.242413
+VIMAM;Amazon AWS;0.24531
+VIMAM;Google Cloud;0.216723
+VIMAM;Rackspace;0.295779
+VIMAM;Microsoft Azure;0.24245
+VIMAM;Amazon AWS;0.245717
+VIMAM;Google Cloud;0.216209
+VIMAM;Rackspace;0.295641
+VIMAM;Microsoft Azure;0.242695
+VIMAM;Amazon AWS;0.24474
+VIMAM;Google Cloud;0.217079
+VIMAM;Rackspace;0.295727
+VIMAM;Microsoft Azure;0.242722
+VIMAM;Amazon AWS;0.244659
+VIMAM;Google Cloud;0.217047
+VIMAM;Rackspace;0.294231
+VIMAM;Microsoft Azure;0.247858
+VIMAM;Amazon AWS;0.235613
+VIMAM;Google Cloud;0.222453
+VIMAM;Rackspace;0.295386
+VIMAM;Microsoft Azure;0.243007
+VIMAM;Amazon AWS;0.244257
+VIMAM;Google Cloud;0.217504
+VIMAM;Rackspace;0.292136
+VIMAM;Microsoft Azure;0.248836
+VIMAM;Amazon AWS;0.236246
+VIMAM;Google Cloud;0.222937
+VIMAM;Rackspace;0.295649
+VIMAM;Microsoft Azure;0.242692
+VIMAM;Amazon AWS;0.244636
+VIMAM;Google Cloud;0.217178
+VIMAM;Rackspace;0.296168
+VIMAM;Microsoft Azure;0.241572
+VIMAM;Amazon AWS;0.246733
+VIMAM;Google Cloud;0.215682
+VIMAM;Rackspace;0.295296
+VIMAM;Microsoft Azure;0.243465
+VIMAM;Amazon AWS;0.244343
+VIMAM;Google Cloud;0.21705
+VIMAM;Rackspace;0.294877
+VIMAM;Microsoft Azure;0.24935
+VIMAM;Amazon AWS;0.230504
+VIMAM;Google Cloud;0.225423
+VIMAM;Rackspace;0.295951
+VIMAM;Microsoft Azure;0.241985
+VIMAM;Amazon AWS;0.24575
+VIMAM;Google Cloud;0.216468
+VIMAM;Rackspace;0.295143
+VIMAM;Microsoft Azure;0.243225
+VIMAM;Amazon AWS;0.244852
+VIMAM;Google Cloud;0.216935
+VIMAM;Rackspace;0.295976
+VIMAM;Microsoft Azure;0.242094
+VIMAM;Amazon AWS;0.245897
+VIMAM;Google Cloud;0.216187
+VIMAM;Rackspace;0.29538
+VIMAM;Microsoft Azure;0.243604
+VIMAM;Amazon AWS;0.242616
+VIMAM;Google Cloud;0.218555
+VIMAM;Rackspace;0.296361
+VIMAM;Microsoft Azure;0.241579
+VIMAM;Amazon AWS;0.245923
+VIMAM;Google Cloud;0.216291
+VIMAM;Rackspace;0.295711
+VIMAM;Microsoft Azure;0.242404
+VIMAM;Amazon AWS;0.245014
+VIMAM;Google Cloud;0.217026
+VIMAM;Rackspace;0.296049
+VIMAM;Microsoft Azure;0.243162
+VIMAM;Amazon AWS;0.242728
+VIMAM;Google Cloud;0.218216
+VIMAM;Rackspace;0.292317
+VIMAM;Microsoft Azure;0.249167
+VIMAM;Amazon AWS;0.234507
+VIMAM;Google Cloud;0.224163
+VIMAM;Rackspace;0.296274
+VIMAM;Microsoft Azure;0.242949
+VIMAM;Amazon AWS;0.243051
+VIMAM;Google Cloud;0.217881
+VIMAM;Rackspace;0.296342
+VIMAM;Microsoft Azure;0.241949
+VIMAM;Amazon AWS;0.244856
+VIMAM;Google Cloud;0.217007
+VIMAM;Rackspace;0.296451
+VIMAM;Microsoft Azure;0.241453
+VIMAM;Amazon AWS;0.246467
+VIMAM;Google Cloud;0.215784
+VIMAM;Rackspace;0.296472
+VIMAM;Microsoft Azure;0.241002
+VIMAM;Amazon AWS;0.247347
+VIMAM;Google Cloud;0.215333
+VIMAM;Rackspace;0.295169
+VIMAM;Microsoft Azure;0.244513
+VIMAM;Amazon AWS;0.241105
+VIMAM;Google Cloud;0.219368
+VIMAM;Rackspace;0.296029
+VIMAM;Microsoft Azure;0.243237
+VIMAM;Amazon AWS;0.242581
+VIMAM;Google Cloud;0.218308
+VIMAM;Rackspace;0.291157
+VIMAM;Microsoft Azure;0.250507
+VIMAM;Amazon AWS;0.235384
+VIMAM;Google Cloud;0.223107
+VIMAM;Rackspace;0.295732
+VIMAM;Microsoft Azure;0.242594
+VIMAM;Amazon AWS;0.244655
+VIMAM;Google Cloud;0.217173
+VIMAM;Rackspace;0.295595
+VIMAM;Microsoft Azure;0.241695
+VIMAM;Amazon AWS;0.247269
+VIMAM;Google Cloud;0.215595
+VIMAM;Rackspace;0.295821
+VIMAM;Microsoft Azure;0.242885
+VIMAM;Amazon AWS;0.243759
+VIMAM;Google Cloud;0.217689
+VIMAM;Rackspace;0.29669
+VIMAM;Microsoft Azure;0.241348
+VIMAM;Amazon AWS;0.245978
+VIMAM;Google Cloud;0.216138
+VIMAM;Rackspace;0.295331
+VIMAM;Microsoft Azure;0.247229
+VIMAM;Amazon AWS;0.233723
+VIMAM;Google Cloud;0.223872
+VIMAM;Rackspace;0.295725
+VIMAM;Microsoft Azure;0.241669
+VIMAM;Amazon AWS;0.247012
+VIMAM;Google Cloud;0.215748
+VIMAM;Rackspace;0.296277
+VIMAM;Microsoft Azure;0.242114
+VIMAM;Amazon AWS;0.245296
+VIMAM;Google Cloud;0.216469
+VIMAM;Rackspace;0.296063
+VIMAM;Microsoft Azure;0.241759
+VIMAM;Amazon AWS;0.246158
+VIMAM;Google Cloud;0.216175
+VIMAM;Rackspace;0.295967
+VIMAM;Microsoft Azure;0.244952
+VIMAM;Amazon AWS;0.238587
+VIMAM;Google Cloud;0.220649
+VIMAM;Rackspace;0.295741
+VIMAM;Microsoft Azure;0.242119
+VIMAM;Amazon AWS;0.246094
+VIMAM;Google Cloud;0.216202
+VIMAM;Rackspace;0.294889
+VIMAM;Microsoft Azure;0.243551
+VIMAM;Amazon AWS;0.243936
+VIMAM;Google Cloud;0.217777
+VIMAM;Rackspace;0.295641
+VIMAM;Microsoft Azure;0.241894
+VIMAM;Amazon AWS;0.246976
+VIMAM;Google Cloud;0.215643
+VIMAM;Rackspace;0.2932
+VIMAM;Microsoft Azure;0.250512
+VIMAM;Amazon AWS;0.230384
+VIMAM;Google Cloud;0.226059
+VIMAM;Rackspace;0.296307
+VIMAM;Microsoft Azure;0.242121
+VIMAM;Amazon AWS;0.244724
+VIMAM;Google Cloud;0.217003
+VIMAM;Rackspace;0.292127
+VIMAM;Microsoft Azure;0.251865
+VIMAM;Amazon AWS;0.229625
+VIMAM;Google Cloud;0.226537
+VIMAM;Rackspace;0.296158
+VIMAM;Microsoft Azure;0.24181
+VIMAM;Amazon AWS;0.246315
+VIMAM;Google Cloud;0.215872
+VIMAM;Rackspace;0.295129
+VIMAM;Microsoft Azure;0.24337
+VIMAM;Amazon AWS;0.244302
+VIMAM;Google Cloud;0.217354
+VIMAM;Rackspace;0.295271
+VIMAM;Microsoft Azure;0.2434
+VIMAM;Amazon AWS;0.243337
+VIMAM;Google Cloud;0.218147
+VIMAM;Rackspace;0.296315
+VIMAM;Microsoft Azure;0.241898
+VIMAM;Amazon AWS;0.246293
+VIMAM;Google Cloud;0.215649
+VIMAM;Rackspace;0.293533
+VIMAM;Microsoft Azure;0.2478
+VIMAM;Amazon AWS;0.241662
+VIMAM;Google Cloud;0.21716
+VIMAM;Rackspace;0.292276
+VIMAM;Microsoft Azure;0.248531
+VIMAM;Amazon AWS;0.237681
+VIMAM;Google Cloud;0.221666
+VIMAM;Rackspace;0.29548
+VIMAM;Microsoft Azure;0.242946
+VIMAM;Amazon AWS;0.24467
+VIMAM;Google Cloud;0.217059
+VIMAM;Rackspace;0.29496
+VIMAM;Microsoft Azure;0.244474
+VIMAM;Amazon AWS;0.241757
+VIMAM;Google Cloud;0.218963
+VIMAM;Rackspace;0.296694
+VIMAM;Microsoft Azure;0.241176
+VIMAM;Amazon AWS;0.246539
+VIMAM;Google Cloud;0.215746
+VIMAM;Rackspace;0.29661
+VIMAM;Microsoft Azure;0.241367
+VIMAM;Amazon AWS;0.246275
+VIMAM;Google Cloud;0.215902
+VIMAM;Rackspace;0.293325
+VIMAM;Microsoft Azure;0.251118
+VIMAM;Amazon AWS;0.229785
+VIMAM;Google Cloud;0.225927
+VIMAM;Rackspace;0.294648
+VIMAM;Microsoft Azure;0.245058
+VIMAM;Amazon AWS;0.240476
+VIMAM;Google Cloud;0.219973
+VIMAM;Rackspace;0.295568
+VIMAM;Microsoft Azure;0.243189
+VIMAM;Amazon AWS;0.243359
+VIMAM;Google Cloud;0.218038
+VIMAM;Rackspace;0.295818
+VIMAM;Microsoft Azure;0.244862
+VIMAM;Amazon AWS;0.238421
+VIMAM;Google Cloud;0.221054
+VIMAM;Rackspace;0.29493
+VIMAM;Microsoft Azure;0.243579
+VIMAM;Amazon AWS;0.24389
+VIMAM;Google Cloud;0.217756
+VIMAM;Rackspace;0.295502
+VIMAM;Microsoft Azure;0.242637
+VIMAM;Amazon AWS;0.245214
+VIMAM;Google Cloud;0.216801
+VIMAM;Rackspace;0.296517
+VIMAM;Microsoft Azure;0.241441
+VIMAM;Amazon AWS;0.246252
+VIMAM;Google Cloud;0.215944
+VIMAM;Rackspace;0.294246
+VIMAM;Microsoft Azure;0.244196
+VIMAM;Amazon AWS;0.244703
+VIMAM;Google Cloud;0.21701
+VIMAM;Rackspace;0.294781
+VIMAM;Microsoft Azure;0.243484
+VIMAM;Amazon AWS;0.244698
+VIMAM;Google Cloud;0.217192
+VIMAM;Rackspace;0.295887
+VIMAM;Microsoft Azure;0.241517
+VIMAM;Amazon AWS;0.247125
+VIMAM;Google Cloud;0.215625
+VIMAM;Rackspace;0.295701
+VIMAM;Microsoft Azure;0.243061
+VIMAM;Amazon AWS;0.243541
+VIMAM;Google Cloud;0.217852
+VIMAM;Rackspace;0.295193
+VIMAM;Microsoft Azure;0.242942
+VIMAM;Amazon AWS;0.245578
+VIMAM;Google Cloud;0.216441
+VIMAM;Rackspace;0.295862
+VIMAM;Microsoft Azure;0.242314
+VIMAM;Amazon AWS;0.246163
+VIMAM;Google Cloud;0.215816
+VIMAM;Rackspace;0.295714
+VIMAM;Microsoft Azure;0.243325
+VIMAM;Amazon AWS;0.243102
+VIMAM;Google Cloud;0.218013
+VIMAM;Rackspace;0.296081
+VIMAM;Microsoft Azure;0.242996
+VIMAM;Amazon AWS;0.243183
+VIMAM;Google Cloud;0.217894
+VIMAM;Rackspace;0.293785
+VIMAM;Microsoft Azure;0.247079
+VIMAM;Amazon AWS;0.237946
+VIMAM;Google Cloud;0.221344
+VIMAM;Rackspace;0.296041
+VIMAM;Microsoft Azure;0.242412
+VIMAM;Amazon AWS;0.245209
+VIMAM;Google Cloud;0.216492
+VIMAM;Rackspace;0.296163
+VIMAM;Microsoft Azure;0.242531
+VIMAM;Amazon AWS;0.244226
+VIMAM;Google Cloud;0.217235
+VIMAM;Rackspace;0.295735
+VIMAM;Microsoft Azure;0.242055
+VIMAM;Amazon AWS;0.246339
+VIMAM;Google Cloud;0.216025
+VIMAM;Rackspace;0.295331
+VIMAM;Microsoft Azure;0.242753
+VIMAM;Amazon AWS;0.245528
+VIMAM;Google Cloud;0.216543
+VIMAM;Rackspace;0.295404
+VIMAM;Microsoft Azure;0.242766
+VIMAM;Amazon AWS;0.245065
+VIMAM;Google Cloud;0.216919
+VIMAM;Rackspace;0.295397
+VIMAM;Microsoft Azure;0.244406
+VIMAM;Amazon AWS;0.240615
+VIMAM;Google Cloud;0.219737
+VIMAM;Rackspace;0.295326
+VIMAM;Microsoft Azure;0.243454
+VIMAM;Amazon AWS;0.243215
+VIMAM;Google Cloud;0.218159
+VIMAM;Rackspace;0.296461
+VIMAM;Microsoft Azure;0.240971
+VIMAM;Amazon AWS;0.247217
+VIMAM;Google Cloud;0.215506
+VIMAM;Rackspace;0.290502
+VIMAM;Microsoft Azure;0.253357
+VIMAM;Amazon AWS;0.22891
+VIMAM;Google Cloud;0.227385
+VIMAM;Rackspace;0.296256
+VIMAM;Microsoft Azure;0.241531
+VIMAM;Amazon AWS;0.246352
+VIMAM;Google Cloud;0.216016
+VIMAM;Rackspace;0.295365
+VIMAM;Microsoft Azure;0.242164
+VIMAM;Amazon AWS;0.246586
+VIMAM;Google Cloud;0.21604
+VIMAM;Rackspace;0.296646
+VIMAM;Microsoft Azure;0.240947
+VIMAM;Amazon AWS;0.247292
+VIMAM;Google Cloud;0.215269
+VIMAM;Rackspace;0.294882
+VIMAM;Microsoft Azure;0.24497
+VIMAM;Amazon AWS;0.240181
+VIMAM;Google Cloud;0.220121
+VIMAM;Rackspace;0.296143
+VIMAM;Microsoft Azure;0.242579
+VIMAM;Amazon AWS;0.24401
+VIMAM;Google Cloud;0.217422
+VIMAM;Rackspace;0.296351
+VIMAM;Microsoft Azure;0.243771
+VIMAM;Amazon AWS;0.24085
+VIMAM;Google Cloud;0.219182
+VIMAM;Rackspace;0.295213
+VIMAM;Microsoft Azure;0.24797
+VIMAM;Amazon AWS;0.233024
+VIMAM;Google Cloud;0.223948
+VIMAM;Rackspace;0.296011
+VIMAM;Microsoft Azure;0.241791
+VIMAM;Amazon AWS;0.245984
+VIMAM;Google Cloud;0.216368
+VIMAM;Rackspace;0.295485
+VIMAM;Microsoft Azure;0.242471
+VIMAM;Amazon AWS;0.245338
+VIMAM;Google Cloud;0.216861
+VIMAM;Rackspace;0.296229
+VIMAM;Microsoft Azure;0.241273
+VIMAM;Amazon AWS;0.247102
+VIMAM;Google Cloud;0.21555
+VIMAM;Rackspace;0.296022
+VIMAM;Microsoft Azure;0.243886
+VIMAM;Amazon AWS;0.240541
+VIMAM;Google Cloud;0.219705
+VIMAM;Rackspace;0.293612
+VIMAM;Microsoft Azure;0.248861
+VIMAM;Amazon AWS;0.234112
+VIMAM;Google Cloud;0.22357
+VIMAM;Rackspace;0.29574
+VIMAM;Microsoft Azure;0.243061
+VIMAM;Amazon AWS;0.24375
+VIMAM;Google Cloud;0.217604
+VIMAM;Rackspace;0.293362
+VIMAM;Microsoft Azure;0.246377
+VIMAM;Amazon AWS;0.240901
+VIMAM;Google Cloud;0.219514
+VIMAM;Rackspace;0.296208
+VIMAM;Microsoft Azure;0.242561
+VIMAM;Amazon AWS;0.243897
+VIMAM;Google Cloud;0.217489
+VIMAM;Rackspace;0.29474
+VIMAM;Microsoft Azure;0.248681
+VIMAM;Amazon AWS;0.232289
+VIMAM;Google Cloud;0.224444
+VIMAM;Rackspace;0.292192
+VIMAM;Microsoft Azure;0.25346
+VIMAM;Amazon AWS;0.227703
+VIMAM;Google Cloud;0.2268
+VIMAM;Rackspace;0.295677
+VIMAM;Microsoft Azure;0.242177
+VIMAM;Amazon AWS;0.245767
+VIMAM;Google Cloud;0.216534
+VIMAM;Rackspace;0.292497
+VIMAM;Microsoft Azure;0.247698
+VIMAM;Amazon AWS;0.240918
+VIMAM;Google Cloud;0.219042
+VIMAM;Rackspace;0.294677
+VIMAM;Microsoft Azure;0.243445
+VIMAM;Amazon AWS;0.245858
+VIMAM;Google Cloud;0.216174
+VIMAM;Rackspace;0.295834
+VIMAM;Microsoft Azure;0.242995
+VIMAM;Amazon AWS;0.243535
+VIMAM;Google Cloud;0.217791
+VIMAM;Rackspace;0.293869
+VIMAM;Microsoft Azure;0.24587
+VIMAM;Amazon AWS;0.240261
+VIMAM;Google Cloud;0.220155
+VIMAM;Rackspace;0.296009
+VIMAM;Microsoft Azure;0.241794
+VIMAM;Amazon AWS;0.246617
+VIMAM;Google Cloud;0.215735
+VIMAM;Rackspace;0.296633
+VIMAM;Microsoft Azure;0.241473
+VIMAM;Amazon AWS;0.246206
+VIMAM;Google Cloud;0.215843
+VIMAM;Rackspace;0.29597
+VIMAM;Microsoft Azure;0.243067
+VIMAM;Amazon AWS;0.243379
+VIMAM;Google Cloud;0.217738
+VIMAM;Rackspace;0.29567
+VIMAM;Microsoft Azure;0.243302
+VIMAM;Amazon AWS;0.243233
+VIMAM;Google Cloud;0.217949
+VIMAM;Rackspace;0.29458
+VIMAM;Microsoft Azure;0.245574
+VIMAM;Amazon AWS;0.239752
+VIMAM;Google Cloud;0.220247
+VIMAM;Rackspace;0.296372
+VIMAM;Microsoft Azure;0.240945
+VIMAM;Amazon AWS;0.247481
+VIMAM;Google Cloud;0.215356
+VIMAM;Rackspace;0.295472
+VIMAM;Microsoft Azure;0.245054
+VIMAM;Amazon AWS;0.239307
+VIMAM;Google Cloud;0.220322
+VIMAM;Rackspace;0.296164
+VIMAM;Microsoft Azure;0.242197
+VIMAM;Amazon AWS;0.244904
+VIMAM;Google Cloud;0.21689
+VIMAM;Rackspace;0.293686
+VIMAM;Microsoft Azure;0.244927
+VIMAM;Amazon AWS;0.243672
+VIMAM;Google Cloud;0.21787
+VIMAM;Rackspace;0.294056
+VIMAM;Microsoft Azure;0.245746
+VIMAM;Amazon AWS;0.239827
+VIMAM;Google Cloud;0.220525
+VIMAM;Rackspace;0.295049
+VIMAM;Microsoft Azure;0.24288
+VIMAM;Amazon AWS;0.245615
+VIMAM;Google Cloud;0.21661
+VIMAM;Rackspace;0.296248
+VIMAM;Microsoft Azure;0.242119
+VIMAM;Amazon AWS;0.245426
+VIMAM;Google Cloud;0.216361
+VIMAM;Rackspace;0.29317
+VIMAM;Microsoft Azure;0.248193
+VIMAM;Amazon AWS;0.236804
+VIMAM;Google Cloud;0.221987
+VIMAM;Rackspace;0.296523
+VIMAM;Microsoft Azure;0.241853
+VIMAM;Amazon AWS;0.245124
+VIMAM;Google Cloud;0.216654
+VIMAM;Rackspace;0.296675
+VIMAM;Microsoft Azure;0.241371
+VIMAM;Amazon AWS;0.245883
+VIMAM;Google Cloud;0.216224
+VIMAM;Rackspace;0.296799
+VIMAM;Microsoft Azure;0.240943
+VIMAM;Amazon AWS;0.246723
+VIMAM;Google Cloud;0.215689
+VIMAM;Rackspace;0.29431
+VIMAM;Microsoft Azure;0.244023
+VIMAM;Amazon AWS;0.244999
+VIMAM;Google Cloud;0.216823
+VIMAM;Rackspace;0.294384
+VIMAM;Microsoft Azure;0.243588
+VIMAM;Amazon AWS;0.245993
+VIMAM;Google Cloud;0.21619
+VIMAM;Rackspace;0.295432
+VIMAM;Microsoft Azure;0.24241
+VIMAM;Amazon AWS;0.245724
+VIMAM;Google Cloud;0.216588
+VIMAM;Rackspace;0.292857
+VIMAM;Microsoft Azure;0.246416
+VIMAM;Amazon AWS;0.242872
+VIMAM;Google Cloud;0.218009
+VIMAM;Rackspace;0.296093
+VIMAM;Microsoft Azure;0.242492
+VIMAM;Amazon AWS;0.244122
+VIMAM;Google Cloud;0.217447
+VIMAM;Rackspace;0.296237
+VIMAM;Microsoft Azure;0.242337
+VIMAM;Amazon AWS;0.244359
+VIMAM;Google Cloud;0.217222
+VIMAM;Rackspace;0.294438
+VIMAM;Microsoft Azure;0.245462
+VIMAM;Amazon AWS;0.240299
+VIMAM;Google Cloud;0.219955
+VIMAM;Rackspace;0.291393
+VIMAM;Microsoft Azure;0.249529
+VIMAM;Amazon AWS;0.23579
+VIMAM;Google Cloud;0.223442
+VIMAM;Rackspace;0.296014
+VIMAM;Microsoft Azure;0.242101
+VIMAM;Amazon AWS;0.245573
+VIMAM;Google Cloud;0.216466
+VIMAM;Rackspace;0.295536
+VIMAM;Microsoft Azure;0.244079
+VIMAM;Amazon AWS;0.241381
+VIMAM;Google Cloud;0.219158
+VIMAM;Rackspace;0.291346
+VIMAM;Microsoft Azure;0.251832
+VIMAM;Amazon AWS;0.22997
+VIMAM;Google Cloud;0.227006
+VIMAM;Rackspace;0.295971
+VIMAM;Microsoft Azure;0.245357
+VIMAM;Amazon AWS;0.237272
+VIMAM;Google Cloud;0.221555
+VIMAM;Rackspace;0.29581
+VIMAM;Microsoft Azure;0.244583
+VIMAM;Amazon AWS;0.240411
+VIMAM;Google Cloud;0.219351
+VIMAM;Rackspace;0.296248
+VIMAM;Microsoft Azure;0.243724
+VIMAM;Amazon AWS;0.240654
+VIMAM;Google Cloud;0.219528
+VIMAM;Rackspace;0.295436
+VIMAM;Microsoft Azure;0.243582
+VIMAM;Amazon AWS;0.242936
+VIMAM;Google Cloud;0.218201
+VIMAM;Rackspace;0.294117
+VIMAM;Microsoft Azure;0.244236
+VIMAM;Amazon AWS;0.243771
+VIMAM;Google Cloud;0.218031
+VIMAM;Rackspace;0.296457
+VIMAM;Microsoft Azure;0.241273
+VIMAM;Amazon AWS;0.247014
+VIMAM;Google Cloud;0.21541
+VIMAM;Rackspace;0.295092
+VIMAM;Microsoft Azure;0.24547
+VIMAM;Amazon AWS;0.238474
+VIMAM;Google Cloud;0.221119
+VIMAM;Rackspace;0.295087
+VIMAM;Microsoft Azure;0.245191
+VIMAM;Amazon AWS;0.23964
+VIMAM;Google Cloud;0.220237
+VIMAM;Rackspace;0.295684
+VIMAM;Microsoft Azure;0.241803
+VIMAM;Amazon AWS;0.24715
+VIMAM;Google Cloud;0.215517
+VIMAM;Rackspace;0.29622
+VIMAM;Microsoft Azure;0.242441
+VIMAM;Amazon AWS;0.245117
+VIMAM;Google Cloud;0.216377
+VIMAM;Rackspace;0.2953
+VIMAM;Microsoft Azure;0.244361
+VIMAM;Amazon AWS;0.240708
+VIMAM;Google Cloud;0.219785
+VIMAM;Rackspace;0.295183
+VIMAM;Microsoft Azure;0.244368
+VIMAM;Amazon AWS;0.241245
+VIMAM;Google Cloud;0.21936
+VIMAM;Rackspace;0.296018
+VIMAM;Microsoft Azure;0.242536
+VIMAM;Amazon AWS;0.244422
+VIMAM;Google Cloud;0.217178
+VIMAM;Rackspace;0.294363
+VIMAM;Microsoft Azure;0.247363
+VIMAM;Amazon AWS;0.236059
+VIMAM;Google Cloud;0.22237
+VIMAM;Rackspace;0.295849
+VIMAM;Microsoft Azure;0.243756
+VIMAM;Amazon AWS;0.241715
+VIMAM;Google Cloud;0.218834
+VIMAM;Rackspace;0.296211
+VIMAM;Microsoft Azure;0.24197
+VIMAM;Amazon AWS;0.245509
+VIMAM;Google Cloud;0.216464
+VIMAM;Rackspace;0.287277
+VIMAM;Microsoft Azure;0.253224
+VIMAM;Amazon AWS;0.234822
+VIMAM;Google Cloud;0.224832
+VIMAM;Rackspace;0.295526
+VIMAM;Microsoft Azure;0.243194
+VIMAM;Amazon AWS;0.243604
+VIMAM;Google Cloud;0.21783
+VIMAM;Rackspace;0.294836
+VIMAM;Microsoft Azure;0.24689
+VIMAM;Amazon AWS;0.235328
+VIMAM;Google Cloud;0.223101
+VIMAM;Rackspace;0.296485
+VIMAM;Microsoft Azure;0.241483
+VIMAM;Amazon AWS;0.246267
+VIMAM;Google Cloud;0.21592
+VIMAM;Rackspace;0.29551
+VIMAM;Microsoft Azure;0.242292
+VIMAM;Amazon AWS;0.246615
+VIMAM;Google Cloud;0.215737
+VIMAM;Rackspace;0.295236
+VIMAM;Microsoft Azure;0.248769
+VIMAM;Amazon AWS;0.231704
+VIMAM;Google Cloud;0.224445
+VIMAM;Rackspace;0.29613
+VIMAM;Microsoft Azure;0.241457
+VIMAM;Amazon AWS;0.246831
+VIMAM;Google Cloud;0.215736
+VIMAM;Rackspace;0.293666
+VIMAM;Microsoft Azure;0.249559
+VIMAM;Amazon AWS;0.233034
+VIMAM;Google Cloud;0.223896
+VIMAM;Rackspace;0.295677
+VIMAM;Microsoft Azure;0.242199
+VIMAM;Amazon AWS;0.246353
+VIMAM;Google Cloud;0.215926
+VIMAM;Rackspace;0.295967
+VIMAM;Microsoft Azure;0.242106
+VIMAM;Amazon AWS;0.245481
+VIMAM;Google Cloud;0.216601
+VIMAM;Rackspace;0.294772
+VIMAM;Microsoft Azure;0.24718
+VIMAM;Amazon AWS;0.235636
+VIMAM;Google Cloud;0.222566
+VIMAM;Rackspace;0.294265
+VIMAM;Microsoft Azure;0.248564
+VIMAM;Amazon AWS;0.23342
+VIMAM;Google Cloud;0.223905
+VIMAM;Rackspace;0.295754
+VIMAM;Microsoft Azure;0.242431
+VIMAM;Amazon AWS;0.24508
+VIMAM;Google Cloud;0.21689
+VIMAM;Rackspace;0.29569
+VIMAM;Microsoft Azure;0.243141
+VIMAM;Amazon AWS;0.243908
+VIMAM;Google Cloud;0.217416
+VIMAM;Rackspace;0.296155
+VIMAM;Microsoft Azure;0.242515
+VIMAM;Amazon AWS;0.24391
+VIMAM;Google Cloud;0.217575
+VIMAM;Rackspace;0.296825
+VIMAM;Microsoft Azure;0.240667
+VIMAM;Amazon AWS;0.247606
+VIMAM;Google Cloud;0.215056
+VIMAM;Rackspace;0.295071
+VIMAM;Microsoft Azure;0.243435
+VIMAM;Amazon AWS;0.244367
+VIMAM;Google Cloud;0.217282
+VIMAM;Rackspace;0.296513
+VIMAM;Microsoft Azure;0.243295
+VIMAM;Amazon AWS;0.241593
+VIMAM;Google Cloud;0.218754
+VIMAM;Rackspace;0.293686
+VIMAM;Microsoft Azure;0.248878
+VIMAM;Amazon AWS;0.233916
+VIMAM;Google Cloud;0.223675
+VIMAM;Rackspace;0.295548
+VIMAM;Microsoft Azure;0.242411
+VIMAM;Amazon AWS;0.245395
+VIMAM;Google Cloud;0.216801
+VIMAM;Rackspace;0.296614
+VIMAM;Microsoft Azure;0.241484
+VIMAM;Amazon AWS;0.245508
+VIMAM;Google Cloud;0.216549
+VIMAM;Rackspace;0.294131
+VIMAM;Microsoft Azure;0.245411
+VIMAM;Amazon AWS;0.240474
+VIMAM;Google Cloud;0.220138
+VIMAM;Rackspace;0.295547
+VIMAM;Microsoft Azure;0.242242
+VIMAM;Amazon AWS;0.246341
+VIMAM;Google Cloud;0.216024
+VIMAM;Rackspace;0.294128
+VIMAM;Microsoft Azure;0.245654
+VIMAM;Amazon AWS;0.240126
+VIMAM;Google Cloud;0.220246
+VIMAM;Rackspace;0.294531
+VIMAM;Microsoft Azure;0.243684
+VIMAM;Amazon AWS;0.245045
+VIMAM;Google Cloud;0.216894
+VIMAM;Rackspace;0.295226
+VIMAM;Microsoft Azure;0.245558
+VIMAM;Amazon AWS;0.238707
+VIMAM;Google Cloud;0.220663
+VIMAM;Rackspace;0.292802
+VIMAM;Microsoft Azure;0.246864
+VIMAM;Amazon AWS;0.239656
+VIMAM;Google Cloud;0.220832
+VIMAM;Rackspace;0.285961
+VIMAM;Microsoft Azure;0.251429
+VIMAM;Amazon AWS;0.242671
+VIMAM;Google Cloud;0.220094
+VIMAM;Rackspace;0.288598
+VIMAM;Microsoft Azure;0.250335
+VIMAM;Amazon AWS;0.239614
+VIMAM;Google Cloud;0.221608
+VIMAM;Rackspace;0.293695
+VIMAM;Microsoft Azure;0.24993
+VIMAM;Amazon AWS;0.234331
+VIMAM;Google Cloud;0.222198
+VIMAM;Rackspace;0.296436
+VIMAM;Microsoft Azure;0.241948
+VIMAM;Amazon AWS;0.244917
+VIMAM;Google Cloud;0.216854
+VIMAM;Rackspace;0.290137
+VIMAM;Microsoft Azure;0.253633
+VIMAM;Amazon AWS;0.2312
+VIMAM;Google Cloud;0.225184
+VIMAM;Rackspace;0.294946
+VIMAM;Microsoft Azure;0.244848
+VIMAM;Amazon AWS;0.240332
+VIMAM;Google Cloud;0.220028
+VIMAM;Rackspace;0.295952
+VIMAM;Microsoft Azure;0.242693
+VIMAM;Amazon AWS;0.243786
+VIMAM;Google Cloud;0.217723
+VIMAM;Rackspace;0.296063
+VIMAM;Microsoft Azure;0.242621
+VIMAM;Amazon AWS;0.243824
+VIMAM;Google Cloud;0.217647
+VIMAM;Rackspace;0.296051
+VIMAM;Microsoft Azure;0.242624
+VIMAM;Amazon AWS;0.244362
+VIMAM;Google Cloud;0.217118
+VIMAM;Rackspace;0.2966
+VIMAM;Microsoft Azure;0.241339
+VIMAM;Amazon AWS;0.246074
+VIMAM;Google Cloud;0.216142
+VIMAM;Rackspace;0.296514
+VIMAM;Microsoft Azure;0.242076
+VIMAM;Amazon AWS;0.244455
+VIMAM;Google Cloud;0.21711
+VIMAM;Rackspace;0.295863
+VIMAM;Microsoft Azure;0.241554
+VIMAM;Amazon AWS;0.247348
+VIMAM;Google Cloud;0.215389
+VIMAM;Rackspace;0.296529
+VIMAM;Microsoft Azure;0.241278
+VIMAM;Amazon AWS;0.246901
+VIMAM;Google Cloud;0.215446
+VIMAM;Rackspace;0.295565
+VIMAM;Microsoft Azure;0.242574
+VIMAM;Amazon AWS;0.245298
+VIMAM;Google Cloud;0.216717
+VIMAM;Rackspace;0.296276
+VIMAM;Microsoft Azure;0.241812
+VIMAM;Amazon AWS;0.245521
+VIMAM;Google Cloud;0.216545
+VIMAM;Rackspace;0.294069
+VIMAM;Microsoft Azure;0.245417
+VIMAM;Amazon AWS;0.241054
+VIMAM;Google Cloud;0.219614
+VIMAM;Rackspace;0.296477
+VIMAM;Microsoft Azure;0.242344
+VIMAM;Amazon AWS;0.244158
+VIMAM;Google Cloud;0.217176
+VIMAM;Rackspace;0.293953
+VIMAM;Microsoft Azure;0.245619
+VIMAM;Amazon AWS;0.241596
+VIMAM;Google Cloud;0.218986
+VIMAM;Rackspace;0.295912
+VIMAM;Microsoft Azure;0.242295
+VIMAM;Amazon AWS;0.244909
+VIMAM;Google Cloud;0.217039
+VIMAM;Rackspace;0.295179
+VIMAM;Microsoft Azure;0.246293
+VIMAM;Amazon AWS;0.240255
+VIMAM;Google Cloud;0.218427
+VIMAM;Rackspace;0.296216
+VIMAM;Microsoft Azure;0.243118
+VIMAM;Amazon AWS;0.242692
+VIMAM;Google Cloud;0.218128
+VIMAM;Rackspace;0.295811
+VIMAM;Microsoft Azure;0.242669
+VIMAM;Amazon AWS;0.244071
+VIMAM;Google Cloud;0.217603
+VIMAM;Rackspace;0.295549
+VIMAM;Microsoft Azure;0.24324
+VIMAM;Amazon AWS;0.243476
+VIMAM;Google Cloud;0.21789
+VIMAM;Rackspace;0.293558
+VIMAM;Microsoft Azure;0.248112
+VIMAM;Amazon AWS;0.238157
+VIMAM;Google Cloud;0.220328
+VIMAM;Rackspace;0.294862
+VIMAM;Microsoft Azure;0.24459
+VIMAM;Amazon AWS;0.241214
+VIMAM;Google Cloud;0.219489
+VIMAM;Rackspace;0.291096
+VIMAM;Microsoft Azure;0.250647
+VIMAM;Amazon AWS;0.233646
+VIMAM;Google Cloud;0.224765
+VIMAM;Rackspace;0.294983
+VIMAM;Microsoft Azure;0.250566
+VIMAM;Amazon AWS;0.225841
+VIMAM;Google Cloud;0.228765
+VIMAM;Rackspace;0.295385
+VIMAM;Microsoft Azure;0.243681
+VIMAM;Amazon AWS;0.242614
+VIMAM;Google Cloud;0.218475
+VIMAM;Rackspace;0.288291
+VIMAM;Microsoft Azure;0.25316
+VIMAM;Amazon AWS;0.234266
+VIMAM;Google Cloud;0.224437
+VIMAM;Rackspace;0.296207
+VIMAM;Microsoft Azure;0.244635
+VIMAM;Amazon AWS;0.238207
+VIMAM;Google Cloud;0.221106
+VIMAM;Rackspace;0.296381
+VIMAM;Microsoft Azure;0.242361
+VIMAM;Amazon AWS;0.243851
+VIMAM;Google Cloud;0.217563
+VIMAM;Rackspace;0.296068
+VIMAM;Microsoft Azure;0.242562
+VIMAM;Amazon AWS;0.244028
+VIMAM;Google Cloud;0.217496
+VIMAM;Rackspace;0.293878
+VIMAM;Microsoft Azure;0.245565
+VIMAM;Amazon AWS;0.240998
+VIMAM;Google Cloud;0.219714
+VIMAM;Rackspace;0.295697
+VIMAM;Microsoft Azure;0.241644
+VIMAM;Amazon AWS;0.247307
+VIMAM;Google Cloud;0.215506
+VIMAM;Rackspace;0.296582
+VIMAM;Microsoft Azure;0.242376
+VIMAM;Amazon AWS;0.243339
+VIMAM;Google Cloud;0.217857
+VIMAM;Rackspace;0.295196
+VIMAM;Microsoft Azure;0.246968
+VIMAM;Amazon AWS;0.23519
+VIMAM;Google Cloud;0.222801
+VIMAM;Rackspace;0.294067
+VIMAM;Microsoft Azure;0.244423
+VIMAM;Amazon AWS;0.244494
+VIMAM;Google Cloud;0.21717
+VIMAM;Rackspace;0.296339
+VIMAM;Microsoft Azure;0.242464
+VIMAM;Amazon AWS;0.244129
+VIMAM;Google Cloud;0.217222
+VIMAM;Rackspace;0.291201
+VIMAM;Microsoft Azure;0.252558
+VIMAM;Amazon AWS;0.231679
+VIMAM;Google Cloud;0.224717
+VIMAM;Rackspace;0.295859
+VIMAM;Microsoft Azure;0.242697
+VIMAM;Amazon AWS;0.244147
+VIMAM;Google Cloud;0.217451
+VIMAM;Rackspace;0.295737
+VIMAM;Microsoft Azure;0.242348
+VIMAM;Amazon AWS;0.245519
+VIMAM;Google Cloud;0.21655
+VIMAM;Rackspace;0.295742
+VIMAM;Microsoft Azure;0.241871
+VIMAM;Amazon AWS;0.246947
+VIMAM;Google Cloud;0.215595
+VIMAM;Rackspace;0.296597
+VIMAM;Microsoft Azure;0.242222
+VIMAM;Amazon AWS;0.243769
+VIMAM;Google Cloud;0.217567
+VIMAM;Rackspace;0.295316
+VIMAM;Microsoft Azure;0.245059
+VIMAM;Amazon AWS;0.239427
+VIMAM;Google Cloud;0.220352
+VIMAM;Rackspace;0.295321
+VIMAM;Microsoft Azure;0.244315
+VIMAM;Amazon AWS;0.241977
+VIMAM;Google Cloud;0.218541
+VIMAM;Rackspace;0.296887
+VIMAM;Microsoft Azure;0.240662
+VIMAM;Amazon AWS;0.24765
+VIMAM;Google Cloud;0.214956
+VIMAM;Rackspace;0.295938
+VIMAM;Microsoft Azure;0.242944
+VIMAM;Amazon AWS;0.243849
+VIMAM;Google Cloud;0.217423
+VIMAM;Rackspace;0.295929
+VIMAM;Microsoft Azure;0.242089
+VIMAM;Amazon AWS;0.246719
+VIMAM;Google Cloud;0.215417
+VIMAM;Rackspace;0.294987
+VIMAM;Microsoft Azure;0.244193
+VIMAM;Amazon AWS;0.243236
+VIMAM;Google Cloud;0.217738
+VIMAM;Rackspace;0.291527
+VIMAM;Microsoft Azure;0.250144
+VIMAM;Amazon AWS;0.236918
+VIMAM;Google Cloud;0.221564
+VIMAM;Rackspace;0.294093
+VIMAM;Microsoft Azure;0.251
+VIMAM;Amazon AWS;0.227351
+VIMAM;Google Cloud;0.227711
+VIMAM;Rackspace;0.295741
+VIMAM;Microsoft Azure;0.243179
+VIMAM;Amazon AWS;0.243288
+VIMAM;Google Cloud;0.217946
+VIMAM;Rackspace;0.296095
+VIMAM;Microsoft Azure;0.2429
+VIMAM;Amazon AWS;0.243248
+VIMAM;Google Cloud;0.217912
+VIMAM;Rackspace;0.294325
+VIMAM;Microsoft Azure;0.244072
+VIMAM;Amazon AWS;0.244918
+VIMAM;Google Cloud;0.216839
+VIMAM;Rackspace;0.296398
+VIMAM;Microsoft Azure;0.243211
+VIMAM;Amazon AWS;0.242278
+VIMAM;Google Cloud;0.218268
+VIMAM;Rackspace;0.294405
+VIMAM;Microsoft Azure;0.245159
+VIMAM;Amazon AWS;0.241809
+VIMAM;Google Cloud;0.218781
+VIMAM;Rackspace;0.293222
+VIMAM;Microsoft Azure;0.247028
+VIMAM;Amazon AWS;0.239896
+VIMAM;Google Cloud;0.220008
+VIMAM;Rackspace;0.295384
+VIMAM;Microsoft Azure;0.242575
+VIMAM;Amazon AWS;0.245259
+VIMAM;Google Cloud;0.216936
+VIMAM;Rackspace;0.295706
+VIMAM;Microsoft Azure;0.24446
+VIMAM;Amazon AWS;0.24
+VIMAM;Google Cloud;0.219989
+VIMAM;Rackspace;0.295828
+VIMAM;Microsoft Azure;0.242271
+VIMAM;Amazon AWS;0.245636
+VIMAM;Google Cloud;0.21642
+VIMAM;Rackspace;0.296245
+VIMAM;Microsoft Azure;0.242442
+VIMAM;Amazon AWS;0.24411
+VIMAM;Google Cloud;0.217358
+VIMAM;Rackspace;0.294237
+VIMAM;Microsoft Azure;0.246388
+VIMAM;Amazon AWS;0.244024
+VIMAM;Google Cloud;0.215506
+VIMAM;Rackspace;0.296662
+VIMAM;Microsoft Azure;0.241242
+VIMAM;Amazon AWS;0.246549
+VIMAM;Google Cloud;0.215701
+VIMAM;Rackspace;0.2952
+VIMAM;Microsoft Azure;0.2443
+VIMAM;Amazon AWS;0.241646
+VIMAM;Google Cloud;0.219009
+VIMAM;Rackspace;0.295307
+VIMAM;Microsoft Azure;0.242968
+VIMAM;Amazon AWS;0.244551
+VIMAM;Google Cloud;0.217329
+VIMAM;Rackspace;0.295826
+VIMAM;Microsoft Azure;0.242779
+VIMAM;Amazon AWS;0.243905
+VIMAM;Google Cloud;0.217644
+VIMAM;Rackspace;0.294403
+VIMAM;Microsoft Azure;0.249269
+VIMAM;Amazon AWS;0.231577
+VIMAM;Google Cloud;0.224906
+VIMAM;Rackspace;0.295675
+VIMAM;Microsoft Azure;0.243306
+VIMAM;Amazon AWS;0.24338
+VIMAM;Google Cloud;0.217793
+VIMAM;Rackspace;0.295165
+VIMAM;Microsoft Azure;0.244655
+VIMAM;Amazon AWS;0.241485
+VIMAM;Google Cloud;0.21885
+VIMAM;Rackspace;0.296346
+VIMAM;Microsoft Azure;0.242412
+VIMAM;Amazon AWS;0.243797
+VIMAM;Google Cloud;0.217599
+VIMAM;Rackspace;0.294779
+VIMAM;Microsoft Azure;0.243303
+VIMAM;Amazon AWS;0.24591
+VIMAM;Google Cloud;0.216162
+VIMAM;Rackspace;0.296778
+VIMAM;Microsoft Azure;0.240873
+VIMAM;Amazon AWS;0.246772
+VIMAM;Google Cloud;0.215732
+VIMAM;Rackspace;0.295917
+VIMAM;Microsoft Azure;0.242191
+VIMAM;Amazon AWS;0.245887
+VIMAM;Google Cloud;0.216159
+VIMAM;Rackspace;0.29552
+VIMAM;Microsoft Azure;0.243144
+VIMAM;Amazon AWS;0.244011
+VIMAM;Google Cloud;0.21748
+VIMAM;Rackspace;0.295976
+VIMAM;Microsoft Azure;0.245174
+VIMAM;Amazon AWS;0.238067
+VIMAM;Google Cloud;0.220938
+VIMAM;Rackspace;0.29537
+VIMAM;Microsoft Azure;0.243383
+VIMAM;Amazon AWS;0.243121
+VIMAM;Google Cloud;0.21828
+VIMAM;Rackspace;0.294293
+VIMAM;Microsoft Azure;0.244348
+VIMAM;Amazon AWS;0.244359
+VIMAM;Google Cloud;0.217154
+VIMAM;Rackspace;0.295418
+VIMAM;Microsoft Azure;0.243249
+VIMAM;Amazon AWS;0.243575
+VIMAM;Google Cloud;0.217913
+VIMAM;Rackspace;0.291241
+VIMAM;Microsoft Azure;0.25382
+VIMAM;Amazon AWS;0.229537
+VIMAM;Google Cloud;0.225556
+VIMAM;Rackspace;0.296003
+VIMAM;Microsoft Azure;0.242464
+VIMAM;Amazon AWS;0.244268
+VIMAM;Google Cloud;0.217419
+VIMAM;Rackspace;0.29585
+VIMAM;Microsoft Azure;0.242411
+VIMAM;Amazon AWS;0.245009
+VIMAM;Google Cloud;0.216884
+VIMAM;Rackspace;0.295062
+VIMAM;Microsoft Azure;0.243376
+VIMAM;Amazon AWS;0.244586
+VIMAM;Google Cloud;0.217131
+VIMAM;Rackspace;0.295776
+VIMAM;Microsoft Azure;0.242112
+VIMAM;Amazon AWS;0.245759
+VIMAM;Google Cloud;0.216507
+VIMAM;Rackspace;0.29671
+VIMAM;Microsoft Azure;0.241266
+VIMAM;Amazon AWS;0.246018
+VIMAM;Google Cloud;0.21616
+VIMAM;Rackspace;0.295677
+VIMAM;Microsoft Azure;0.242321
+VIMAM;Amazon AWS;0.245736
+VIMAM;Google Cloud;0.21642
+VIMAM;Rackspace;0.292585
+VIMAM;Microsoft Azure;0.250044
+VIMAM;Amazon AWS;0.233124
+VIMAM;Google Cloud;0.224402
+VIMAM;Rackspace;0.296361
+VIMAM;Microsoft Azure;0.24141
+VIMAM;Amazon AWS;0.246639
+VIMAM;Google Cloud;0.215745
+VIMAM;Rackspace;0.296271
+VIMAM;Microsoft Azure;0.242128
+VIMAM;Amazon AWS;0.244817
+VIMAM;Google Cloud;0.216939
+VIMAM;Rackspace;0.295957
+VIMAM;Microsoft Azure;0.242356
+VIMAM;Amazon AWS;0.245968
+VIMAM;Google Cloud;0.215874
+VIMAM;Rackspace;0.295263
+VIMAM;Microsoft Azure;0.243288
+VIMAM;Amazon AWS;0.244336
+VIMAM;Google Cloud;0.217267
+VIMAM;Rackspace;0.294942
+VIMAM;Microsoft Azure;0.246194
+VIMAM;Amazon AWS;0.237888
+VIMAM;Google Cloud;0.22113
+VIMAM;Rackspace;0.294014
+VIMAM;Microsoft Azure;0.245533
+VIMAM;Amazon AWS;0.240929
+VIMAM;Google Cloud;0.219678
+VIMAM;Rackspace;0.296157
+VIMAM;Microsoft Azure;0.242171
+VIMAM;Amazon AWS;0.245204
+VIMAM;Google Cloud;0.216622
+VIMAM;Rackspace;0.295523
+VIMAM;Microsoft Azure;0.242636
+VIMAM;Amazon AWS;0.245331
+VIMAM;Google Cloud;0.216664
+VIMAM;Rackspace;0.296484
+VIMAM;Microsoft Azure;0.241325
+VIMAM;Amazon AWS;0.246536
+VIMAM;Google Cloud;0.215811
+VIMAM;Rackspace;0.296284
+VIMAM;Microsoft Azure;0.242877
+VIMAM;Amazon AWS;0.243042
+VIMAM;Google Cloud;0.217952
+VIMAM;Rackspace;0.294703
+VIMAM;Microsoft Azure;0.244601
+VIMAM;Amazon AWS;0.241645
+VIMAM;Google Cloud;0.219205
+VIMAM;Rackspace;0.295387
+VIMAM;Microsoft Azure;0.243518
+VIMAM;Amazon AWS;0.243205
+VIMAM;Google Cloud;0.218045
+VIMAM;Rackspace;0.295001
+VIMAM;Microsoft Azure;0.244133
+VIMAM;Amazon AWS;0.242483
+VIMAM;Google Cloud;0.218537
+VIMAM;Rackspace;0.295486
+VIMAM;Microsoft Azure;0.242926
+VIMAM;Amazon AWS;0.244153
+VIMAM;Google Cloud;0.21759
+VIMAM;Rackspace;0.296111
+VIMAM;Microsoft Azure;0.243283
+VIMAM;Amazon AWS;0.242346
+VIMAM;Google Cloud;0.218415
+VIMAM;Rackspace;0.29685
+VIMAM;Microsoft Azure;0.240877
+VIMAM;Amazon AWS;0.247187
+VIMAM;Google Cloud;0.21524
+VIMAM;Rackspace;0.296159
+VIMAM;Microsoft Azure;0.241457
+VIMAM;Amazon AWS;0.246823
+VIMAM;Google Cloud;0.215716
+VIMAM;Rackspace;0.294655
+VIMAM;Microsoft Azure;0.245337
+VIMAM;Amazon AWS;0.240393
+VIMAM;Google Cloud;0.21977
+VIMAM;Rackspace;0.296539
+VIMAM;Microsoft Azure;0.241375
+VIMAM;Amazon AWS;0.246189
+VIMAM;Google Cloud;0.216051
+VIMAM;Rackspace;0.296107
+VIMAM;Microsoft Azure;0.241929
+VIMAM;Amazon AWS;0.24605
+VIMAM;Google Cloud;0.216068
+VIMAM;Rackspace;0.295465
+VIMAM;Microsoft Azure;0.2437
+VIMAM;Amazon AWS;0.242324
+VIMAM;Google Cloud;0.218666
+VIMAM;Rackspace;0.289352
+VIMAM;Microsoft Azure;0.250564
+VIMAM;Amazon AWS;0.240672
+VIMAM;Google Cloud;0.219567
+VIMAM;Rackspace;0.29654
+VIMAM;Microsoft Azure;0.24131
+VIMAM;Amazon AWS;0.246588
+VIMAM;Google Cloud;0.215716
+VIMAM;Rackspace;0.292073
+VIMAM;Microsoft Azure;0.250498
+VIMAM;Amazon AWS;0.233296
+VIMAM;Google Cloud;0.224287
+VIMAM;Rackspace;0.290522
+VIMAM;Microsoft Azure;0.253421
+VIMAM;Amazon AWS;0.227894
+VIMAM;Google Cloud;0.228318
+VIMAM;Rackspace;0.296077
+VIMAM;Microsoft Azure;0.242079
+VIMAM;Amazon AWS;0.24508
+VIMAM;Google Cloud;0.216918
+VIMAM;Rackspace;0.294307
+VIMAM;Microsoft Azure;0.248468
+VIMAM;Amazon AWS;0.233377
+VIMAM;Google Cloud;0.224003
+VIMAM;Rackspace;0.296296
+VIMAM;Microsoft Azure;0.241925
+VIMAM;Amazon AWS;0.245487
+VIMAM;Google Cloud;0.216447
+VIMAM;Rackspace;0.296481
+VIMAM;Microsoft Azure;0.242699
+VIMAM;Amazon AWS;0.243759
+VIMAM;Google Cloud;0.217216
+VIMAM;Rackspace;0.292687
+VIMAM;Microsoft Azure;0.250871
+VIMAM;Amazon AWS;0.231154
+VIMAM;Google Cloud;0.225442
+VIMAM;Rackspace;0.296518
+VIMAM;Microsoft Azure;0.241302
+VIMAM;Amazon AWS;0.246564
+VIMAM;Google Cloud;0.21577
+VIMAM;Rackspace;0.295243
+VIMAM;Microsoft Azure;0.244032
+VIMAM;Amazon AWS;0.24299
+VIMAM;Google Cloud;0.217889
+VIMAM;Rackspace;0.293715
+VIMAM;Microsoft Azure;0.246376
+VIMAM;Amazon AWS;0.239584
+VIMAM;Google Cloud;0.220479
+VIMAM;Rackspace;0.29427
+VIMAM;Microsoft Azure;0.245309
+VIMAM;Amazon AWS;0.24129
+VIMAM;Google Cloud;0.219286
+VIMAM;Rackspace;0.295643
+VIMAM;Microsoft Azure;0.24264
+VIMAM;Amazon AWS;0.244863
+VIMAM;Google Cloud;0.217008
+VIMAM;Rackspace;0.294854
+VIMAM;Microsoft Azure;0.248135
+VIMAM;Amazon AWS;0.232841
+VIMAM;Google Cloud;0.224325
+VIMAM;Rackspace;0.296098
+VIMAM;Microsoft Azure;0.241734
+VIMAM;Amazon AWS;0.246312
+VIMAM;Google Cloud;0.21601
+VIMAM;Rackspace;0.29629
+VIMAM;Microsoft Azure;0.241594
+VIMAM;Amazon AWS;0.246788
+VIMAM;Google Cloud;0.215483
+VIMAM;Rackspace;0.29562
+VIMAM;Microsoft Azure;0.242979
+VIMAM;Amazon AWS;0.244083
+VIMAM;Google Cloud;0.217473
+VIMAM;Rackspace;0.295657
+VIMAM;Microsoft Azure;0.242981
+VIMAM;Amazon AWS;0.243871
+VIMAM;Google Cloud;0.217645
+VIMAM;Rackspace;0.294081
+VIMAM;Microsoft Azure;0.246396
+VIMAM;Amazon AWS;0.239194
+VIMAM;Google Cloud;0.220483
+VIMAM;Rackspace;0.294793
+VIMAM;Microsoft Azure;0.244663
+VIMAM;Amazon AWS;0.242232
+VIMAM;Google Cloud;0.218467
+VIMAM;Rackspace;0.296242
+VIMAM;Microsoft Azure;0.241545
+VIMAM;Amazon AWS;0.246173
+VIMAM;Google Cloud;0.216196
+VIMAM;Rackspace;0.296364
+VIMAM;Microsoft Azure;0.242909
+VIMAM;Amazon AWS;0.242789
+VIMAM;Google Cloud;0.218092
+VIMAM;Rackspace;0.296748
+VIMAM;Microsoft Azure;0.240637
+VIMAM;Amazon AWS;0.247556
+VIMAM;Google Cloud;0.215213
+VIMAM;Rackspace;0.296041
+VIMAM;Microsoft Azure;0.241662
+VIMAM;Amazon AWS;0.246332
+VIMAM;Google Cloud;0.216119
+VIMAM;Rackspace;0.295611
+VIMAM;Microsoft Azure;0.242137
+VIMAM;Amazon AWS;0.246374
+VIMAM;Google Cloud;0.216032
+VIMAM;Rackspace;0.29561
+VIMAM;Microsoft Azure;0.244296
+VIMAM;Amazon AWS;0.2405
+VIMAM;Google Cloud;0.219749
+VIMAM;Rackspace;0.296519
+VIMAM;Microsoft Azure;0.242074
+VIMAM;Amazon AWS;0.244649
+VIMAM;Google Cloud;0.216912
+VIMAM;Rackspace;0.295588
+VIMAM;Microsoft Azure;0.24184
+VIMAM;Amazon AWS;0.24712
+VIMAM;Google Cloud;0.215607
+VIMAM;Rackspace;0.295161
+VIMAM;Microsoft Azure;0.243839
+VIMAM;Amazon AWS;0.242563
+VIMAM;Google Cloud;0.218592
+VIMAM;Rackspace;0.296688
+VIMAM;Microsoft Azure;0.241618
+VIMAM;Amazon AWS;0.245386
+VIMAM;Google Cloud;0.216462
+VIMAM;Rackspace;0.28872
+VIMAM;Microsoft Azure;0.25223
+VIMAM;Amazon AWS;0.23682
+VIMAM;Google Cloud;0.222385
+VIMAM;Rackspace;0.296412
+VIMAM;Microsoft Azure;0.243552
+VIMAM;Amazon AWS;0.2417
+VIMAM;Google Cloud;0.21849
+VIMAM;Rackspace;0.296169
+VIMAM;Microsoft Azure;0.24203
+VIMAM;Amazon AWS;0.245326
+VIMAM;Google Cloud;0.216629
+VIMAM;Rackspace;0.294972
+VIMAM;Microsoft Azure;0.245187
+VIMAM;Amazon AWS;0.240218
+VIMAM;Google Cloud;0.219778
+VIMAM;Rackspace;0.295568
+VIMAM;Microsoft Azure;0.242084
+VIMAM;Amazon AWS;0.24619
+VIMAM;Google Cloud;0.216313
+VIMAM;Rackspace;0.295913
+VIMAM;Microsoft Azure;0.242342
+VIMAM;Amazon AWS;0.245016
+VIMAM;Google Cloud;0.216883
+VIMAM;Rackspace;0.296439
+VIMAM;Microsoft Azure;0.241455
+VIMAM;Amazon AWS;0.246728
+VIMAM;Google Cloud;0.215532
+VIMAM;Rackspace;0.296633
+VIMAM;Microsoft Azure;0.241679
+VIMAM;Amazon AWS;0.245275
+VIMAM;Google Cloud;0.216567
+VIMAM;Rackspace;0.294768
+VIMAM;Microsoft Azure;0.245585
+VIMAM;Amazon AWS;0.238915
+VIMAM;Google Cloud;0.220887
+VIMAM;Rackspace;0.292434
+VIMAM;Microsoft Azure;0.247645
+VIMAM;Amazon AWS;0.238755
+VIMAM;Google Cloud;0.221321
+VIMAM;Rackspace;0.295602
+VIMAM;Microsoft Azure;0.242319
+VIMAM;Amazon AWS;0.246307
+VIMAM;Google Cloud;0.215926
+VIMAM;Rackspace;0.295454
+VIMAM;Microsoft Azure;0.24312
+VIMAM;Amazon AWS;0.243711
+VIMAM;Google Cloud;0.217869
+VIMAM;Rackspace;0.296627
+VIMAM;Microsoft Azure;0.242512
+VIMAM;Amazon AWS;0.243328
+VIMAM;Google Cloud;0.217688
+VIMAM;Rackspace;0.296204
+VIMAM;Microsoft Azure;0.241195
+VIMAM;Amazon AWS;0.24723
+VIMAM;Google Cloud;0.215526
+VIMAM;Rackspace;0.295295
+VIMAM;Microsoft Azure;0.246937
+VIMAM;Amazon AWS;0.235341
+VIMAM;Google Cloud;0.222582
+VIMAM;Rackspace;0.296341
+VIMAM;Microsoft Azure;0.24203
+VIMAM;Amazon AWS;0.24474
+VIMAM;Google Cloud;0.217045
+VIMAM;Rackspace;0.295841
+VIMAM;Microsoft Azure;0.244474
+VIMAM;Amazon AWS;0.239803
+VIMAM;Google Cloud;0.220037
+VIMAM;Rackspace;0.296451
+VIMAM;Microsoft Azure;0.24152
+VIMAM;Amazon AWS;0.246363
+VIMAM;Google Cloud;0.21582
+VIMAM;Rackspace;0.296572
+VIMAM;Microsoft Azure;0.240902
+VIMAM;Amazon AWS;0.247348
+VIMAM;Google Cloud;0.215333
+VIMAM;Rackspace;0.294258
+VIMAM;Microsoft Azure;0.24653
+VIMAM;Amazon AWS;0.238291
+VIMAM;Google Cloud;0.221075
+VIMAM;Rackspace;0.296626
+VIMAM;Microsoft Azure;0.241386
+VIMAM;Amazon AWS;0.246321
+VIMAM;Google Cloud;0.215821
+VIMAM;Rackspace;0.293929
+VIMAM;Microsoft Azure;0.245784
+VIMAM;Amazon AWS;0.240052
+VIMAM;Google Cloud;0.220388
+VIMAM;Rackspace;0.295784
+VIMAM;Microsoft Azure;0.24329
+VIMAM;Amazon AWS;0.242498
+VIMAM;Google Cloud;0.218582
+VIMAM;Rackspace;0.29549
+VIMAM;Microsoft Azure;0.243256
+VIMAM;Amazon AWS;0.243513
+VIMAM;Google Cloud;0.217896
+VIMAM;Rackspace;0.295849
+VIMAM;Microsoft Azure;0.242316
+VIMAM;Amazon AWS;0.245367
+VIMAM;Google Cloud;0.216622
+VIMAM;Rackspace;0.295443
+VIMAM;Microsoft Azure;0.245818
+VIMAM;Amazon AWS;0.23793
+VIMAM;Google Cloud;0.220963
+VIMAM;Rackspace;0.296312
+VIMAM;Microsoft Azure;0.242562
+VIMAM;Amazon AWS;0.243506
+VIMAM;Google Cloud;0.217774
+VIMAM;Rackspace;0.294408
+VIMAM;Microsoft Azure;0.243485
+VIMAM;Amazon AWS;0.246133
+VIMAM;Google Cloud;0.216129
+VIMAM;Rackspace;0.29519
+VIMAM;Microsoft Azure;0.243476
+VIMAM;Amazon AWS;0.243405
+VIMAM;Google Cloud;0.218084
+VIMAM;Rackspace;0.296328
+VIMAM;Microsoft Azure;0.24245
+VIMAM;Amazon AWS;0.244458
+VIMAM;Google Cloud;0.216918
+VIMAM;Rackspace;0.293918
+VIMAM;Microsoft Azure;0.24547
+VIMAM;Amazon AWS;0.242107
+VIMAM;Google Cloud;0.21866
+VIMAM;Rackspace;0.294293
+VIMAM;Microsoft Azure;0.245209
+VIMAM;Amazon AWS;0.241767
+VIMAM;Google Cloud;0.218885
+VIMAM;Rackspace;0.295647
+VIMAM;Microsoft Azure;0.243297
+VIMAM;Amazon AWS;0.242924
+VIMAM;Google Cloud;0.218287
+VIMAM;Rackspace;0.295116
+VIMAM;Microsoft Azure;0.248374
+VIMAM;Amazon AWS;0.230859
+VIMAM;Google Cloud;0.225806
+VIMAM;Rackspace;0.296087
+VIMAM;Microsoft Azure;0.241953
+VIMAM;Amazon AWS;0.245518
+VIMAM;Google Cloud;0.216597
+VIMAM;Rackspace;0.29424
+VIMAM;Microsoft Azure;0.247888
+VIMAM;Amazon AWS;0.23468
+VIMAM;Google Cloud;0.223347
+VIMAM;Rackspace;0.294376
+VIMAM;Microsoft Azure;0.24401
+VIMAM;Amazon AWS;0.244439
+VIMAM;Google Cloud;0.217329
+VIMAM;Rackspace;0.295084
+VIMAM;Microsoft Azure;0.243569
+VIMAM;Amazon AWS;0.244018
+VIMAM;Google Cloud;0.217484
+VIMAM;Rackspace;0.295479
+VIMAM;Microsoft Azure;0.243425
+VIMAM;Amazon AWS;0.243094
+VIMAM;Google Cloud;0.218156
+VIMAM;Rackspace;0.296221
+VIMAM;Microsoft Azure;0.241333
+VIMAM;Amazon AWS;0.246933
+VIMAM;Google Cloud;0.215668
+VIMAM;Rackspace;0.295514
+VIMAM;Microsoft Azure;0.242479
+VIMAM;Amazon AWS;0.245695
+VIMAM;Google Cloud;0.216466
+VIMAM;Rackspace;0.296546
+VIMAM;Microsoft Azure;0.240914
+VIMAM;Amazon AWS;0.247488
+VIMAM;Google Cloud;0.215206
+VIMAM;Rackspace;0.294479
+VIMAM;Microsoft Azure;0.250255
+VIMAM;Amazon AWS;0.230316
+VIMAM;Google Cloud;0.225105
+VIMAM;Rackspace;0.295404
+VIMAM;Microsoft Azure;0.242712
+VIMAM;Amazon AWS;0.245302
+VIMAM;Google Cloud;0.216737
+VIMAM;Rackspace;0.294587
+VIMAM;Microsoft Azure;0.244728
+VIMAM;Amazon AWS;0.24275
+VIMAM;Google Cloud;0.21809
+VIMAM;Rackspace;0.294199
+VIMAM;Microsoft Azure;0.248275
+VIMAM;Amazon AWS;0.234535
+VIMAM;Google Cloud;0.223146
+VIMAM;Rackspace;0.292846
+VIMAM;Microsoft Azure;0.24914
+VIMAM;Amazon AWS;0.234601
+VIMAM;Google Cloud;0.223568
+VIMAM;Rackspace;0.296102
+VIMAM;Microsoft Azure;0.242414
+VIMAM;Amazon AWS;0.244675
+VIMAM;Google Cloud;0.216964
+VIMAM;Rackspace;0.296196
+VIMAM;Microsoft Azure;0.242505
+VIMAM;Amazon AWS;0.244268
+VIMAM;Google Cloud;0.217185
+VIMAM;Rackspace;0.296163
+VIMAM;Microsoft Azure;0.242303
+VIMAM;Amazon AWS;0.244738
+VIMAM;Google Cloud;0.21695
+VIMAM;Rackspace;0.295439
+VIMAM;Microsoft Azure;0.242792
+VIMAM;Amazon AWS;0.245074
+VIMAM;Google Cloud;0.216849
+VIMAM;Rackspace;0.291322
+VIMAM;Microsoft Azure;0.249532
+VIMAM;Amazon AWS;0.240378
+VIMAM;Google Cloud;0.218922
+VIMAM;Rackspace;0.29586
+VIMAM;Microsoft Azure;0.244225
+VIMAM;Amazon AWS;0.240134
+VIMAM;Google Cloud;0.219936
+VIMAM;Rackspace;0.29538
+VIMAM;Microsoft Azure;0.243408
+VIMAM;Amazon AWS;0.243762
+VIMAM;Google Cloud;0.217604
+VIMAM;Rackspace;0.296201
+VIMAM;Microsoft Azure;0.244101
+VIMAM;Amazon AWS;0.239575
+VIMAM;Google Cloud;0.220278
+VIMAM;Rackspace;0.29513
+VIMAM;Microsoft Azure;0.245074
+VIMAM;Amazon AWS;0.239837
+VIMAM;Google Cloud;0.220113
+VIMAM;Rackspace;0.295759
+VIMAM;Microsoft Azure;0.243207
+VIMAM;Amazon AWS;0.243739
+VIMAM;Google Cloud;0.217449
+VIMAM;Rackspace;0.296186
+VIMAM;Microsoft Azure;0.241801
+VIMAM;Amazon AWS;0.245613
+VIMAM;Google Cloud;0.216555
+VIMAM;Rackspace;0.295368
+VIMAM;Microsoft Azure;0.242269
+VIMAM;Amazon AWS;0.246638
+VIMAM;Google Cloud;0.215879
+VIMAM;Rackspace;0.295988
+VIMAM;Microsoft Azure;0.242096
+VIMAM;Amazon AWS;0.245966
+VIMAM;Google Cloud;0.216105
+VIMAM;Rackspace;0.295124
+VIMAM;Microsoft Azure;0.244185
+VIMAM;Amazon AWS;0.241853
+VIMAM;Google Cloud;0.218992
+VIMAM;Rackspace;0.295751
+VIMAM;Microsoft Azure;0.242633
+VIMAM;Amazon AWS;0.244411
+VIMAM;Google Cloud;0.217359
+VIMAM;Rackspace;0.295366
+VIMAM;Microsoft Azure;0.246547
+VIMAM;Amazon AWS;0.235339
+VIMAM;Google Cloud;0.222903
+VIMAM;Rackspace;0.295682
+VIMAM;Microsoft Azure;0.242958
+VIMAM;Amazon AWS;0.24402
+VIMAM;Google Cloud;0.217494
+VIMAM;Rackspace;0.295553
+VIMAM;Microsoft Azure;0.244647
+VIMAM;Amazon AWS;0.23966
+VIMAM;Google Cloud;0.220294
+VIMAM;Rackspace;0.296375
+VIMAM;Microsoft Azure;0.243224
+VIMAM;Amazon AWS;0.24191
+VIMAM;Google Cloud;0.218646
+VIMAM;Rackspace;0.295448
+VIMAM;Microsoft Azure;0.242743
+VIMAM;Amazon AWS;0.245065
+VIMAM;Google Cloud;0.216899
+VIMAM;Rackspace;0.294093
+VIMAM;Microsoft Azure;0.247014
+VIMAM;Amazon AWS;0.237259
+VIMAM;Google Cloud;0.221789
+VIMAM;Rackspace;0.2953
+VIMAM;Microsoft Azure;0.244197
+VIMAM;Amazon AWS;0.241817
+VIMAM;Google Cloud;0.218841
+VIMAM;Rackspace;0.295951
+VIMAM;Microsoft Azure;0.24214
+VIMAM;Amazon AWS;0.246113
+VIMAM;Google Cloud;0.215951
+VIMAM;Rackspace;0.29665
+VIMAM;Microsoft Azure;0.243836
+VIMAM;Amazon AWS;0.244288
+VIMAM;Google Cloud;0.21538
+VIMAM;Rackspace;0.292016
+VIMAM;Microsoft Azure;0.248412
+VIMAM;Amazon AWS;0.237982
+VIMAM;Google Cloud;0.221744
+VIMAM;Rackspace;0.295606
+VIMAM;Microsoft Azure;0.246399
+VIMAM;Amazon AWS;0.236755
+VIMAM;Google Cloud;0.221394
+VIMAM;Rackspace;0.289705
+VIMAM;Microsoft Azure;0.251268
+VIMAM;Amazon AWS;0.23606
+VIMAM;Google Cloud;0.223121
+VIMAM;Rackspace;0.295997
+VIMAM;Microsoft Azure;0.244252
+VIMAM;Amazon AWS;0.239877
+VIMAM;Google Cloud;0.220029
+VIMAM;Rackspace;0.296035
+VIMAM;Microsoft Azure;0.243429
+VIMAM;Amazon AWS;0.242371
+VIMAM;Google Cloud;0.21832
+VIMAM;Rackspace;0.292086
+VIMAM;Microsoft Azure;0.250424
+VIMAM;Amazon AWS;0.232168
+VIMAM;Google Cloud;0.225477
+VIMAM;Rackspace;0.296586
+VIMAM;Microsoft Azure;0.240809
+VIMAM;Amazon AWS;0.247366
+VIMAM;Google Cloud;0.215393
+VIMAM;Rackspace;0.295753
+VIMAM;Microsoft Azure;0.242566
+VIMAM;Amazon AWS;0.244634
+VIMAM;Google Cloud;0.217201
+VIMAM;Rackspace;0.296476
+VIMAM;Microsoft Azure;0.241816
+VIMAM;Amazon AWS;0.245062
+VIMAM;Google Cloud;0.216801
+VIMAM;Rackspace;0.296136
+VIMAM;Microsoft Azure;0.242317
+VIMAM;Amazon AWS;0.244594
+VIMAM;Google Cloud;0.217107
+VIMAM;Rackspace;0.293777
+VIMAM;Microsoft Azure;0.245249
+VIMAM;Amazon AWS;0.241991
+VIMAM;Google Cloud;0.219138
+VIMAM;Rackspace;0.296415
+VIMAM;Microsoft Azure;0.241574
+VIMAM;Amazon AWS;0.246145
+VIMAM;Google Cloud;0.21602
+VIMAM;Rackspace;0.290398
+VIMAM;Microsoft Azure;0.252234
+VIMAM;Amazon AWS;0.231125
+VIMAM;Google Cloud;0.226398
+VIMAM;Rackspace;0.290622
+VIMAM;Microsoft Azure;0.247981
+VIMAM;Amazon AWS;0.241573
+VIMAM;Google Cloud;0.219979
+VIMAM;Rackspace;0.295647
+VIMAM;Microsoft Azure;0.242461
+VIMAM;Amazon AWS;0.245339
+VIMAM;Google Cloud;0.216707
+VIMAM;Rackspace;0.296165
+VIMAM;Microsoft Azure;0.242789
+VIMAM;Amazon AWS;0.243475
+VIMAM;Google Cloud;0.217725
+VIMAM;Rackspace;0.292629
+VIMAM;Microsoft Azure;0.248133
+VIMAM;Amazon AWS;0.237517
+VIMAM;Google Cloud;0.221875
+VIMAM;Rackspace;0.29491
+VIMAM;Microsoft Azure;0.244552
+VIMAM;Amazon AWS;0.241481
+VIMAM;Google Cloud;0.219211
+VIMAM;Rackspace;0.295579
+VIMAM;Microsoft Azure;0.242676
+VIMAM;Amazon AWS;0.244799
+VIMAM;Google Cloud;0.2171
+VIMAM;Rackspace;0.295755
+VIMAM;Microsoft Azure;0.245307
+VIMAM;Amazon AWS;0.239378
+VIMAM;Google Cloud;0.219714
+VIMAM;Rackspace;0.296714
+VIMAM;Microsoft Azure;0.241983
+VIMAM;Amazon AWS;0.24507
+VIMAM;Google Cloud;0.216389
+VIMAM;Rackspace;0.29593
+VIMAM;Microsoft Azure;0.242627
+VIMAM;Amazon AWS;0.24413
+VIMAM;Google Cloud;0.217467
+VIMAM;Rackspace;0.293635
+VIMAM;Microsoft Azure;0.24806
+VIMAM;Amazon AWS;0.236065
+VIMAM;Google Cloud;0.222395
+VIMAM;Rackspace;0.295447
+VIMAM;Microsoft Azure;0.241913
+VIMAM;Amazon AWS;0.24712
+VIMAM;Google Cloud;0.215675
+VIMAM;Rackspace;0.296169
+VIMAM;Microsoft Azure;0.244246
+VIMAM;Amazon AWS;0.239445
+VIMAM;Google Cloud;0.220294
+VIMAM;Rackspace;0.296682
+VIMAM;Microsoft Azure;0.241181
+VIMAM;Amazon AWS;0.246673
+VIMAM;Google Cloud;0.215618
+VIMAM;Rackspace;0.295641
+VIMAM;Microsoft Azure;0.242182
+VIMAM;Amazon AWS;0.245858
+VIMAM;Google Cloud;0.216473
+VIMAM;Rackspace;0.296743
+VIMAM;Microsoft Azure;0.24165
+VIMAM;Amazon AWS;0.245247
+VIMAM;Google Cloud;0.216515
+VIMAM;Rackspace;0.296495
+VIMAM;Microsoft Azure;0.242578
+VIMAM;Amazon AWS;0.243418
+VIMAM;Google Cloud;0.217664
+VIMAM;Rackspace;0.294999
+VIMAM;Microsoft Azure;0.243439
+VIMAM;Amazon AWS;0.24422
+VIMAM;Google Cloud;0.217496
+VIMAM;Rackspace;0.291317
+VIMAM;Microsoft Azure;0.249366
+VIMAM;Amazon AWS;0.238688
+VIMAM;Google Cloud;0.220784
+VIMAM;Rackspace;0.295501
+VIMAM;Microsoft Azure;0.246567
+VIMAM;Amazon AWS;0.236143
+VIMAM;Google Cloud;0.221944
+VIMAM;Rackspace;0.295542
+VIMAM;Microsoft Azure;0.242154
+VIMAM;Amazon AWS;0.246031
+VIMAM;Google Cloud;0.216428
+VIMAM;Rackspace;0.294254
+VIMAM;Microsoft Azure;0.245804
+VIMAM;Amazon AWS;0.241311
+VIMAM;Google Cloud;0.218786
+VIMAM;Rackspace;0.295463
+VIMAM;Microsoft Azure;0.244982
+VIMAM;Amazon AWS;0.238744
+VIMAM;Google Cloud;0.220966
+VIMAM;Rackspace;0.292423
+VIMAM;Microsoft Azure;0.24678
+VIMAM;Amazon AWS;0.24104
+VIMAM;Google Cloud;0.219912
+VIMAM;Rackspace;0.295913
+VIMAM;Microsoft Azure;0.241861
+VIMAM;Amazon AWS;0.246131
+VIMAM;Google Cloud;0.216249
+VIMAM;Rackspace;0.295406
+VIMAM;Microsoft Azure;0.243852
+VIMAM;Amazon AWS;0.242312
+VIMAM;Google Cloud;0.218585
+VIMAM;Rackspace;0.295813
+VIMAM;Microsoft Azure;0.2421
+VIMAM;Amazon AWS;0.246176
+VIMAM;Google Cloud;0.216066
+VIMAM;Rackspace;0.294757
+VIMAM;Microsoft Azure;0.244476
+VIMAM;Amazon AWS;0.242672
+VIMAM;Google Cloud;0.218249
+VIMAM;Rackspace;0.292898
+VIMAM;Microsoft Azure;0.246615
+VIMAM;Amazon AWS;0.241105
+VIMAM;Google Cloud;0.219536
+VIMAM;Rackspace;0.295329
+VIMAM;Microsoft Azure;0.242983
+VIMAM;Amazon AWS;0.245039
+VIMAM;Google Cloud;0.216803
+VIMAM;Rackspace;0.295933
+VIMAM;Microsoft Azure;0.242988
+VIMAM;Amazon AWS;0.243616
+VIMAM;Google Cloud;0.217618
+VIMAM;Rackspace;0.296051
+VIMAM;Microsoft Azure;0.241902
+VIMAM;Amazon AWS;0.246303
+VIMAM;Google Cloud;0.215898
+VIMAM;Rackspace;0.295591
+VIMAM;Microsoft Azure;0.242437
+VIMAM;Amazon AWS;0.245312
+VIMAM;Google Cloud;0.216816
+VIMAM;Rackspace;0.295819
+VIMAM;Microsoft Azure;0.245009
+VIMAM;Amazon AWS;0.238842
+VIMAM;Google Cloud;0.220485
+VIMAM;Rackspace;0.295694
+VIMAM;Microsoft Azure;0.247734
+VIMAM;Amazon AWS;0.233123
+VIMAM;Google Cloud;0.223604
+VIMAM;Rackspace;0.296265
+VIMAM;Microsoft Azure;0.241332
+VIMAM;Amazon AWS;0.247218
+VIMAM;Google Cloud;0.215339
+VIMAM;Rackspace;0.296592
+VIMAM;Microsoft Azure;0.241144
+VIMAM;Amazon AWS;0.246663
+VIMAM;Google Cloud;0.215756
+VIMAM;Rackspace;0.295305
+VIMAM;Microsoft Azure;0.24306
+VIMAM;Amazon AWS;0.244394
+VIMAM;Google Cloud;0.217396
+VIMAM;Rackspace;0.296261
+VIMAM;Microsoft Azure;0.242499
+VIMAM;Amazon AWS;0.243735
+VIMAM;Google Cloud;0.21766
+VIMAM;Rackspace;0.295323
+VIMAM;Microsoft Azure;0.243844
+VIMAM;Amazon AWS;0.242162
+VIMAM;Google Cloud;0.218826
+VIMAM;Rackspace;0.296637
+VIMAM;Microsoft Azure;0.241087
+VIMAM;Amazon AWS;0.246541
+VIMAM;Google Cloud;0.21589
+VIMAM;Rackspace;0.295167
+VIMAM;Microsoft Azure;0.243651
+VIMAM;Amazon AWS;0.243518
+VIMAM;Google Cloud;0.217819
+VIMAM;Rackspace;0.29575
+VIMAM;Microsoft Azure;0.243757
+VIMAM;Amazon AWS;0.2416
+VIMAM;Google Cloud;0.219048
+VIMAM;Rackspace;0.296227
+VIMAM;Microsoft Azure;0.24193
+VIMAM;Amazon AWS;0.246153
+VIMAM;Google Cloud;0.215844
+VIMAM;Rackspace;0.295043
+VIMAM;Microsoft Azure;0.243617
+VIMAM;Amazon AWS;0.24457
+VIMAM;Google Cloud;0.216924
+VIMAM;Rackspace;0.296252
+VIMAM;Microsoft Azure;0.246983
+VIMAM;Amazon AWS;0.236495
+VIMAM;Google Cloud;0.220425
+VIMAM;Rackspace;0.295468
+VIMAM;Microsoft Azure;0.24517
+VIMAM;Amazon AWS;0.239295
+VIMAM;Google Cloud;0.220222
+VIMAM;Rackspace;0.295113
+VIMAM;Microsoft Azure;0.24543
+VIMAM;Amazon AWS;0.238951
+VIMAM;Google Cloud;0.22066
+VIMAM;Rackspace;0.289461
+VIMAM;Microsoft Azure;0.248464
+VIMAM;Amazon AWS;0.244159
+VIMAM;Google Cloud;0.21807
+VIMAM;Rackspace;0.295984
+VIMAM;Microsoft Azure;0.243724
+VIMAM;Amazon AWS;0.242164
+VIMAM;Google Cloud;0.218282
+VIMAM;Rackspace;0.296167
+VIMAM;Microsoft Azure;0.2418
+VIMAM;Amazon AWS;0.246137
+VIMAM;Google Cloud;0.216051
+VIMAM;Rackspace;0.296222
+VIMAM;Microsoft Azure;0.242238
+VIMAM;Amazon AWS;0.244999
+VIMAM;Google Cloud;0.216694
+VIMAM;Rackspace;0.289017
+VIMAM;Microsoft Azure;0.254569
+VIMAM;Amazon AWS;0.237164
+VIMAM;Google Cloud;0.219404
+VIMAM;Rackspace;0.295914
+VIMAM;Microsoft Azure;0.242906
+VIMAM;Amazon AWS;0.243912
+VIMAM;Google Cloud;0.217422
+VIMAM;Rackspace;0.296544
+VIMAM;Microsoft Azure;0.241788
+VIMAM;Amazon AWS;0.244901
+VIMAM;Google Cloud;0.216921
+VIMAM;Rackspace;0.295391
+VIMAM;Microsoft Azure;0.243794
+VIMAM;Amazon AWS;0.24229
+VIMAM;Google Cloud;0.218679
+VIMAM;Rackspace;0.295083
+VIMAM;Microsoft Azure;0.242422
+VIMAM;Amazon AWS;0.246644
+VIMAM;Google Cloud;0.216006
+VIMAM;Rackspace;0.294235
+VIMAM;Microsoft Azure;0.246418
+VIMAM;Amazon AWS;0.240011
+VIMAM;Google Cloud;0.219491
+VIMAM;Rackspace;0.296003
+VIMAM;Microsoft Azure;0.245806
+VIMAM;Amazon AWS;0.237063
+VIMAM;Google Cloud;0.221283
+VIMAM;Rackspace;0.296592
+VIMAM;Microsoft Azure;0.241721
+VIMAM;Amazon AWS;0.245503
+VIMAM;Google Cloud;0.216338
+VIMAM;Rackspace;0.295563
+VIMAM;Microsoft Azure;0.244568
+VIMAM;Amazon AWS;0.240395
+VIMAM;Google Cloud;0.219628
+VIMAM;Rackspace;0.295655
+VIMAM;Microsoft Azure;0.243259
+VIMAM;Amazon AWS;0.243397
+VIMAM;Google Cloud;0.217844
+VIMAM;Rackspace;0.295559
+VIMAM;Microsoft Azure;0.244399
+VIMAM;Amazon AWS;0.241612
+VIMAM;Google Cloud;0.218584
+VIMAM;Rackspace;0.295813
+VIMAM;Microsoft Azure;0.242277
+VIMAM;Amazon AWS;0.245362
+VIMAM;Google Cloud;0.216702
+VIMAM;Rackspace;0.293832
+VIMAM;Microsoft Azure;0.247586
+VIMAM;Amazon AWS;0.236501
+VIMAM;Google Cloud;0.222235
+VIMAM;Rackspace;0.295176
+VIMAM;Microsoft Azure;0.245654
+VIMAM;Amazon AWS;0.238285
+VIMAM;Google Cloud;0.22104
+VIMAM;Rackspace;0.291555
+VIMAM;Microsoft Azure;0.247485
+VIMAM;Amazon AWS;0.241458
+VIMAM;Google Cloud;0.219657
+VIMAM;Rackspace;0.294916
+VIMAM;Microsoft Azure;0.24667
+VIMAM;Amazon AWS;0.237877
+VIMAM;Google Cloud;0.220692
+VIMAM;Rackspace;0.295499
+VIMAM;Microsoft Azure;0.243441
+VIMAM;Amazon AWS;0.242942
+VIMAM;Google Cloud;0.218273
+VIMAM;Rackspace;0.29342
+VIMAM;Microsoft Azure;0.247315
+VIMAM;Amazon AWS;0.237195
+VIMAM;Google Cloud;0.222224
+VIMAM;Rackspace;0.295312
+VIMAM;Microsoft Azure;0.242587
+VIMAM;Amazon AWS;0.245679
+VIMAM;Google Cloud;0.216576
+VIMAM;Rackspace;0.296611
+VIMAM;Microsoft Azure;0.243816
+VIMAM;Amazon AWS;0.243528
+VIMAM;Google Cloud;0.2162
+VIMAM;Rackspace;0.293953
+VIMAM;Microsoft Azure;0.245608
+VIMAM;Amazon AWS;0.241627
+VIMAM;Google Cloud;0.218967
+VIMAM;Rackspace;0.293002
+VIMAM;Microsoft Azure;0.245094
+VIMAM;Amazon AWS;0.244636
+VIMAM;Google Cloud;0.217423
+VIMAM;Rackspace;0.296179
+VIMAM;Microsoft Azure;0.242138
+VIMAM;Amazon AWS;0.245089
+VIMAM;Google Cloud;0.216749
+VIMAM;Rackspace;0.295823
+VIMAM;Microsoft Azure;0.254251
+VIMAM;Amazon AWS;0.232204
+VIMAM;Google Cloud;0.217877
+VIMAM;Rackspace;0.294473
+VIMAM;Microsoft Azure;0.247603
+VIMAM;Amazon AWS;0.236101
+VIMAM;Google Cloud;0.221978
+VIMAM;Rackspace;0.296421
+VIMAM;Microsoft Azure;0.24119
+VIMAM;Amazon AWS;0.247147
+VIMAM;Google Cloud;0.215396
+VIMAM;Rackspace;0.296527
+VIMAM;Microsoft Azure;0.241647
+VIMAM;Amazon AWS;0.245303
+VIMAM;Google Cloud;0.216677
+VIMAM;Rackspace;0.29497
+VIMAM;Microsoft Azure;0.244383
+VIMAM;Amazon AWS;0.241827
+VIMAM;Google Cloud;0.218975
+VIMAM;Rackspace;0.295301
+VIMAM;Microsoft Azure;0.24262
+VIMAM;Amazon AWS;0.245479
+VIMAM;Google Cloud;0.216755
+VIMAM;Rackspace;0.29554
+VIMAM;Microsoft Azure;0.242625
+VIMAM;Amazon AWS;0.245642
+VIMAM;Google Cloud;0.216347
+VIMAM;Rackspace;0.295204
+VIMAM;Microsoft Azure;0.243701
+VIMAM;Amazon AWS;0.242716
+VIMAM;Google Cloud;0.218534
+VIMAM;Rackspace;0.294217
+VIMAM;Microsoft Azure;0.246958
+VIMAM;Amazon AWS;0.237577
+VIMAM;Google Cloud;0.221402
+VIMAM;Rackspace;0.295477
+VIMAM;Microsoft Azure;0.244892
+VIMAM;Amazon AWS;0.240551
+VIMAM;Google Cloud;0.219235
+VIMAM;Rackspace;0.294608
+VIMAM;Microsoft Azure;0.243764
+VIMAM;Amazon AWS;0.244457
+VIMAM;Google Cloud;0.217326
+VIMAM;Rackspace;0.295646
+VIMAM;Microsoft Azure;0.24267
+VIMAM;Amazon AWS;0.24453
+VIMAM;Google Cloud;0.217308
+VIMAM;Rackspace;0.295556
+VIMAM;Microsoft Azure;0.24239
+VIMAM;Amazon AWS;0.24591
+VIMAM;Google Cloud;0.216299
+VIMAM;Rackspace;0.296712
+VIMAM;Microsoft Azure;0.242575
+VIMAM;Amazon AWS;0.244879
+VIMAM;Google Cloud;0.215989
+VIMAM;Rackspace;0.295929
+VIMAM;Microsoft Azure;0.243584
+VIMAM;Amazon AWS;0.241567
+VIMAM;Google Cloud;0.219074
+VIMAM;Rackspace;0.291421
+VIMAM;Microsoft Azure;0.251504
+VIMAM;Amazon AWS;0.232485
+VIMAM;Google Cloud;0.224744
+VIMAM;Rackspace;0.288039
+VIMAM;Microsoft Azure;0.251681
+VIMAM;Amazon AWS;0.241818
+VIMAM;Google Cloud;0.218615
+VIMAM;Rackspace;0.295413
+VIMAM;Microsoft Azure;0.247045
+VIMAM;Amazon AWS;0.23513
+VIMAM;Google Cloud;0.222567
+VIMAM;Rackspace;0.291223
+VIMAM;Microsoft Azure;0.253723
+VIMAM;Amazon AWS;0.228622
+VIMAM;Google Cloud;0.226585
+VIMAM;Rackspace;0.295762
+VIMAM;Microsoft Azure;0.242526
+VIMAM;Amazon AWS;0.244876
+VIMAM;Google Cloud;0.21699
+VIMAM;Rackspace;0.295768
+VIMAM;Microsoft Azure;0.241773
+VIMAM;Amazon AWS;0.247151
+VIMAM;Google Cloud;0.215463
+VIMAM;Rackspace;0.295638
+VIMAM;Microsoft Azure;0.242895
+VIMAM;Amazon AWS;0.243906
+VIMAM;Google Cloud;0.217715
+VIMAM;Rackspace;0.295752
+VIMAM;Microsoft Azure;0.242775
+VIMAM;Amazon AWS;0.244476
+VIMAM;Google Cloud;0.217151
+VIMAM;Rackspace;0.29556
+VIMAM;Microsoft Azure;0.243138
+VIMAM;Amazon AWS;0.243612
+VIMAM;Google Cloud;0.217845
+VIMAM;Rackspace;0.295337
+VIMAM;Microsoft Azure;0.243695
+VIMAM;Amazon AWS;0.242449
+VIMAM;Google Cloud;0.218673
+VIMAM;Rackspace;0.294352
+VIMAM;Microsoft Azure;0.247146
+VIMAM;Amazon AWS;0.23557
+VIMAM;Google Cloud;0.223086
+VIMAM;Rackspace;0.296422
+VIMAM;Microsoft Azure;0.241137
+VIMAM;Amazon AWS;0.247195
+VIMAM;Google Cloud;0.215401
+VIMAM;Rackspace;0.296403
+VIMAM;Microsoft Azure;0.241851
+VIMAM;Amazon AWS;0.245159
+VIMAM;Google Cloud;0.216742
+VIMAM;Rackspace;0.294871
+VIMAM;Microsoft Azure;0.244723
+VIMAM;Amazon AWS;0.240851
+VIMAM;Google Cloud;0.21971
+VIMAM;Rackspace;0.295699
+VIMAM;Microsoft Azure;0.242953
+VIMAM;Amazon AWS;0.243967
+VIMAM;Google Cloud;0.217536
+VIMAM;Rackspace;0.294653
+VIMAM;Microsoft Azure;0.244965
+VIMAM;Amazon AWS;0.241503
+VIMAM;Google Cloud;0.219033
+VIMAM;Rackspace;0.294991
+VIMAM;Microsoft Azure;0.242765
+VIMAM;Amazon AWS;0.246239
+VIMAM;Google Cloud;0.216159
+VIMAM;Rackspace;0.293716
+VIMAM;Microsoft Azure;0.24751
+VIMAM;Amazon AWS;0.236426
+VIMAM;Google Cloud;0.222502
+VIMAM;Rackspace;0.296009
+VIMAM;Microsoft Azure;0.245367
+VIMAM;Amazon AWS;0.237685
+VIMAM;Google Cloud;0.221094
+VIMAM;Rackspace;0.295448
+VIMAM;Microsoft Azure;0.243239
+VIMAM;Amazon AWS;0.243484
+VIMAM;Google Cloud;0.217983
+VIMAM;Rackspace;0.296281
+VIMAM;Microsoft Azure;0.243306
+VIMAM;Amazon AWS;0.242151
+VIMAM;Google Cloud;0.218416
+VIMAM;Rackspace;0.293687
+VIMAM;Microsoft Azure;0.24787
+VIMAM;Amazon AWS;0.235558
+VIMAM;Google Cloud;0.223039
+VIMAM;Rackspace;0.291915
+VIMAM;Microsoft Azure;0.250257
+VIMAM;Amazon AWS;0.234858
+VIMAM;Google Cloud;0.223124
+VIMAM;Rackspace;0.294978
+VIMAM;Microsoft Azure;0.243882
+VIMAM;Amazon AWS;0.24295
+VIMAM;Google Cloud;0.218344
+VIMAM;Rackspace;0.296796
+VIMAM;Microsoft Azure;0.240941
+VIMAM;Amazon AWS;0.247313
+VIMAM;Google Cloud;0.215104
+VIMAM;Rackspace;0.296239
+VIMAM;Microsoft Azure;0.242484
+VIMAM;Amazon AWS;0.243643
+VIMAM;Google Cloud;0.217789
+VIMAM;Rackspace;0.295575
+VIMAM;Microsoft Azure;0.242125
+VIMAM;Amazon AWS;0.246277
+VIMAM;Google Cloud;0.216177
+VIMAM;Rackspace;0.295165
+VIMAM;Microsoft Azure;0.243206
+VIMAM;Amazon AWS;0.244271
+VIMAM;Google Cloud;0.217512
+VIMAM;Rackspace;0.296352
+VIMAM;Microsoft Azure;0.241726
+VIMAM;Amazon AWS;0.245545
+VIMAM;Google Cloud;0.216532
+VIMAM;Rackspace;0.296212
+VIMAM;Microsoft Azure;0.241369
+VIMAM;Amazon AWS;0.247275
+VIMAM;Google Cloud;0.215299
+VIMAM;Rackspace;0.296197
+VIMAM;Microsoft Azure;0.242018
+VIMAM;Amazon AWS;0.245403
+VIMAM;Google Cloud;0.216536
+VIMAM;Rackspace;0.294709
+VIMAM;Microsoft Azure;0.245969
+VIMAM;Amazon AWS;0.239295
+VIMAM;Google Cloud;0.220181
+VIMAM;Rackspace;0.295938
+VIMAM;Microsoft Azure;0.242682
+VIMAM;Amazon AWS;0.243814
+VIMAM;Google Cloud;0.217721

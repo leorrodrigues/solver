@@ -8,44 +8,46 @@ df2<- (read.table('dadosHisto.txt',sep=";",header=TRUE))
 
 df3<- (read.table('dadosProvedor2.txt',sep=";",header=TRUE))
 
-m<-merge(df,df2,by.x=c("Cenario","Provedor"),by.y=c("Cenario","Provedor"))
+m2<-merge(df2,df3,by.x=c("Cenario","Provider"),by.y=c("Cenario","Provider"))
 
-p<- ggplot(m, aes(x=Cenario, y=Média, fill=Provedor)) +
-  #ggtitle("Desvio padrão das alternativas em relação\nAo cenário")+
-  geom_bar(stat="identity", color="black",position=position_dodge()) +
-  xlab("Cenários")+
-  ylab("Valor de Ranqueamento")+
-  #geom_text(aes(label=Média),vjust=-0.5,color="black",position=position_dodge(0.9),size=3.0)+
-  theme_economist()+
-  scale_fill_manual(values=c("#ff9900", "#006600", "#0000ff","#ff1a1a"))+
-  theme(legend.position="top",axis.text.x = element_text(angle = 90, hjust = 1))+
-  geom_errorbar(aes(ymin=Média-Desvio.Padrão, ymax=Média+Desvio.Padrão), width=.2,position=position_dodge(.9)) 
-
-p
-
-png("desvioBar.png")
-print(p)
-dev.off()
-
-m2<-merge(df2,df3,by.x=c("Cenario","Provedor"),by.y=c("Cenario","Provedor"))
-
-p2<- ggplot(m2, aes(x=Cenario, y=Selecao.y, fill=Provedor)) +
+p2<- ggplot(m2, aes(x=Cenario, y=Selecao.y, fill=Provider)) +
   #ggtitle("Desvio padrão das alternativas em relação\nAo cenário")+
   #geom_bar(stat="identity", color="black",position=position_dodge()) +
   geom_boxplot(color="black",outlier.shape=NA)+
-  xlab("Cenários")+
-  ylab("Valor de Ranqueamento")+
-  theme_economist()+
-  coord_cartesian(ylim = c(0.225, 0.275)) +
-  #geom_text(aes(label=Média),vjust=-0.5,color="black",position=position_dodge(0.9),size=3.0)+
-  scale_fill_manual(values=c("#ff9900", "#006600", "#0000ff","#ff1a1a"))+
-  theme(legend.position="top",axis.text.x = element_text(angle = 90, hjust = 1))
-  #geom_errorbar(aes(ymin=Selecao.y-Desvio.Padrão, ymax=Selecao.y+Desvio.Padrão), width=.2,position=position_dodge(.9))
-  
+  xlab("")+
+  theme_classic()+
+  ylab("Rank Value")+
+    scale_fill_grey(start = .3, end = 1)+
+    theme(
+        legend.position="top",
+        axis.text.x = element_text(
+            angle = 0, 
+            hjust = .5,
+            size=15,
+        ),
+        axis.line = element_line(colour = "black"),
+        axis.text.y = element_text(size=15),
+        axis.title.x = element_text(size=15),
+        axis.title.y = element_text(size=16),
+        legend.text = element_text(size=14),
+        legend.title = element_text(size=15)
+    )+
+    scale_x_discrete(labels=c(
+        "Network\nIntensive",
+        "Costs",
+        "Flat",
+        "Market\nResearch",
+        "QoS",
+        "Network\nElasticity",
+        "Security",
+        "FAHP"
+    )
+    )+
+  coord_cartesian(ylim = c(0.21, 0.30)) 
+
 p2
 
-png("desvioBox.png")
-pdf("desvioBox.pdf")
+pdf("boxplot_fahp.pdf",width=8.3, height=5.7)
 print(p2)
 dev.off()
 
